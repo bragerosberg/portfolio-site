@@ -1,0 +1,48 @@
+.navbar__routes,
+.footer__links {
+  background-color: #482e74;
+  padding: 1em;
+}
+
+.navbar__routes ul,
+.footer__links ul{
+  display: flex;
+  flex-wrap: wrap;
+ 
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: 0;
+}
+.navbar__routes a,
+.navbar__routes a:hover,
+.footer__links a,
+.footer__links a:hover {
+  text-decoration: none;
+  font-weight: 800;
+}
+.navbar__routes a,
+.footer__links a{
+  color: #8d79ae;
+}
+
+.navbar__routes a:hover,
+.footer__links a:hover{
+  color: #fff5aa;
+}
+
+.footer__links {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+body {
+  background-color: #3d2f61;
+}
+
+.main__header {
+  color: white;
+  text-align: center;
+  margin-top: 1em;
+}
