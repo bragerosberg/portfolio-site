@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
-import Home from './components/Home';
-import Portfolio from './components/Portfolio';
-import Project from './components/Project';
+import Home from './components/Home/Home';
+import Portfolio from './components/Portfolio/Portfolio';
+import Project from './components/Project/Project';
+import Footer from './components/Home/Footer';
 import './styles/App.css';
 
 function App() {
@@ -28,10 +29,7 @@ function App() {
             </Route>
           </Switch>
           <section className="footer__links">
-            <ul>
-              <li><a href="https://www.github.com/bragerosberg">Github</a></li>
-              <li><a href="https://www.linkedin.com/in/brage-rosberg">LinkedIn</a></li>
-            </ul>
+            <Footer />
           </section>
         </div>
       </BrowserRouter>
