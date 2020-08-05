@@ -1,0 +1,35 @@
+.homepage__title {
+  color: #fff5aa;
+}
+
+.homepage__development {
+  color: white;
+}
+
+.homepage__wrapper {
+  margin: 7%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.homepage__title {
+  font-size: 2em;
+}
+
+.homepage__name {
+  font-size: 3em;
+  color: #8d79ae;
+}
+
+.portrait {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  margin-right: 2em;
+  border: outset 5px #8d79ae;
+}
+
+.portrait:hover {
+  border: outset 5px #997fc7;
+}

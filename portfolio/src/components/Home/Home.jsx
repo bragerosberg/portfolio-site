@@ -1,5 +1,7 @@
 import React from 'react';
 import Techstack from '../Home/Techstack';
+import './styles/Home.css';
+
 
 class Home extends React.Component {
   render () {
