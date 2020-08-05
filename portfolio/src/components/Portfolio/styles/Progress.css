@@ -1,0 +1,13 @@
+.portfolio__experience--name {
+  color: white; 
+}
+
+.progress {
+  width: 100px;
+  margin: 10px;
+}
+
+.progress--content {
+  display: flex;
+  justify-content: space-between;
+}

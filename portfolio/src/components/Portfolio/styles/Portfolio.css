@@ -1,0 +1,31 @@
+.portfolio__header {
+  display: flex;
+}
+
+.portfolio__points {
+  color: white;
+  text-align: center;
+}
+
+.portfolio__header {
+  justify-content: center;
+  font-size: 2em;
+  color: white;
+}
+
+.portfolio__experience {
+  display: flex;
+  justify-content: space-between;
+  margin: 5em;
+}
+
+.portfolio__experience--category {
+  text-align: center;
+  color: coral; 
+}
+
+.portfolio__experience__card {
+  background-color: rgba(46, 45, 44, 0.452);
+  border: 3px solid coral;
+}
+
