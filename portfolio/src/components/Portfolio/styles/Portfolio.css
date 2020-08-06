@@ -15,17 +15,18 @@
 
 .portfolio__experience {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 5em;
 }
 
 .portfolio__experience--category {
   text-align: center;
-  color: coral; 
+  color: #8d79ae;
 }
 
 .portfolio__experience__card {
   background-color: rgba(46, 45, 44, 0.452);
-  border: 3px solid coral;
+  border: 3px solid  #fff5aa;
+  padding: 1em;
 }
 
