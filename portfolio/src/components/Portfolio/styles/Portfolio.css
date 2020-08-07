@@ -16,17 +16,39 @@
 .portfolio__experience {
   display: flex;
   justify-content: center;
-  margin: 5em;
+  margin: 0 5em 5em 5em;
 }
 
 .portfolio__experience--category {
   text-align: center;
-  color: #8d79ae;
+  color: #fff5aa;
 }
 
 .portfolio__experience__card {
   background-color: rgba(46, 45, 44, 0.452);
   border: 3px solid  #fff5aa;
   padding: 1em;
+  margin: 1em;
 }
 
+.portfolio__experience--title {
+  text-align: center;
+  color: #fff5aa;
+  margin-top: 5em;
+}
+
+.portfolio__event {
+  color: coral;
+}
+
+.portfolio__date {
+  color: purple;
+}
+
+.portfolio__work {
+  background-color: coral;
+}
+
+.portfolio__education {
+  background-color: darkorchid;
+}

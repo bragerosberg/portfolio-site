@@ -1,0 +1,16 @@
+.cv__wrapper {
+  display: flex;
+  color: white;
+}
+
+.cv__wrapper p {
+  margin: 1em;
+}
+
+.cv__date {
+  font-weight: 800;
+}
+
+.cv__description {
+  
+}

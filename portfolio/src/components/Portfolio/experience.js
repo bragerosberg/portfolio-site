@@ -49,6 +49,19 @@ const tools = [
   { key: uuid(), title: 'Docker', strength: 70 },
 ];
 
+const education = [
+  { key: uuid(), date: 'June 2018', description: 'Graduated High School'},
+  { key: uuid(), date: 'August 2018 - June 2019', description: 'Computer Science Study at The University of Tromsø'},
+  { key: uuid(), date: 'August 2019 - June 2020', description: 'Social Science Study at The Norwegian School of Teology (MF)'},
+  { key: uuid(), date: 'April 2020 - July 2020', description: 'School of Applied Technology bootcamp on FullStack JavaScript Development'},
+  
+]
+const workExperience = [
+  { key: uuid(), date: 'May 2019 - July 2019', description: 'Store Assistant at Eurospar Kvaløysletta'},
+  { key: uuid(), date: 'December 2019 - April 2020', description: 'Store Assistant at Spar Ensjø'},
+
+];
+
 module.exports = {
-  frontEnd, backEnd, languages, principles, tools
+  frontEnd, backEnd, languages, principles, tools, education, workExperience
 }

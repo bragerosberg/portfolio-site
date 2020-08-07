@@ -3,7 +3,6 @@ import './styles/Progress.css';
 
 
 const Progress = (props) => {
-  console.log(props.title);
   return (
   <section className="progress--content">
     <h3 className="portfolio__experience--name">{props.title}</h3>
