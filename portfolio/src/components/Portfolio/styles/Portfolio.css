@@ -45,10 +45,18 @@
   color: purple;
 }
 
-.portfolio__work {
-  background-color: coral;
+.portfolio__wrapper {
+  display: flex;
+  justify-content: space-evenly;
 }
 
+.portfolio__work,
 .portfolio__education {
-  background-color: darkorchid;
+  margin-top: 2em;
+  border: 5px solid #fff5aa;
+  background-color: rgba(46, 45, 44, 0.452);
+}
+.portfolio__work p,
+.portfolio__education p {
+  font-size: 17px;
 }

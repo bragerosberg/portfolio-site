@@ -16,13 +16,17 @@ class Portfolio extends React.Component {
   render () {
     return (
      <main>
-     {/* Education */}
-      <section className="portfolio__education">
-        {education.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
+      <section className="portfolio__wrapper">
+        <article className="portfolio__education">
+          <h2 className="portfolio__experience--category">Education</h2>
+          {education.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
+        </article>
+        <article className="portfolio__work">
+          <h2 className="portfolio__experience--category">Previous Jobs</h2>
+          {workExperience.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
+        </article>
       </section>
-      <section className="portfolio__work">
-        {workExperience.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
-      </section>
+
       <h1 className="portfolio__experience--title">Technologies, languages and experience</h1>
       <section className="portfolio__experience">
         <div className="portfolio__experience__card">
