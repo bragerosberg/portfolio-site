@@ -46,7 +46,6 @@
 }
 
 body {
-  /* background-color: #3d2f61; */
   background: linear-gradient(132deg, rgb(50, 43, 107) 0%, rgba(61,47,97,1) 38%, rgba(61,47,97,1) 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;

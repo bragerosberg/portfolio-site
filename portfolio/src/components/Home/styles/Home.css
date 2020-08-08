@@ -27,9 +27,6 @@
   height: 300px;
   border-radius: 150px;
   margin-right: 2em;
-  border: outset 5px #8d79ae;
+  border: outset 5px #fff5aa;
 }
 
-.portrait:hover {
-  border: outset 5px #997fc7;
-}

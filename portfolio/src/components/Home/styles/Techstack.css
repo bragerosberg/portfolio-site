@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 3em;
   background-color: #7751b880;
+  border: outset 2px #fff5aa;
 }
 
 .tech__logos img{
