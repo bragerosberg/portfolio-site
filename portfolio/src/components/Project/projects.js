@@ -16,6 +16,14 @@ const myProjects = [
     repolink: "https://github.com/bragerosberg/DayOrganizer",
     website: "https://organizeyourday.herokuapp.com/",
   },
+  {
+    index: uuid(),
+    image: "https://i.imgur.com/IvAKdPc.png",
+    title: "Hackday Project",
+    text: "Hackday through the bootcamp at </salt>. In this project we only had a day to implement the application and therefor as a result I took my collected bag of ideas and experimented with them in this project",
+    repolink: "https://github.com/bragerosberg/Hackday",
+    website: "https://github.com/bragerosberg/Hackday",
+  },
 ];
 
 module.exports = {
