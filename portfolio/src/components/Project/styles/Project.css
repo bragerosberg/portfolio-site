@@ -1,3 +1,5 @@
+@import "../../../styles/animations.css";
+
 .project__wrapper,
 .project__card {
   display: flex;
@@ -5,6 +7,7 @@
 }
 
 .project__wrapper {
+  animation: 1s ease-out 0s 1 slideInFromTop;
   margin-top: 5%;
 }
 

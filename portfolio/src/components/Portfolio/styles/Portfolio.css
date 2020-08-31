@@ -1,3 +1,5 @@
+@import "../../../styles/animations.css";
+
 .portfolio__header {
   display: flex;
 }
@@ -26,7 +28,7 @@
 
 .portfolio__experience__card {
   background-color: rgba(46, 45, 44, 0.452);
-  border: 3px solid  #fff5aa;
+  border: 3px solid  #bebebe;
   padding: 1em;
   margin: 1em;
 }
@@ -34,7 +36,7 @@
 .portfolio__experience--title {
   text-align: center;
   color: #fff5aa;
-  margin-top: 5em;
+  margin-top: 2em;
 }
 
 .portfolio__event {
@@ -53,7 +55,7 @@
 .portfolio__work,
 .portfolio__education {
   margin-top: 2em;
-  border: 5px solid #fff5aa;
+  border: 5px solid #bebebe;
   background-color: rgba(46, 45, 44, 0.452);
 }
 .portfolio__work p,
