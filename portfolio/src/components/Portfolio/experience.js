@@ -27,6 +27,9 @@ const languages = [
   { key: uuid(), title: 'CSS3', strength: 100 },
   { key: uuid(), title: 'Python', strength: 35 },
   { key: uuid(), title: 'C', strength: 35 },
+  { key: uuid(), title: 'Norwegian', strength: 100 },
+  { key: uuid(), title: 'English', strength: 100 },
+  { key: uuid(), title: 'Spanish', strength: 15 },
 ];
 
 const principles = [
