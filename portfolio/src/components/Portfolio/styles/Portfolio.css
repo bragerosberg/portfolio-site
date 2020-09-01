@@ -28,7 +28,6 @@
 
 .portfolio__experience__card {
   background-color: rgba(46, 45, 44, 0.452);
-  border: 3px solid  #bebebe;
   padding: 1em;
   margin: 1em;
 }
@@ -55,7 +54,6 @@
 .portfolio__work,
 .portfolio__education {
   margin-top: 2em;
-  border: 5px solid #bebebe;
   background-color: rgba(46, 45, 44, 0.452);
 }
 .portfolio__work p,
