@@ -12,8 +12,8 @@ class Project extends React.Component {
             <Card.Img variant="top" className="project__image" src={project.image} />
             <Card.Title>{project.title}</Card.Title>
             <Card.Text>{project.text}</Card.Text>
-            <Button href={project.repolink}>Repository</Button>
-            <Button href={project.website} variant="info" className="project__button">Website</Button>
+            <button href={project.repolink} className="project__button">Repository</button>
+            <button href={project.website} className="project__button">Website</button>
           </Card>
         ))}
       </main>

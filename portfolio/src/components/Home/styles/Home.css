@@ -10,7 +10,6 @@
   animation: 2s ease-in 0s 1 fadeIn;
 }
 
-
 .homepage__title {
   color: #fff5aa;
 }
@@ -43,3 +42,6 @@
   border: outset 5px #fff5aa;
 }
 
+.footer__author {
+  animation: 1s ease-out 0s 1 fadeInUp;
+}

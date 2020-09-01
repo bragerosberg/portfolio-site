@@ -1,9 +1,18 @@
 @import "../../../styles/animations.css";
 
+.project__header {
+  color: white;
+}
+
 .project__wrapper,
 .project__card {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+}
+
+.project__card {
+  border: solid 1px white; 
 }
 
 .project__wrapper {
@@ -11,11 +20,22 @@
   margin-top: 5%;
 }
 
+.project__button {
+  color: white;
+  border: solid 1px white;
+  padding: 1em;
+  background: linear-gradient(to top, #a04af6, #9600aa);
+}
+
+.project__button:hover {
+  background: linear-gradient(to top, #be7cff, #bd02d6);
+
+}
+
 .project__image {
   object-fit: cover;
   width: 100%;
   height: 150px;
-
 }
 
 .project__card:hover {
