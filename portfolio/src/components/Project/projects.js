@@ -24,8 +24,17 @@ const myProjects = [
     repolink: "https://github.com/bragerosberg/Hackday",
     website: "https://github.com/bragerosberg/Hackday",
   },
+  {
+    index: uuid(),
+    image: "https://i.imgur.com/MJvasqg.png",
+    title: "Bidra Sammen (React Native App)",
+    text: "Graduation projec through the bootcamp at </salt> where my mob made a React Native application through 2x SCRUM week sprints",
+    repolink: "https://github.com/jopemoma/Graduation-Project",
+    website: "https://github.com/jopemoma/Graduation-Project",
+  },
 ];
 
 module.exports = {
   myProjects
 }
+
