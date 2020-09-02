@@ -1,9 +1,31 @@
+@import "../../../styles/animations.css";
+
+.contact__icons, 
 .contact__wrapper {
   display: flex;
   justify-content: space-evenly;
+}
+
+.contact__wrapper {
   margin-top: 5%;
   background-color: hsla(308, 44%, 35%, 0.25);
   padding: 2em;
+}
+
+.contact__icons {
+  animation: 0.5s slideInFromRight;
+}
+
+
+.contact__icons img:hover {
+  background-color: hsla(308, 45%, 36%, 0.25);
+}
+.contact__icons img {
+  width: 64px;
+}
+
+.contact__information {
+  padding: 5em;
 }
 
 .contact__image {
