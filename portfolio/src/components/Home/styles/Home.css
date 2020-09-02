@@ -45,3 +45,9 @@
 .footer__author {
   animation: 1s ease-out 0s 1 fadeInUp;
 }
+
+.homepage__contact {
+  display: flex;
+  margin-top: 3em;
+  width: 50px;
+}

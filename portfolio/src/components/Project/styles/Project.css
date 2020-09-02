@@ -7,7 +7,6 @@
 .project__wrapper,
 .project__card {
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
 }
 

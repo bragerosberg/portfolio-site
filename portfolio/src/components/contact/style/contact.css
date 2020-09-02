@@ -1,0 +1,22 @@
+.contact__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  background-color: hsla(308, 44%, 35%, 0.25);
+  padding: 2em;
+}
+
+.contact__image {
+  width: 700px;
+  border: 2px ridge white;
+}
+
+.contact__portrait {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+}
+
+.contact__subheader {
+  color: #fff5aa;
+}

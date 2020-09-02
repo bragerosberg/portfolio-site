@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import Portfolio from './components/Portfolio/Portfolio';
 import Project from './components/Project/Project';
 import Footer from './components/Home/Footer';
+import Contact from './components/contact/Contact';
 import './styles/App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/portfolio">Portfolio</Link></li>
               <li><Link to="/project">Projects</Link></li>
+              <li><Link to ="/contact">Contact Me</Link></li>
             </ul>
           </nav>
           <Switch>
@@ -23,6 +25,9 @@ function App() {
             </Route>
             <Route path="/project">
               <Project />
+            </Route>
+            <Route path="/contact">
+              <Contact />
             </Route>
             <Route path="/">
               <Home />

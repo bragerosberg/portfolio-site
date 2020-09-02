@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import { myProjects } from './projects';
 import './styles/Project.css';
 
@@ -12,8 +12,8 @@ class Project extends React.Component {
             <Card.Img variant="top" className="project__image" src={project.image} />
             <Card.Title>{project.title}</Card.Title>
             <Card.Text>{project.text}</Card.Text>
-            <button href={project.repolink} className="project__button">Repository</button>
-            <button href={project.website} className="project__button">Website</button>
+            <a class="btn btn-dark" href={project.repolink} target="_blank" rel="noopener noreferrer">Repository</a>
+            <a class="btn btn-info" href={project.website} target="_blank" rel="noopener noreferrer">Website</a>
           </Card>
         ))}
       </main>
