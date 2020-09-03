@@ -75,3 +75,37 @@
     height: 269px;
   }
 }
+
+
+@media (max-width: 400px) {
+  .contact__wrapper {
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .contact__portrait {
+    height: 125px;
+    width: 125px;
+    border-radius: 75px;
+    margin: 2em 0 0 7.5em;
+  }
+  
+
+  .contact__icons img {
+    width: 32px;
+  }
+
+  .contact__information {
+    padding: 0;
+    justify-items: center;
+  }
+
+  .contact__subheader {
+    font-size: 12px;
+    text-align: center;
+  }
+  .contact__image {
+    width: 308px;
+    height: 235px;
+  }
+}
