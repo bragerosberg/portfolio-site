@@ -32,10 +32,11 @@
   margin: 1em;
 }
 
-.portfolio__experience--title {
+.portfolio__experience--title,
+.portfolio__wrapper--title {
   text-align: center;
   color: #fff5aa;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .portfolio__event {
@@ -60,4 +61,26 @@
 .portfolio__work p,
 .portfolio__education p {
   font-size: 17px;
+}
+
+
+
+@media (max-width: 500px) {
+  .portfolio__work p,
+  .portfolio__education p {
+    font-size: 12px;
+  }
+  .portfolio__experience--category {
+    font-size: 16px;
+  }
+
+  .portfolio__experience--title,
+  .portfolio__wrapper--title {
+    font-size: 20px;
+  }
+
+  .portfolio__experience,
+  .portfolio__wrapper {
+    flex-direction: column;
+  }
 }
