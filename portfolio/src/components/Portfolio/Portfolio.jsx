@@ -16,8 +16,8 @@ class Portfolio extends React.Component {
   render () {
     return (
      <main>
-      <section className="portfolio__wrapper">
       <h1 className="portfolio__wrapper--title">Education and previous jobs</h1>
+      <section className="portfolio__wrapper">
         <article className="portfolio__education">
           <h2 className="portfolio__experience--category">Education</h2>
           {education.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
