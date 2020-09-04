@@ -2,8 +2,6 @@
  
 .tech__logos {  
   animation: 1s ease-out 0s 1 slideInFromLeft;
-  background: #fff5aa60;
-  padding: 30px;
 }
 
 .tech__logos img {
