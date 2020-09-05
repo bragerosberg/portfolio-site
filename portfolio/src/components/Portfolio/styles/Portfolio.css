@@ -63,6 +63,18 @@
   font-size: 17px;
 }
 
+.portfolio__education {
+  animation: 1s slightSlideLeft;
+}
+
+.portfolio__work {
+  animation: 1s slightSlideRight;
+}
+
+
+.portfolio__experience {
+  animation: 1s slightSlideUp;
+}
 
 
 @media (max-width: 500px) {

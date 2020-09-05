@@ -16,6 +16,34 @@
   }
 }
 
+@keyframes slightSlideRight{
+  0% {
+    transform: translateX(1%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slightSlideLeft{
+  0% {
+    transform: translateX(1%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slightSlideUp{
+  0% {
+    transform: translateY(-1%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
 @keyframes slideInFromTop {
   0% {
     transform: translateY(-100%);
@@ -32,7 +60,7 @@
 
 @keyframes fadeInUp {
   from {
-      transform: translate3d(0,40px,0)
+      transform: translate3d(0,10px,0)
   }
 
   to {
