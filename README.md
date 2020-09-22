@@ -1,23 +1,24 @@
 # Brage Rosberg
 Welcome to my portfolio. I am hosting this product on my website located [here][website] ( or manually https://bragerosberg.com/)!
-
+![DayOrganizer](responsiveness.png)
 ## Contents :computer:
-The state of the portfolio is currently under development meaning that features are under implementation and soon to be created. 
-Features and elements that it will contain: 
+The current state of the portfolio is in a completed state, however updates of contents (projects, experiences) will be added as they happen.
+Features and content:
 * Homepage:
-  * Showing a brief overview of technology experience and myself
+  * Landingpage with my main tech-stack along with possibility to navigate to my LinkedIn or GitHub
 * Portfolio:
-  * Containing a more in depth description of prior experience and my techstack along with tools
+  * An updated description of education, previous jobs, technologies, languages (developing and speaking ones) and experience
 * Projects: 
-  * Updated list displaying different projects I have created, with visualisation and the possibility to test it out by own
+  * Dynamic list of cards showing projects I have created, with the options of viewing the project (e.g. through heroku deployment), github repo and more
+* Contact Page:
+  * A final page with a very simplified design with easy access to my contact opportunities - e-mail, LinkedIn and GitHub
 
 ## Current :pushpin:
-The state of which the portfolio is currently in I am right now focusing on implementing: The Portfolio Page
+The page is deployed and ready to be viewed whenever at [here][website] (or manually https://bragerosberg.com/)!
 
 ### Contact me :thought_balloon:
-If there are any questions or you want to get in contact with me, please get in touch through [LinkedIn].  :speech_balloon:
+If there are any questions or you want to get in contact with me, please get in touch through [LinkedIn]. :speech_balloon:
 
-*Not complete: Update to both README and project files will occur*
 
 [website]: https://bragerosberg.com/
 [LinkedIn]: www.linkedin.com/in/brage-rosberg
