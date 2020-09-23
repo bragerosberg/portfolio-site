@@ -34,7 +34,7 @@ const myProjects = [
   },
   {
     index: uuid(),
-    image: "https://i.imgur.com/7dJOvGk.png",
+    image: "https://i.imgur.com/Xlnrij0.png",
     title: "Budget Manager",
     text: "Management tool for yearly budget, easily control the monthly expenses and see other months",
     repolink: "https://github.com/bragerosberg/BudgetManager",
