@@ -32,6 +32,14 @@ const myProjects = [
     repolink: "https://github.com/jopemoma/Graduation-Project",
     website: "https://github.com/jopemoma/Graduation-Project",
   },
+  {
+    index: uuid(),
+    image: "https://i.imgur.com/7dJOvGk.png",
+    title: "Budget Manager",
+    text: "Management tool for yearly budget, easily control the monthly expenses and see other months",
+    repolink: "https://github.com/bragerosberg/BudgetManager",
+    website: "https://simplebudgetmanager.herokuapp.com/",
+  },
 ];
 
 module.exports = {
