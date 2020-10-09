@@ -84,6 +84,7 @@
   }
 
   .contact__portrait {
+    user-select: none;
     height: 125px;
     width: 125px;
     border-radius: 75px;
@@ -105,6 +106,7 @@
     text-align: center;
   }
   .contact__image {
+    user-select: none;
     width: 308px;
     height: 235px;
   }
