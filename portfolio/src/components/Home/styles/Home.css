@@ -41,6 +41,10 @@
   border: outset 5px #fff5aa;
 }
 
+.portrait img {
+  user-select: none;
+}
+
 .footer__author {
   animation: 1s ease-out 0s 1 fadeInUp;
 }
