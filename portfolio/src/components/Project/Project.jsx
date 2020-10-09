@@ -16,8 +16,10 @@ class Project extends React.Component {
               <Card.Img variant="top" className="project__image" src={project.image} />
               <Card.Title>{project.title}</Card.Title>
               <Card.Text>{project.text}</Card.Text>
-              <a className="btn btn-dark" href={project.repolink} target="_blank" rel="noopener noreferrer">Repository</a>
-              <a className="btn btn-info" href={project.website} target="_blank" rel="noopener noreferrer">Website</a>
+              <div className="button__wrapper">
+                <a className="link__button" href={project.repolink} target="_blank" rel="noopener noreferrer">Repository</a>
+                <a className="link__button" href={project.website} target="_blank" rel="noopener noreferrer">Website</a>
+              </div>
             </Card>
           ))}
         </section>

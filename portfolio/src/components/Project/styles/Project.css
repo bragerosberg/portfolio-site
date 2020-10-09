@@ -18,6 +18,8 @@
   animation-delay: 2s;
   animation: 1s ease-out 0s 1 fadeInUp;
   margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project__button {
@@ -38,6 +40,10 @@
   height: 150px;
 }
 
+.project__card {
+  margin: 1em;
+}
+
 .project__card:hover {
   transform: scale(1.01);
 }
@@ -48,6 +54,25 @@
   text-align: center;
   font-size: 24px;
   background-color: rgb(141, 59, 141);
+}
+
+.button__wrapper {
+  margin: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link__button,
+.link__button:hover {
+  background-color: darkgray;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+  border: 1px ridge black;
+}
+
+.link__button:hover {
+  color: black;
 }
 
 @media (max-width: 500px) {
