@@ -11,7 +11,8 @@
 }
 
 .project__card {
-  border: solid 1px white; 
+  border: solid 1px white;
+  flex-basis: 25%
 }
 
 .project__wrapper {

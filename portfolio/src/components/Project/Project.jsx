@@ -8,7 +8,7 @@ class Project extends React.Component {
     return (
       <main>
         <section className="project__info">
-          <p>Lorem ipsum</p>
+          <p>List last updated 10th of October</p>
         </section>
         <section className="project__wrapper">
           {myProjects.map(project => (
