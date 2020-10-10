@@ -85,4 +85,7 @@
   .project__card {
     margin: 1em;
   }
+  .project__lastUpdate {
+    font-size: .5em;
+  }
 }
