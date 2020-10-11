@@ -21,6 +21,7 @@
   margin-top: 5%;
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 10em;
 }
 
 .project__button {
