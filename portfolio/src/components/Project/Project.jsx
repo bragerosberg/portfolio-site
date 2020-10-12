@@ -8,7 +8,7 @@ class Project extends React.Component {
     return (
       <main>
         <section className="project__info">
-          <p className="project__lastUpdate">List last updated 10th of October</p>
+          <p className="project__lastUpdate">List last updated 12th of October</p>
         </section>
         <section className="project__wrapper">
           {myProjects.map(project => (
@@ -16,6 +16,7 @@ class Project extends React.Component {
               <Card.Img variant="top" className="project__image" src={project.image} />
               <Card.Title>{project.title}</Card.Title>
               <Card.Text>{project.text}</Card.Text>
+              <Card.Text>Topics: {project.topics}</Card.Text>
               <div className="button__wrapper">
                 <a className="link__button" href={project.repolink} target="_blank" rel="noopener noreferrer">Repository</a>
                 <a className="link__button" href={project.website} target="_blank" rel="noopener noreferrer">Website</a>
