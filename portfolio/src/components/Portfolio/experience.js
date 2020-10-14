@@ -4,7 +4,7 @@ const frontEnd = [
   { key: uuid(), title: 'React', strength: 100 },
   { key: uuid(), title: 'HTML', strength: 100 },
   { key: uuid(), title: 'CSS', strength: 100 },
-  { key: uuid(), title: 'React Native', strength: 75 },
+  { key: uuid(), title: 'React Native', strength: 100 },
   { key: uuid(), title: 'Redux', strength: 75 },
   { key: uuid(), title: 'jQuery', strength: 70 },
   { key: uuid(), title: 'Bootstrap', strength: 70 },
