@@ -1,0 +1,20 @@
+.chat {
+  background-color: #8d79ae;
+  width: 50%;
+  height: auto;
+}
+
+.chat h1 {
+  color: white;
+  text-align: center;
+}
+
+.chat header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.chatBoard {
+  height: 50vh;
+  overflow-y: scroll;
+}

@@ -22,7 +22,7 @@ function Chat() {
   const [user] = useAuthState(auth);
 
   return (
-    <div className="App">
+    <div className="chat">
       <header>
         <h1>Start a chat!</h1>
         <SignOut />
@@ -45,8 +45,8 @@ function SignIn() {
 
   return (
     <>
-      <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
-      <p>Do not violate the community guidelines or you will be banned for life!</p>
+      <button className="sign-in chatButton" onClick={signInWithGoogle}>Sign in with Google</button>
+      <p className="messageText">Do not violate the community guidelines or you will be banned for life!</p>
     </>
   )
 
@@ -54,7 +54,7 @@ function SignIn() {
 
 function SignOut() {
   return auth.currentUser && (
-    <button className="sign-out" onClick={() => auth.signOut()}>Sign Out</button>
+    <button className="sign-out chatButton" onClick={() => auth.signOut()}>Sign Out</button>
   )
 }
 
@@ -85,7 +85,7 @@ function ChatRoom() {
   }
 
   return (<>
-    <main>
+    <main className="chatBoard"> 
 
       {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
 
@@ -97,7 +97,7 @@ function ChatRoom() {
 
       <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
 
-      <button type="submit" disabled={!formValue}>🕊️</button>
+      <button className="chatButton" type="submit" disabled={!formValue}>🕊️</button>
 
     </form>
   </>)
@@ -111,8 +111,8 @@ function ChatMessage(props) {
 
   return (<>
     <div className={`message ${messageClass}`}>
-      <img src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} />
-      <p>{text}</p>
+      <img className="profilePhoto" src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} />
+      <p className="messageText">{text}</p>
     </div>
   </>)
 }
