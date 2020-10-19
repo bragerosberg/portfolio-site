@@ -5,7 +5,6 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Project from './components/Project/Project';
 import Footer from './components/Home/Footer';
 import Contact from './components/contact/Contact';
-import Discussion from './components/discussion/Discussion';
 import './styles/App.css';
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
               <li><Link to="/portfolio">Portfolio</Link></li>
               <li><Link to="/project">Projects</Link></li>
               <li><Link to ="/contact">Contact Me</Link></li>
-              <li><Link to ="/discussion">Discussion</Link></li>
             </ul>
           </nav>
           <Switch>
@@ -30,9 +28,6 @@ function App() {
             </Route>
             <Route path="/contact">
               <Contact />
-            </Route>
-            <Route path="/discussion">
-              <Discussion />
             </Route>
             <Route path="/">
               <Home />
