@@ -23,7 +23,7 @@
 .project__wrapper {
   animation-delay: 2s;
   animation: 1s ease-out 0s 1 fadeInUp;
-  margin-top: 5%;
+  margin-top: 1%;
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 10em;
