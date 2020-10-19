@@ -21,7 +21,7 @@ class Project extends React.Component {
               <Card.Footer>Topics: {project.topics}</Card.Footer>
               <div className="button__wrapper">
                 <a className="link__button" className="btn btn-primary" href={project.repolink} target="_blank" rel="noopener noreferrer">Repository</a>
-                <a className="link__button" className="btn btn-primary" href={project.website} target="_blank" rel="noopener noreferrer">Website</a>
+                {(project.website ? <a className="link__button" className="btn btn-primary" href={project.website} target="_blank" rel="noopener noreferrer">Website</a> : null)} 
               </div>
             </Card>
           ))}

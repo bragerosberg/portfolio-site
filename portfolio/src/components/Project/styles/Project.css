@@ -13,11 +13,11 @@
 .project__card {
   border: solid 1px white;
   flex-basis: 30%;
-  box-shadow: 10px 10px 5px 0px rgba(115,87,115,1);
+  box-shadow: 3px 3px 3px 0px rgba(115,87,115,1);
 }
 
 .project__card:hover {
-  box-shadow: 10px 10px 5px 0px rgb(172, 129, 172);
+  box-shadow: 7px 7px 5px 0px rgb(172, 129, 172);
 }
 
 .project__wrapper {
@@ -27,18 +27,6 @@
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 10em;
-}
-
-.project__button {
-  color: white;
-  border: solid 1px white;
-  padding: 1em;
-  background: linear-gradient(to top, #a04af6, #9600aa);
-}
-
-.project__button:hover {
-  background: linear-gradient(to top, #be7cff, #bd02d6);
-
 }
 
 .project__image {
@@ -66,7 +54,7 @@
 .button__wrapper {
   margin: 1em;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .link__button,
