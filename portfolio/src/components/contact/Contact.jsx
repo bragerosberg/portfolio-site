@@ -1,10 +1,13 @@
 import React from 'react';
 import './styles/contact.css';
+import Discussion from '../discussion/Discussion';
+
 
 const Contact = () => {
 
   return (
     <div className="contact">
+    <Discussion />
       <div className="contact__wrapper">
         <article className="contact__information">
           <img className="contact__portrait" src="https://i.imgur.com/lAAP2Ve.png" alt="profile"/>
