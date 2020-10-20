@@ -1,7 +1,19 @@
 .chat {
-  background-color: #8d79ae;
-  width: 50%;
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  background-color: #634692;
+}
+
+.chat p {
+  max-width: 500px;
+  margin-bottom: 12px;
+  line-height: 24px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
+  color: white;
+  text-align: center;
 }
 
 .chat h1 {
@@ -11,10 +23,79 @@
 
 .chat header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  background-color: #59339b;
+  padding: 1em;
 }
 
 .chatBoard {
-  height: 50vh;
+  padding: 1em;
   overflow-y: scroll;
+  height: 35vh;
+}
+
+.chatBoard::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+.chatBoard::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+.chatBoard::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+.profilePhoto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 80%;
+  padding: 1em;
+  background-color: azure;
+}
+
+.chatButton {
+  width: 20%;
+  padding: 1em;
+}
+
+.sendMessage:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  color: black;
+}
+
+.sendMessage {
+  background-color: #8d79ae;
+  color: white;
+}
+
+.signOut,
+.signIn {
+  background: linear-gradient(to top, #8d79ae, #8161b4);
+  color: white;
+}
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent p {
+  color: white;
+  background: #520bf6;
+  align-self: flex-end;
+}
+.received p {
+  background: #e5e5ea;
+  color: black;
 }

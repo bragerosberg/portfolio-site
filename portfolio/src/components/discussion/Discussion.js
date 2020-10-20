@@ -24,12 +24,12 @@ function Chat() {
   return (
     <div className="chat">
       <header>
-        <h1>Start a chat!</h1>
-        <SignOut />
+        <h1>Leave a message</h1>
+        {user ? <SignOut /> : <SignIn />}
       </header>
 
       <section>
-        {user ? <ChatRoom /> : <SignIn />}
+        {user ? <ChatRoom /> : null }
       </section>
 
     </div>
@@ -45,8 +45,7 @@ function SignIn() {
 
   return (
     <>
-      <button className="sign-in chatButton" onClick={signInWithGoogle}>Sign in with Google</button>
-      <p className="messageText">Do not violate the community guidelines or you will be banned for life!</p>
+      <button className="signIn chatButton" onClick={signInWithGoogle}>Sign In with Google</button>
     </>
   )
 
@@ -54,7 +53,7 @@ function SignIn() {
 
 function SignOut() {
   return auth.currentUser && (
-    <button className="sign-out chatButton" onClick={() => auth.signOut()}>Sign Out</button>
+    <button className="signOut chatButton" onClick={() => auth.signOut()}>Sign Out</button>
   )
 }
 
@@ -93,11 +92,11 @@ function ChatRoom() {
 
     </main>
 
-    <form onSubmit={sendMessage}>
+    <form className="enterMessage" onSubmit={sendMessage}>
 
-      <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
+      <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="Enter your message ..." />
 
-      <button className="chatButton" type="submit" disabled={!formValue}>🕊️</button>
+      <button className="sendMessage chatButton" type="submit" disabled={!formValue}>Send</button>
 
     </form>
   </>)

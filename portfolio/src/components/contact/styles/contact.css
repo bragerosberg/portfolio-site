@@ -7,6 +7,7 @@
 }
 
 .contact__wrapper {
+  flex: 1;
   margin-top: 5%;
   background-color: hsla(308, 44%, 35%, 0.25);
   padding: 2em;

@@ -1,9 +1,11 @@
 import React from 'react';
 import './styles/contact.css';
+import Discussion from '../discussion/Discussion';
 
 const Contact = () => {
 
   return (
+    <>
     <div className="contact">
       <div className="contact__wrapper">
         <article className="contact__information">
@@ -16,7 +18,9 @@ const Contact = () => {
           </section>
         </article>
       </div>
+      <Discussion />
     </div>
+    </>
   )
 }
 
