@@ -24,17 +24,27 @@ function Chat() {
   return (
     <div className="chat">
       <header>
-        <h1>Leave a message</h1>
+        <h1>Comments</h1>
         {user ? <SignOut /> : <SignIn />}
       </header>
 
       <section>
-        {user ? <ChatRoom /> : null }
+        {user ? <ChatRoom /> : <ChatInfo />}
       </section>
 
     </div>
   );
 }
+
+function ChatInfo() {
+  return (
+    <div className="chatInfo">
+      <p>This comment section is open for anyone who logs in. </p>
+      <p>If you'd like to contact me personally, please find me on LinkedIn or Email</p>
+    </div>
+  )
+}
+
 
 function SignIn() {
 
