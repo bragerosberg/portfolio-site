@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #7751b880;
+  background-color: #714daf80;
   border: outset 2px #fff5aa;
 }
 
@@ -22,4 +22,15 @@
 
 .techstack__wrapper {
   margin-top: 3em;
+}
+
+@media (max-width: 1200px) {
+  .tech__logos img {
+    max-width: 150px;
+  }
+}
+@media (max-width: 750px) {
+  .tech__logos img {
+    max-width: 100px;
+  }
 }

@@ -7,9 +7,6 @@ class Project extends React.Component {
   render () {
     return (
       <main>
-        <section className="project__info">
-          <p className="project__lastUpdate">List last updated 19th of October</p>
-        </section>
         <h1 className="project__title">Products I have created</h1>
 
         <section className="project__wrapper">
@@ -20,8 +17,8 @@ class Project extends React.Component {
               <Card.Text>{project.text}</Card.Text>
               <Card.Footer>Topics: {project.topics}</Card.Footer>
               <div className="button__wrapper">
-                <a className="link__button" className="btn btn-primary" href={project.repolink} target="_blank" rel="noopener noreferrer">Repository</a>
-                {(project.website ? <a className="link__button" className="btn btn-primary" href={project.website} target="_blank" rel="noopener noreferrer">Website</a> : null)} 
+                <a className="link__button" className="btn btn-light" href={project.repolink} target="_blank" rel="noopener noreferrer">Repository</a>
+                {(project.website ? <a className="link__button" className="btn btn-light" href={project.website} target="_blank" rel="noopener noreferrer">Website</a> : null)} 
               </div>
             </Card>
           ))}

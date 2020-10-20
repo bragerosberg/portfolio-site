@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   margin: 5%;
-  background-color: #634692;
+  background-color: rgba(46, 45, 44, 0.452);
   width: 20%;
 }
 
@@ -25,7 +25,7 @@
 .chat header {
   display: flex;
   justify-content: space-between;
-  background-color: #59339b;
+  background-color:  #3d3d3d;
   padding: 1em;
 }
 
@@ -77,14 +77,14 @@ input {
 }
 
 .sendMessage {
-  background-color: #8d79ae;
+  background-color: rgba(46, 45, 44, 0.452);
   color: white;
 }
 
 .signOut,
 .signIn {
-  background: linear-gradient(to top, #8d79ae, #8161b4);
-  color: white;
+  background-color: #fff5aa;
+  color: black;
   font-size: 1em;
 }
 
@@ -98,11 +98,11 @@ input {
 
 .sent p {
   color: white;
-  background: #520bf6;
+  background: #67646d;
   align-self: flex-end;
 }
 .received p {
-  background: #e5e5ea;
+  background: #bebec5;
   color: black;
 }
 

@@ -13,7 +13,6 @@ const Techstack = () => {
         <img src="https://i.imgur.com/8KVSwvp.png" alt="html5"/>
         <img src="https://i.imgur.com/GsdKN8c.png" alt="css3"/>
       </section>
-      <p className="techstack__title">See all technologies and tools I work with under "Portfolio"</p>
     </article>
   )
 }
