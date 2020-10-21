@@ -19,6 +19,7 @@ const backEnd = [
   { key: uuid(), title: 'REST API', strength: 75 },
   { key: uuid(), title: 'HTTP/JSON/AJAX', strength: 75 },
   { key: uuid(), title: 'CLI', strength: 75 },
+  { key: uuid(), title: 'Firebase', strength: 65 },
   { key: uuid(), title: 'GraphQL', strength: 50 },
 ];
 
@@ -50,6 +51,7 @@ const tools = [
   { key: uuid(), title: 'Heroku', strength: 70 },
   { key: uuid(), title: 'Netlify', strength: 70 },
   { key: uuid(), title: 'Docker', strength: 70 },
+  { key: uuid(), title: 'Figma', strength: 70 },
 ];
 
 const education = [

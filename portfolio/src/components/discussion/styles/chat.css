@@ -135,6 +135,12 @@ input {
   .chat {
     width: 100%;
   }
+  .chat h1 {
+    font-size: 1.5em;
+  }
+  .signIn {
+    padding: 0;
+  }
 }
 
 

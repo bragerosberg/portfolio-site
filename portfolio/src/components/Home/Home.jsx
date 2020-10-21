@@ -1,6 +1,8 @@
 import React from 'react';
-import Techstack from '../Home/Techstack';
 import './styles/Home.css';
+
+import About from './About'
+import Techstack from './Techstack';
 
 
 class Home extends React.Component {
@@ -15,6 +17,7 @@ class Home extends React.Component {
           <p className="homepage__location">Oslo, Norway</p>
         </div>
       </section>
+      <About />
       <Techstack />
       <section className="contact__hotkey">
         <a href="mailto:bragecontact@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://image.flaticon.com/icons/svg/1000/1000885.svg" alt="mail"/></a>

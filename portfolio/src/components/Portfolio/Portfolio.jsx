@@ -15,7 +15,7 @@ import {
 class Portfolio extends React.Component {
   render () {
     return (
-     <main>
+     <main className="portfolio__page">
       <h1 className="portfolio__wrapper--title">Education and previous jobs</h1>
       <section className="portfolio__wrapper">
         <article className="portfolio__education">
@@ -55,7 +55,6 @@ class Portfolio extends React.Component {
           {principles.map(e => <TechExperiences key={e.key} title={e.title} width={e.strength} />)}
         </div>
         
-
       </section>
      </main>
     )

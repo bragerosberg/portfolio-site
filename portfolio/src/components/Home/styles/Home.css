@@ -18,7 +18,7 @@
 }
 
 .homepage__wrapper {
-  margin: 7%;
+  margin: 5% 0 3% 0;
   display: flex;
   justify-content: center;
 }
@@ -88,6 +88,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     background-color: hsla(308, 44%, 35%, 0.25);
+    margin-bottom: 20%;
   }
 
   .contact__hotkey img {

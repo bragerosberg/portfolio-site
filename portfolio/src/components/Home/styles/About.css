@@ -1,0 +1,37 @@
+.about__wrapper {
+  background-color: #653fa780;
+  padding: 3em;
+  margin-bottom: 2em;
+}
+
+.about__text {
+  color: white;
+  font-weight: 650;
+  line-height: 4vh;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+@media (max-width: 1700px) {
+  .about__text {
+    width: 60%;
+    font-weight: 600;
+  }
+}
+@media (max-width: 1200px) {
+  .about__text {
+    width: 80%;
+    font-weight: 500;
+  }
+}
+@media (max-width: 800px) {
+  .about__text {
+    width: 100%;
+    font-weight: 450;
+  }
+  .about__wrapper {
+    padding: 20px;
+  }
+}

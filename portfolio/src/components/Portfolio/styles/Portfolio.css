@@ -52,6 +52,10 @@
   justify-content: space-evenly;
 }
 
+.portfolio__page {
+  margin-bottom: 25%;
+}
+
 .portfolio__work,
 .portfolio__education {
   margin-top: 2em;
