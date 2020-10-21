@@ -9,6 +9,8 @@ import 'firebase/analytics';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
+import ChatInfo from './ChatInfo';
+
 const fbconfig = require("./FIREBASE_CONFIG.json");
 
 firebase.initializeApp(fbconfig);
@@ -35,16 +37,6 @@ function Chat() {
     </div>
   );
 }
-
-function ChatInfo() {
-  return (
-    <div className="chatInfo">
-      <p>This comment section is open for anyone who logs in. </p>
-      <p>If you'd like to contact me personally, please find me on LinkedIn or Email</p>
-    </div>
-  )
-}
-
 
 function SignIn() {
 

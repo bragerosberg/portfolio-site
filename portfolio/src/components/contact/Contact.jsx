@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/contact.css';
-import Discussion from '../discussion/Discussion';
+import CommentSection from '../discussion/CommentSection';
 
 const Contact = () => {
 
@@ -18,7 +18,7 @@ const Contact = () => {
           </section>
         </article>
       </div>
-      <Discussion />
+      <CommentSection />
     </div>
     </>
   )
