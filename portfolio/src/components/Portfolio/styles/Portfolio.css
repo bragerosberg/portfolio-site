@@ -80,6 +80,22 @@
   animation: 1s slightSlideUp;
 }
 
+@media (max-width: 1200px) {
+  .portfolio__experience,
+  .portfolio__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .portfolio__experience {
+    margin: 0;
+  }
+  .portfolio__experience__card,
+  .portfolio__education,
+  .portfolio__work {
+    flex-basis: 85%;
+  }
+}
+
 
 @media (max-width: 500px) {
   .portfolio__work p,
