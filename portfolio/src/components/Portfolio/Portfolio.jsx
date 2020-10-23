@@ -31,7 +31,9 @@ class Portfolio extends React.Component {
       <section className="portfolio__experience">
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Front End</h2>
-          {frontEnd.map(e => <h5 className="portfolio__experience--name">{e.title}</h5>)}
+          {frontEnd.map(e => <div className="portfolio__experience--category__wrapper">
+            <h5 className="portfolio__experience--name">{e.title}</h5><i className={e.icon}></i>
+          </div>)}
         </div>
 
         <div className="portfolio__experience__card">

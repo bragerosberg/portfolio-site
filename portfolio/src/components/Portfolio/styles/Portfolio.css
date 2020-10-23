@@ -69,6 +69,13 @@
   animation: 1s slightSlideUp;
 }
 
+
+.portfolio__experience--category__wrapper i{
+  font-size: 2em;
+}
+
+
+
 @media (max-width: 1200px) {
   .portfolio__experience,
   .portfolio__wrapper {

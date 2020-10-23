@@ -1,57 +1,57 @@
 const { uuid } = require('uuidv4');
 
 const frontEnd = [
-  { key: uuid(), title: 'React', strength: 100 },
-  { key: uuid(), title: 'HTML', strength: 100 },
-  { key: uuid(), title: 'CSS', strength: 100 },
-  { key: uuid(), title: 'React Native', strength: 100 },
-  { key: uuid(), title: 'Redux', strength: 75 },
-  { key: uuid(), title: 'jQuery', strength: 70 },
-  { key: uuid(), title: 'Bootstrap', strength: 70 },
+  { key: uuid(), title: 'React'},
+  { key: uuid(), title: 'HTML'},
+  { key: uuid(), title: 'CSS'},
+  { key: uuid(), title: 'React Native'},
+  { key: uuid(), title: 'Redux'},
+  { key: uuid(), title: 'jQuery'},
+  { key: uuid(), title: 'Bootstrap'},
 ];
 
 const backEnd = [
-  { key: uuid(), title: 'Node.js', strength: 100 },
-  { key: uuid(), title: 'Express', strength: 100 },
-  { key: uuid(), title: 'MongoDB', strength: 75 },
-  { key: uuid(), title: 'mongoose', strength: 75 },
-  { key: uuid(), title: 'PostgreSQL', strength: 75 },
-  { key: uuid(), title: 'REST API', strength: 75 },
-  { key: uuid(), title: 'HTTP/JSON/AJAX', strength: 75 },
-  { key: uuid(), title: 'CLI', strength: 75 },
-  { key: uuid(), title: 'Firebase', strength: 65 },
-  { key: uuid(), title: 'GraphQL', strength: 50 },
+  { key: uuid(), title: 'Node.js'},
+  { key: uuid(), title: 'Express'},
+  { key: uuid(), title: 'MongoDB'},
+  { key: uuid(), title: 'mongoose'},
+  { key: uuid(), title: 'PostgreSQL'},
+  { key: uuid(), title: 'REST API'},
+  { key: uuid(), title: 'HTTP/JSON/AJAX'},
+  { key: uuid(), title: 'CLI'},
+  { key: uuid(), title: 'Firebase'},
+  { key: uuid(), title: 'GraphQL'},
 ];
 
 const languages = [
-  { key: uuid(), title: 'JavaScript/ES6', strength: 100 },
-  { key: uuid(), title: 'HTML5', strength: 100 },
-  { key: uuid(), title: 'CSS3', strength: 100 },
-  { key: uuid(), title: 'Python', strength: 35 },
-  { key: uuid(), title: 'C', strength: 35 },
-  { key: uuid(), title: 'Norwegian', strength: 100 },
-  { key: uuid(), title: 'English', strength: 100 },
+  { key: uuid(), title: 'JavaScript/ES6'},
+  { key: uuid(), title: 'HTML5'},
+  { key: uuid(), title: 'CSS3'},
+  { key: uuid(), title: 'Python'},
+  { key: uuid(), title: 'C'},
+  { key: uuid(), title: 'Norwegian'},
+  { key: uuid(), title: 'English'},
 ];
 
 const principles = [
-  { key: uuid(), title: 'Agile Development', strength: 100 },
-  { key: uuid(), title: 'Mob Programming', strength: 100 },
-  { key: uuid(), title: 'TDD', strength: 100 },
-  { key: uuid(), title: 'Working in Teams', strength: 100 },
-  { key: uuid(), title: 'SCRUM', strength: 100 },
+  { key: uuid(), title: 'Agile Development'},
+  { key: uuid(), title: 'Mob Programming'},
+  { key: uuid(), title: 'TDD'},
+  { key: uuid(), title: 'Working in Teams'},
+  { key: uuid(), title: 'SCRUM'},
 ];
 
 const tools = [
-  { key: uuid(), title: 'NPM', strength: 100 },
-  { key: uuid(), title: 'GIT', strength: 100 },
-  { key: uuid(), title: 'Mocha', strength: 100 },
-  { key: uuid(), title: 'Linting', strength: 100 },
-  { key: uuid(), title: 'Jest', strength: 70 },
-  { key: uuid(), title: 'Chai', strength: 70 },
-  { key: uuid(), title: 'Heroku', strength: 70 },
-  { key: uuid(), title: 'Netlify', strength: 70 },
-  { key: uuid(), title: 'Docker', strength: 70 },
-  { key: uuid(), title: 'Figma', strength: 70 },
+  { key: uuid(), title: 'NPM'},
+  { key: uuid(), title: 'GIT'},
+  { key: uuid(), title: 'Mocha'},
+  { key: uuid(), title: 'Linting'},
+  { key: uuid(), title: 'Jest'},
+  { key: uuid(), title: 'Chai'},
+  { key: uuid(), title: 'Heroku'},
+  { key: uuid(), title: 'Netlify'},
+  { key: uuid(), title: 'Docker'},
+  { key: uuid(), title: 'Figma'},
 ];
 
 const education = [

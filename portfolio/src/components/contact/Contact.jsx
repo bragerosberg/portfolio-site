@@ -1,6 +1,9 @@
 import React from 'react';
-import './styles/contact.css';
 import CommentSection from '../discussion/CommentSection';
+
+import './styles/contact.css';
+import pb from '../../assets/pb.png';
+
 
 const Contact = () => {
 
@@ -9,7 +12,7 @@ const Contact = () => {
     <div className="contact">
       <div className="contact__wrapper">
         <article className="contact__information">
-          <img className="contact__portrait" src="https://i.imgur.com/lAAP2Ve.png" alt="profile"/>
+          <img className="contact__portrait" src={pb} alt="profile"/>
           <h2 className="contact__subheader">Get in touch with me!</h2>
           <section className="contact__icons">
             <a href="mailto:bragecontact@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://image.flaticon.com/icons/svg/1000/1000885.svg" alt="mail"/></a>
