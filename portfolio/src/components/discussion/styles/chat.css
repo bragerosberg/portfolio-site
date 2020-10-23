@@ -87,9 +87,14 @@ input {
   font-size: 1em;
 }
 
+.chatInfo {
+  border: 2px solid #aad4f5;
+}
+
 .chatInfo p {
   margin: 0 auto;
   padding: 0;
+  color: #3183c8;
 }
 
 .sent,

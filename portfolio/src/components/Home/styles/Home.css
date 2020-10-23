@@ -86,7 +86,8 @@
     padding: 2em;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: hsla(308, 44%, 35%, 0.25);
+    background-color: #eff8ff;
+    border: 2px solid #aad4f5;
     margin-bottom: 20%;
   }
 
