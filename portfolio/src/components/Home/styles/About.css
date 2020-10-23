@@ -31,6 +31,7 @@
   .about__text {
     width: 100%;
     font-weight: 450;
+    font-size: 1.1em;
   }
   .about__wrapper {
     padding: 20px;
