@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #714daf80;
-  border: outset 2px #fff5aa;
+  background-color: #eff8ff;
+  border: solid 2px #aad4f5;
   margin-bottom: 15%;
 }
 
@@ -30,8 +30,8 @@
     max-width: 150px;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
   .tech__logos img {
-    max-width: 100px;
+    max-width: 80px;
   }
 }

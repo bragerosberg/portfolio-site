@@ -1,11 +1,12 @@
 .about__wrapper {
-  background-color: #653fa780;
+  background-color: #eff8ff;
   padding: 3em;
   margin-bottom: 2em;
+  border: 2px solid #aad4f5;
 }
 
 .about__text {
-  color: white;
+  color: #2368a2;
   font-weight: 650;
   line-height: 4vh;
   font-size: 1.2em;

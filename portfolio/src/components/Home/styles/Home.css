@@ -9,11 +9,11 @@
 }
 
 .homepage__title {
-  color: #fff5aa;
+  color: #2368a2;
 }
 
 .homepage__location {
-  color: white;
+  color: #12283a;
   font-weight: 800;
 }
 
@@ -30,7 +30,7 @@
 
 .homepage__name {
   font-size: 3em;
-  color: #8d79ae;
+  color: #3183c8;
 }
 
 .portrait {
@@ -39,7 +39,6 @@
   height: 300px;
   border-radius: 150px;
   margin-right: 2em;
-  border: outset 5px #fff5aa;
 }
 
 .portrait img {

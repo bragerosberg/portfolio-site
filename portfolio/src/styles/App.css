@@ -1,6 +1,6 @@
 .navbar__routes,
 .footer__links {
-  background-color: #482e74;
+  background-color: #1a4971;
   padding: 1em;
 }
 
@@ -29,13 +29,13 @@
 }
 .navbar__routes a,
 .footer__links a{
-  color: #8d79ae;
+  color: #eff8ff;
 }
 
 .navbar__routes a:hover,
 .footer__links a:hover,
 .footer__author {
-  color: #fff5aa;
+  color: #3183c8;
 }
 
 
@@ -46,7 +46,7 @@
 }
 
 body {
-  background: linear-gradient(132deg, rgb(50, 43, 107) 0%, rgba(61,47,97,1) 38%, rgba(61,47,97,1) 100%);
+  background-color: #eaedef;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -56,11 +56,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #1e1e24;
+  background: #1a4971;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #6649b8;
+  background: #dee2e6;
 }
 
 @media (max-width: 500px) {
