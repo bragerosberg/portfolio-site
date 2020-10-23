@@ -21,28 +21,42 @@ class Portfolio extends React.Component {
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Front End</h2>
           {frontEnd.map(e => <div className="portfolio__experience--category__wrapper">
-            <h5 className="portfolio__experience--name">{e.title}</h5><i className={e.icon}></i>
+            <h4 className="portfolio__experience--name">{e.title}</h4>
+            <span class="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
           </div>)}
         </div>
 
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Back End</h2>
-          {backEnd.map(e => <h5 className="portfolio__experience--name">{e.title}</h5>)}
+          {backEnd.map(e => <div className="portfolio__experience--category__wrapper">
+          <h4 className="portfolio__experience--name">{e.title}</h4>
+          <span class="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
+          </div>)}
         </div>
 
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Languages</h2>
-          {languages.map(e => <h5 className="portfolio__experience--name">{e.title}</h5>)}
+          {languages.map(e => <div className="portfolio__experience--category__wrapper">
+          <h4 className="portfolio__experience--name">{e.title}</h4>
+          <span class="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
+          </div>)}
         </div>
 
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Tools</h2>
-          {tools.map(e => <h5 className="portfolio__experience--name">{e.title}</h5>)}
+          {tools.map(e => <div className="portfolio__experience--category__wrapper">
+          <h4 className="portfolio__experience--name">{e.title}</h4>
+          <span class="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
+          </div>)}
         </div>
+
 
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Principles</h2>
-          {principles.map(e => <h5 className="portfolio__experience--name">{e.title}</h5>)}
+          {principles.map(e => <div className="portfolio__experience--category__wrapper">
+          <h4 className="portfolio__experience--name">{e.title}</h4>
+          <span class="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
+          </div>)}
         </div>
         
       </section>

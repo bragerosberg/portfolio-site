@@ -75,10 +75,14 @@
 }
 
 
-.portfolio__experience--category__wrapper i{
-  font-size: 2em;
+.portfolio__experience--category__wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
+.iconify {
+  width: 50px;
+}
 
 
 @media (max-width: 1200px) {
@@ -109,7 +113,7 @@
   }
 
   .portfolio__experience--category {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .portfolio__experience--title,
