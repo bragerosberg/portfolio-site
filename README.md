@@ -1,6 +1,5 @@
 # Brage Røsberg
 Visit it by clicking [here][website] or manually https://bragerosberg.com/
-![DayOrganizer](responsiveness.png)
 
 ## Contents :computer:
 Components like "portfolio" and "projects" will see updates, whenever there is a new event. 
