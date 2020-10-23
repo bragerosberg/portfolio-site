@@ -15,17 +15,6 @@ class Portfolio extends React.Component {
   render () {
     return (
      <main className="portfolio__page">
-      <h1 className="portfolio__wrapper--title">CV</h1>
-      <section className="portfolio__wrapper">
-        <article className="portfolio__education">
-          <h2 className="portfolio__experience--category">Education</h2>
-          {education.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
-        </article>
-        <article className="portfolio__work">
-          <h2 className="portfolio__experience--category">Jobs</h2>
-          {workExperience.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
-        </article>
-      </section>
 
       <h1 className="portfolio__experience--title">Knowledge</h1>
       <section className="portfolio__experience">
@@ -56,6 +45,17 @@ class Portfolio extends React.Component {
           {principles.map(e => <h5 className="portfolio__experience--name">{e.title}</h5>)}
         </div>
         
+      </section>
+      <h1 className="portfolio__wrapper--title">CV</h1>
+      <section className="portfolio__wrapper">
+        <article className="portfolio__education">
+          <h2 className="portfolio__experience--category">Education</h2>
+          {education.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
+        </article>
+        <article className="portfolio__work">
+          <h2 className="portfolio__experience--category">Jobs</h2>
+          {workExperience.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
+        </article>
       </section>
      </main>
     )

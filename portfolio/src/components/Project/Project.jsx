@@ -7,7 +7,7 @@ class Project extends React.Component {
   render () {
     return (
       <main>
-        <h1 className="project__title">My Projects</h1>
+        <h1 className="project__title">Personal Projects</h1>
 
         <section className="project__wrapper">
           {myProjects.map(project => (

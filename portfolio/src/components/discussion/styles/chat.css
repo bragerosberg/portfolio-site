@@ -4,6 +4,7 @@
   margin: 5%;
   background-color: #eff8ff;
   width: 20%;
+  border: 2px solid #aad4f5;
 }
 
 .chat p {
@@ -88,7 +89,7 @@ input {
 }
 
 .chatInfo {
-  border: 2px solid #aad4f5;
+  /* border: 2px solid #aad4f5; */
 }
 
 .chatInfo p {

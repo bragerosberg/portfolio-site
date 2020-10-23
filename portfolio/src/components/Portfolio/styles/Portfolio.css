@@ -38,7 +38,12 @@
 
 .portfolio__wrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.portfolio__education,
+.portfolio__work {
+  flex-basis: 35%;
 }
 
 .portfolio__page {

@@ -17,7 +17,7 @@
 }
 
 .contact__icons {
-  animation: 0.5s slideInFromRight;
+  animation: 0.5s fadeInUp;
 }
 
 .contact__icons img {
