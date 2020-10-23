@@ -44,6 +44,7 @@
 .portfolio__education,
 .portfolio__work {
   flex-basis: 35%;
+  margin: 4em;
 }
 
 .portfolio__page {
@@ -85,20 +86,22 @@
 }
 
 
+
 @media (max-width: 1200px) {
   .portfolio__experience,
   .portfolio__wrapper {
     flex-wrap: wrap;
   }
 
-  .portfolio__experience {
-    margin: 0;
-  }
-
   .portfolio__education,
   .portfolio__work {
     flex-basis: 85%;
   }
+
+  .portfolio__experience {
+    margin: 0;
+  }
+
   
 }
 
