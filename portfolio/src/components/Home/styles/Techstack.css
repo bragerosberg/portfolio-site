@@ -1,17 +1,17 @@
 .tech__logos {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   background-color: #eff8ff;
   border: solid 2px #aad4f5;
   margin-bottom: 15%;
+  padding: .5em;
 }
 
-.tech__logos img{
-  max-width: 200px;
-  max-height: 125px;
-  margin: 25px;
+.tech__logos i{
+  font-size: 7em;
 }
+
 
 .techstack__title {
   color: #fff5aa;
@@ -26,12 +26,22 @@
 }
 
 @media (max-width: 1200px) {
-  .tech__logos img {
-    max-width: 150px;
+  .tech__logos i {
+    font-size: 6em;
   }
 }
-@media (max-width: 1000px) {
-  .tech__logos img {
-    max-width: 80px;
+@media (max-width: 1100px) {
+  .tech__logos i {
+    font-size: 5em;
+  }
+}
+@media (max-width: 800px) {
+  .tech__logos i {
+    font-size: 4em;
+  }
+}
+@media (max-width: 500px) {
+  .tech__logos i {
+    font-size: 4em;
   }
 }
