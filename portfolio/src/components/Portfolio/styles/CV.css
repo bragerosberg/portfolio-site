@@ -5,9 +5,10 @@
 
 .cv__wrapper p {
   margin: 1em;
+  color: #343a40;
 }
 
 .cv__date {
-  font-weight: 800;
-  color: #fff5aa;
+  font-weight: 650;
+  color: #1a4971;
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles/Portfolio.css';
 import CV from './CV';
-import TechExperiences from './TechExperiences';
 import { 
   frontEnd,
   backEnd,
@@ -32,27 +31,27 @@ class Portfolio extends React.Component {
       <section className="portfolio__experience">
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Front End</h2>
-          {frontEnd.map(e => <TechExperiences key={e.key} title={e.title} width={e.strength} />)}
+          {frontEnd.map(e => <h3 className="portfolio__experience--name">{e.title}</h3>)}
         </div>
 
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Back End</h2>
-          {backEnd.map(e => <TechExperiences key={e.key} title={e.title} width={e.strength} />)}
+          {backEnd.map(e => <h3 className="portfolio__experience--name">{e.title}</h3>)}
         </div>
 
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Languages</h2>
-          {languages.map(e => <TechExperiences key={e.key} title={e.title} width={e.strength} />)}
+          {languages.map(e => <h3 className="portfolio__experience--name">{e.title}</h3>)}
         </div>
 
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Tools</h2>
-          {tools.map(e => <TechExperiences key={e.key} title={e.title} width={e.strength} />)}
+          {tools.map(e => <h3 className="portfolio__experience--name">{e.title}</h3>)}
         </div>
 
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Principles</h2>
-          {principles.map(e => <TechExperiences key={e.key} title={e.title} width={e.strength} />)}
+          {principles.map(e => <h3 className="portfolio__experience--name">{e.title}</h3>)}
         </div>
         
       </section>

@@ -1,9 +1,5 @@
 @import "../../../styles/animations.css";
 
-.project__header {
-  color: white;
-}
-
 .project__wrapper,
 .project__card {
   display: flex;
@@ -13,9 +9,9 @@
 .project__card {
   border: solid 1px white;
   flex-basis: 30%;
-  border: solid 2px rgb(61, 61, 61);
-  color: white;
-  background-color: rgba(46, 45, 44, 0.452);
+  border: solid 2px #aad4f5;
+  color: #2368a2;
+  background-color: #eff8ff;
 }
 
 .project__card:hover {
@@ -51,22 +47,9 @@
   justify-content: space-evenly;
 }
 
-.link__button,
-.link__button:hover {
-  background-color: rgb(124, 189, 118);
-  text-decoration: none;
-  color: white;
-  padding: 0.5em;
-  border: 1px ridge black;
-}
-
-.link__button:hover {
-  color: black;
-}
-
 .project__title {
   text-align: center;
-  color: #fff5aa;
+  color: #63a2d8;
   margin: 1em;
 }
 
