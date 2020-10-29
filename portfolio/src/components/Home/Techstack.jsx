@@ -5,11 +5,11 @@ const Techstack = () => {
   return (
     <article>
       <section className="tech__logos">
-        <i class="fab fa-js"></i>
-        <i class="fab fa-react"></i>
-        <i class="fab fa-node"></i>
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-css3"></i>
+        <i className="fab fa-js"></i>
+        <i className="fab fa-react"></i>
+        <i className="fab fa-node"></i>
+        <i className="fab fa-html5"></i>
+        <i className="fab fa-css3"></i>
       </section>
     </article>
   )

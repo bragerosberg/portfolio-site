@@ -20,42 +20,42 @@ class Portfolio extends React.Component {
       <section className="portfolio__experience">
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Front End</h2>
-          {frontEnd.map(e => <div className="portfolio__experience--category__wrapper">
+          {frontEnd.map(e => <div className="portfolio__experience--category__wrapper" key={e.key}>
             <h4 className="portfolio__experience--name">{e.title}</h4>
-            <span class="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
+            <span className="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
           </div>)}
         </div>
 
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Back End</h2>
-          {backEnd.map(e => <div className="portfolio__experience--category__wrapper">
+          {backEnd.map(e => <div className="portfolio__experience--category__wrapper" key={e.key}>
           <h4 className="portfolio__experience--name">{e.title}</h4>
-          <span class="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
+          <span className="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
           </div>)}
         </div>
 
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Languages</h2>
-          {languages.map(e => <div className="portfolio__experience--category__wrapper">
+          {languages.map(e => <div className="portfolio__experience--category__wrapper" key={e.key}>
           <h4 className="portfolio__experience--name">{e.title}</h4>
-          <span class="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
+          <span className="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
           </div>)}
         </div>
 
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Tools</h2>
-          {tools.map(e => <div className="portfolio__experience--category__wrapper">
+          {tools.map(e => <div className="portfolio__experience--category__wrapper" key={e.key}>
           <h4 className="portfolio__experience--name">{e.title}</h4>
-          <span class="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
+          <span className="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
           </div>)}
         </div>
 
 
         <div className="portfolio__experience__card">
           <h2 className="portfolio__experience--category">Principles</h2>
-          {principles.map(e => <div className="portfolio__experience--category__wrapper">
+          {principles.map(e => <div className="portfolio__experience--category__wrapper" key={e.key}>
           <h4 className="portfolio__experience--name">{e.title}</h4>
-          <span class="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
+          <span className="iconify" data-icon={e.icon} data-inline="false" data-width="30"></span>
           </div>)}
         </div>
         
