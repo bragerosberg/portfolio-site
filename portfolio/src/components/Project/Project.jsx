@@ -17,8 +17,8 @@ class Project extends React.Component {
               <Card.Text>{project.text}</Card.Text>
               <Card.Footer>Topics: {project.topics}</Card.Footer>
               <div className="button__wrapper">
-                <a className="link__button" className="btn btn-light" href={project.repolink} target="_blank" rel="noopener noreferrer">Repository</a>
-                {(project.website ? <a className="link__button" className="btn btn-light" href={project.website} target="_blank" rel="noopener noreferrer">Website</a> : null)} 
+                <a className="btn btn-light link__button" href={project.repolink} target="_blank" rel="noopener noreferrer">Repository</a>
+                {(project.website ? <a className="btn btn-light link__button" href={project.website} target="_blank" rel="noopener noreferrer">Website</a> : null)} 
               </div>
             </Card>
           ))}
