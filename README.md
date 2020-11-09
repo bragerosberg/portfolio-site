@@ -1,6 +1,6 @@
 # Portfolio
 A personal page containing the most updated information about my career, projects, education, work-experience, knowledge, contact information and more.
-Visit it [here][website] or manually through my website https://bragerosberg.com/
+Visit it here https://bragerosberg.com/
 
 ## Contents
 * Homepage
@@ -17,4 +17,3 @@ Components like "portfolio" and "projects" will see updates, whenever there is a
 
 
  [linkedin]: https://www.linkedin.com/in/brage-rosberg/
- [website]: https://www.bragerosberg.com
