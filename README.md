@@ -17,3 +17,4 @@ Components like "portfolio" and "projects" will see updates, whenever there is a
 
 
  [linkedin]: https://www.linkedin.com/in/brage-rosberg/
+ [website]: https://bragerosberg.com/
