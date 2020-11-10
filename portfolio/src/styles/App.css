@@ -33,8 +33,7 @@
 }
 
 .navbar__routes a:hover,
-.footer__links a:hover,
-.footer__author {
+.footer__links a:hover {
   color: #3183c8;
 }
 

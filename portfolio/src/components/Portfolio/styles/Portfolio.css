@@ -36,6 +36,10 @@
   margin-top: 1em;
 }
 
+.cv__wrapper {
+  justify-content: space-between;
+}
+
 .portfolio__wrapper {
   display: flex;
   justify-content: center;
