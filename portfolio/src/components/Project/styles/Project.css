@@ -53,6 +53,14 @@
   margin: 1em;
 }
 
+.link__button {
+  border-radius: 25%;
+}
+
+.btn:hover {
+  color: green;
+}
+
 @media (max-width: 1200px) {
   .project__card {
     flex-basis: 85%;
