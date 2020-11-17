@@ -5,7 +5,7 @@ const myProjects = [
     index: uuid(),
     image: "https://i.imgur.com/yoc4qE2.png",
     title: "Budget Manager (Android)",
-    text: "The mobile version of another app I've made with the same concept. Manage a budget, add expenses and easily edit/delete. Values are always stored so you'll see the numbers exactly as you expect them at all times.",
+    text: "A mobile budget management application, developed through React Native. Manage a yearly budget, set and delete expenses. Available through Expo client, check repository to learn more.",
     repolink: "https://github.com/bragerosberg/budgetManagerNative",
     // website: "https://github.com/bragerosberg/budgetManagerNative",
     topics: "React, React Native, Expo"
@@ -14,7 +14,7 @@ const myProjects = [
     index: uuid(),
     image: "https://i.imgur.com/zwaYrQ1.jpg",
     title: "Day Organizer",
-    text: "Adding two useful parts that greatly fits together, a board of tasks where you may write anything you'd like, while having a 5-day forecast at the top of the page. Making it easy to prepare based on the weather (Oslo).",
+    text: "A board to write up to-do tasks, with the upper part of the application displaying a weather-forecast for the upcoming 5 days.",
     repolink: "https://github.com/bragerosberg/DayOrganizer",
     website: "https://organizeyourday.herokuapp.com/",
     topics: "React, GraphQL, Apollo, node.js, Express JS"
@@ -23,7 +23,7 @@ const myProjects = [
     index: uuid(),
     image: "https://i.imgur.com/o8ogcY6.png",
     title: "Hackday Project (24 hours)",
-    text: "An assignment I was given during my bootcamp, create a product of your choice, consisting of a frontend and-backend. Three different APIs were used, a MVP-project",
+    text: "Challenge given during my coding bootcamp. A project of my choice, consisting of a frontend and backend. Usage of different APIs, scaled to be a MVP-project",
     repolink: "https://github.com/bragerosberg/Hackday",
     // website: "https://github.com/bragerosberg/Hackday",
     topics: "React, Express JS, Open APIs"
@@ -32,7 +32,7 @@ const myProjects = [
     index: uuid(),
     image: "https://i.imgur.com/QxPaWdC.png",
     title: "Graduation Project (Android app) ",
-    text: "My mob was assigned to create a project through 2 sprints, using SCRUM preperation. App is a voluntary platform where users and organisations can interact and add events. ",
+    text: "A mobile app that connects volunteers with organisations that need them. Built by my mob during bootcamp over a 2-tweek SCRUM sprint.",
     repolink: "https://github.com/jopemoma/Graduation-Project",
     // website: "https://github.com/jopemoma/Graduation-Project",
     topics: "React, React Native, Express, MongoDB, Mongoose, Expo"
@@ -41,7 +41,7 @@ const myProjects = [
     index: uuid(),
     image: "https://i.imgur.com/WVak6hX.png",
     title: "Budget Manager",
-    text: "First release of this product (android version is the second). Developed for full responsiveness on web. Manage a budget, add expenses and easily edit/delete. Values are always stored so you'll see the numbers exactly as you expect them at all times.",
+    text: "A management tool for budgets, enter yearly sum, fill in expenses through months, and get an overview. Feel free to experiment with it on the website.",
     repolink: "https://github.com/bragerosberg/BudgetManager",
     website: "https://simplebudgetmanager.herokuapp.com/",
     topics: "React, Express JS"
