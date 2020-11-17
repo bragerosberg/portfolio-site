@@ -61,6 +61,10 @@
   color: green;
 }
 
+.card-text {
+  padding: 5px;
+}
+
 @media (max-width: 1200px) {
   .project__card {
     flex-basis: 85%;
