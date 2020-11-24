@@ -20,7 +20,9 @@
 .homepage__wrapper {
   margin: 5% 0 3% 0;
   display: flex;
+  left: 85px;
   justify-content: center;
+  position: relative;
 }
 
 
@@ -63,6 +65,20 @@
 .contact__hotkey {
   display: none;
 }
+
+.homepage__workStatus__wrapper {
+  background-color: teal;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: 750;
+}
+
+.homepage__workStatus {
+  margin: .3em;
+}
+
+
 
 @media (max-width: 400px) {
   .homepage__location {
