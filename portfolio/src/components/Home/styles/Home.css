@@ -1,7 +1,7 @@
 @import "../../../styles/animations.css";
  
-.tech__logos {  
-  animation: 1s ease-out 0s 1 slideInFromLeft;
+.tech__logos {
+  animation: 2.5s slideInFromLeft;
 }
 
 .tech__logos img {
@@ -47,7 +47,7 @@
 
 .footer__author {
   color: white;
-  animation: 1s ease-out 0s 1 fadeInUp;
+  animation: 2s ease-out 0s 1 fadeInUp;
 }
 
 .homepage__contact {

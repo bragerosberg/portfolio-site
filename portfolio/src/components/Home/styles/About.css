@@ -6,6 +6,7 @@
 }
 
 .about__text {
+  animation: 2.5s fadeIn;
   color: #2368a2;
   font-weight: 650;
   line-height: 4vh;
