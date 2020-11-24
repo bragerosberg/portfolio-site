@@ -14,7 +14,7 @@ class Home extends React.Component {
         <img className="portrait" src={portrait}  alt="portrait"/>
         <div className="homepage__info__wrapper">
           <div className="homepage__workStatus__wrapper">
-            <p className="homepage__workStatus">Open for work </p>
+            <p className="homepage__workStatus">#OpenToWork </p>
             <p className="homepage__workStatus">| FS | FE | BE |</p>
           </div>
           <h1 className="homepage__name">Brage Røsberg</h1>
