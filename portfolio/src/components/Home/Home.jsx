@@ -5,7 +5,6 @@ import portrait from "../../assets/portrait.png";
 import About from './About'
 import Techstack from './Techstack';
 
-
 class Home extends React.Component {
   render () {
     return (

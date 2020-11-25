@@ -3,11 +3,10 @@ import React from 'react';
 import './styles/contact.css';
 import pb from '../../assets/pb.png';
 
-
 const Contact = () => {
 
   return (
-    <>
+    <article>
     <div className="contact">
       <div className="contact__wrapper">
         <article className="contact__information">
@@ -22,7 +21,7 @@ const Contact = () => {
         </section>
       </div>
     </div>
-    </>
+    </article>
   )
 }
 

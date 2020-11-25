@@ -23,7 +23,7 @@ class Project extends React.Component {
             </Card>
           ))}
         </section>
-
+        
       </main>
     )
   }
