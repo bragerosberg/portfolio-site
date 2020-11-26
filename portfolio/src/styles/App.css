@@ -1,3 +1,6 @@
+#root {
+  overflow-x: hidden;
+}
 .navbar__routes,
 .footer__links {
   background-color: #1a4971;
@@ -20,6 +23,7 @@
 .footer__links p {
   padding: 1em;
 }
+
 .navbar__routes a,
 .navbar__routes a:hover,
 .footer__links a,
