@@ -30,6 +30,7 @@ Like mention above, I changed from the "BrowserRouter" I had in my [hackday][hac
 The way I managed to bypass and fix this problem, was by changing to the HashRouter - which in a better way renders in this instance, by using the hash part of the URL to sync it properly. 
 
 ## Design
+WIP, working on illustrations. 
 
 ## Full Description 
 This portfolio is consisting of all information related to me as a developer, prior experience, strengths, previous projects, contact information and continuously being updated to contain the most up-to-date news. 
