@@ -3,6 +3,15 @@ const { uuid } = require('uuidv4');
 const myProjects = [
   {
     index: uuid(),
+    image: "https://i.imgur.com/QxPaWdC.png",
+    title: "Graduation Project (Android app) ",
+    text: "A mobile app that connects volunteers with organisations that need them. Built by my mob during bootcamp over a 2-week SCRUM sprint.",
+    repolink: "https://github.com/jopemoma/Graduation-Project",
+    // website: "https://github.com/jopemoma/Graduation-Project",
+    topics: "React, React Native, Express, MongoDB, Mongoose, Expo"
+  },
+  {
+    index: uuid(),
     image: "https://i.imgur.com/yoc4qE2.png",
     title: "Budget Manager (Android)",
     text: "A mobile budget management application, developed through React Native. Manage a yearly budget, set and delete expenses. Available through Expo client, check repository to learn more.",
@@ -27,15 +36,6 @@ const myProjects = [
     repolink: "https://github.com/bragerosberg/Hackday",
     // website: "https://github.com/bragerosberg/Hackday",
     topics: "React, Express JS, Open APIs"
-  },
-  {
-    index: uuid(),
-    image: "https://i.imgur.com/QxPaWdC.png",
-    title: "Graduation Project (Android app) ",
-    text: "A mobile app that connects volunteers with organisations that need them. Built by my mob during bootcamp over a 2-tweek SCRUM sprint.",
-    repolink: "https://github.com/jopemoma/Graduation-Project",
-    // website: "https://github.com/jopemoma/Graduation-Project",
-    topics: "React, React Native, Express, MongoDB, Mongoose, Expo"
   },
   {
     index: uuid(),
