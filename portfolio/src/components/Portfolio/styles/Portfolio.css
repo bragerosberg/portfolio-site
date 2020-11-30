@@ -20,7 +20,9 @@
   color: #2368a2;
 }
 
-.portfolio__experience__card {
+.portfolio__experience__card,
+.portfolio__education,
+.portfolio__work {
   background-color: #eff8ff;
   border: solid 2px #aad4f5;
   padding: 1em;
@@ -43,12 +45,6 @@
 .portfolio__wrapper {
   display: flex;
   justify-content: center;
-}
-
-.portfolio__education,
-.portfolio__work {
-  flex-basis: 35%;
-  margin: 4em;
 }
 
 .portfolio__page {
