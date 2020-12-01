@@ -30,7 +30,19 @@ Like mention above, I changed from the "BrowserRouter" I had in my [hackday][hac
 The way I managed to bypass and fix this problem, was by changing to the HashRouter - which in a better way renders in this instance, by using the hash part of the URL to sync it properly. 
 
 ## Design
-WIP, working on illustrations. 
+### Responsive Design 
+<div float="left">
+ <img src="https://i.gyazo.com/a735ef68f29fe3727a964c31fb2bb8ee.gif" width="240px" />
+ <img src="https://i.imgur.com/mdPFyAJ.png" height="450px" />
+</div>
+
+### Color Scheme
+My goal for the user viewing my portfolio is to serve a professional expression, combined with a notch of colors to lighten the seriousity, making it a more energetic and pleasing impression. The usage of blue is to increase the scale of communication, as through the study and philisophy through colors this is proven to be suited. Different tones and grades of blue, combined with complementary greytones are used for showcasing different importance and focusing on setting the UX to be pleasent and easy to understand. See the color palette that was actively used during the implementation process below.
+
+<p align="center">
+ <img src="https://i.imgur.com/cxnBUWM.png" width="800px" />
+</p>
+                      
 
 ## Full Description 
 This portfolio is consisting of all information related to me as a developer, prior experience, strengths, previous projects, contact information and continuously being updated to contain the most up-to-date news. 
