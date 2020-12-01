@@ -1,11 +1,21 @@
 # Portfolio Site
+https://bragerosberg.com/
+
 A personal page containing the most updated information about my career, projects, education, work-experience, knowledge, contact information and more.
 Visit it online on my domain https://bragerosberg.com/ or do the following steps to test locally.
+## Test Locally
 - Clone this repository at your desired location
 - cd to ```portfolio``` folder
 - Install dependencies and start script, ``` npm i "&&" npm start ```
 
-## Contents
+# Article
+- [Contents of Portfolio](#contents)
+- [Tech](#tech-usage-and-reasoning)
+- [Challenges during project, and how I faced them](#challenges-faced)
+- [Design: Illustrations and Color](#design)
+- [An in-depth description about the content of the project](#full-description)
+
+# Contents
 * Homepage
 * Portfolio
 * Projects
@@ -13,7 +23,7 @@ Visit it online on my domain https://bragerosberg.com/ or do the following steps
 
 Components like "portfolio" and "projects" will see updates, whenever there is a new event.
 
-## Tech Usage and Reasoning
+# Tech Usage and Reasoning
 Before starting the implementation of this portfolio website, I knew I wanted to have a MPA - having the setup and information clearly divided into section making it as clarifying as possible. During my previous 24-hour [hackday][hackday] where I created a MVP-project, utilizing React and React-Routers BrowserRouter to fullfill the wish of making a MPA. Knowing I had created a great fundamental barebones. 
 
 The way I utilized React was with HashRouter (reasoning further down), linking to different parent components (e.g. home) each containing smaller, child-components (e.g. tech-stack, about) for clarification, readability, maintainability and scalability reasons. 
@@ -21,7 +31,7 @@ The way I utilized React was with HashRouter (reasoning further down), linking t
 ### Hosting - gh-pages + domain
 At the top of this README you can see a constantly live and hosted version of this portfolio. This was done by integrating GitHub pages into the project, configuring gh-pages to custom domain, where I added my personal, and on my domain-supplier (NameCheap) configured it to be able to render an external source. 
 
-## Challenges Faced
+# Challenges Faced
 Since I was building upon a previous MVP-project of mine, I had an advantage with a great boost in the beginning thanks to my [hackday][hackday] implementation earlier. However, if you have a project with no challengs - you probably have not realised them. Here was my main one, and how I faced it. 
 
 ### HashRouter vs BrowserRouter
@@ -29,22 +39,22 @@ Like mention above, I changed from the "BrowserRouter" I had in my [hackday][hac
 
 The way I managed to bypass and fix this problem, was by changing to the HashRouter - which in a better way renders in this instance, by using the hash part of the URL to sync it properly. 
 
-## Design
-### Responsive Design 
-<div float="left">
- <img src="https://i.gyazo.com/a735ef68f29fe3727a964c31fb2bb8ee.gif" width="240px" />
- <img src="https://i.imgur.com/mdPFyAJ.png" height="450px" />
-</div>
-
+# Design
 ### Color Scheme
 My goal for the user viewing my portfolio is to serve a professional expression, combined with a notch of colors to lighten the seriousity, making it a more energetic and pleasing impression. The usage of blue is to increase the scale of communication, as through the study and philisophy through colors this is proven to be suited. Different tones and grades of blue, combined with complementary greytones are used for showcasing different importance and focusing on setting the UX to be pleasent and easy to understand. See the color palette that was actively used during the implementation process below.
 
 <p align="center">
  <img src="https://i.imgur.com/cxnBUWM.png" width="800px" />
 </p>
-                      
+       
+### Responsive Design 
+<p align="center">
+ <img src="https://i.gyazo.com/a735ef68f29fe3727a964c31fb2bb8ee.gif" width="350px" />
+ <img src="https://i.imgur.com/mdPFyAJ.png" height="600px" />
+</p>
 
-## Full Description 
+
+# Full Description 
 This portfolio is consisting of all information related to me as a developer, prior experience, strengths, previous projects, contact information and continuously being updated to contain the most up-to-date news. 
 
 ### Homepage - landing page 
