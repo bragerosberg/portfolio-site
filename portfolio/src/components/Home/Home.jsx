@@ -10,7 +10,7 @@ class Home extends React.Component {
     return (
      <main>
       <section className="homepage__wrapper">
-        <img className="portrait" src={portrait}  alt="portrait"/>
+        <img className="portrait" src={portrait}  alt="portrait brage røsberg bragerøsberg bragerosberg"/>
         <div className="homepage__info__wrapper">
           <div className="homepage__workStatus__wrapper">
             <p className="homepage__workStatus">#OpenToWork </p>
