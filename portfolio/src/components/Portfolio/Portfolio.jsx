@@ -76,7 +76,7 @@ class Portfolio extends React.Component {
       <h1 className="portfolio__wrapper--title">Acknowledgement</h1>
       <section className="portfolio__wrapper">
         <article className="portfolio__education">
-          <h2 className="portfolio__experience--category">Education</h2>
+          <h2 className="portfolio__experience--category">Brage Røsberg</h2>
           {acknowledgement.map(e =>
           <div key={e.key}>
             <p>{e.description}</p>
