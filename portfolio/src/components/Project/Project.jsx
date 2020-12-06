@@ -12,7 +12,7 @@ class Project extends React.Component {
         <section className="project__wrapper">
           {myProjects.map(project => (
             <Card key={project.index} style={{ width: "18rem" }} className="project__card">
-              <Card.Img variant="top" className="project__image" src={project.image} />
+              <Card.Img variant="top" className="project__image" src={project.image} alt={project.alt}/>
               <Card.Title style={{textAlign: "center"}}>{project.title}</Card.Title>
               <Card.Text>{project.text}</Card.Text>
               <Card.Footer>Topics: {project.topics}</Card.Footer>
