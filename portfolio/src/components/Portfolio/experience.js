@@ -59,14 +59,23 @@ const education = [
   { key: uuid(), date: 'August 2018 - June 2019', description: 'Computer Science Study at The University of Tromsø'},
   { key: uuid(), date: 'August 2019 - June 2020', description: 'Social Science Study at The Norwegian School of Teology (MF)'},
   { key: uuid(), date: 'April 2020 - July 2020', description: 'School of Applied Technology bootcamp on FullStack JavaScript Development'},
-  
-]
+];
+
 const workExperience = [
   { key: uuid(), date: 'May 2019 - July 2019', description: 'Store Assistant at Eurospar Kvaløysletta'},
   { key: uuid(), date: 'December 2019 - April 2020', description: 'Store Assistant at Spar Ensjø'},
-
 ];
 
+const acknowledgement = [
+  { 
+    key: uuid(),
+    name: 'Finansavisen',
+    description: 'Featured at the front page of Norwegian business newspaper regarding my career',
+    link: 'https://finansavisen.no/nyheter/arbeidsliv/2020/05/05/7524332/hoppet-av-it-studiene-til-fordel-for-bootcamp-i-koding',
+    img: 'https://i.imgur.com/MIaDgqQ.png'
+  },
+]
+
 module.exports = {
-  frontEnd, backEnd, languages, principles, tools, education, workExperience
+  frontEnd, backEnd, languages, principles, tools, education, workExperience, acknowledgement
 }

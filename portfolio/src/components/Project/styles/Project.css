@@ -55,6 +55,7 @@
 
 .link__button {
   border-radius: 25%;
+  margin-bottom: 1em;
 }
 
 .btn:hover {

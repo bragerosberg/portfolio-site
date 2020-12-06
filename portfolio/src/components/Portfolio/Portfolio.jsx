@@ -8,7 +8,8 @@ import {
   principles,
   tools,
   education,
-  workExperience
+  workExperience,
+  acknowledgement,
 } from './experience';
 
 class Portfolio extends React.Component {
@@ -70,7 +71,22 @@ class Portfolio extends React.Component {
           <h2 className="portfolio__experience--category">Jobs</h2>
           {workExperience.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
         </article>
+
       </section>
+      <h1 className="portfolio__wrapper--title">Acknowledgement</h1>
+      <section className="portfolio__wrapper">
+        <article className="portfolio__education">
+          <h2 className="portfolio__experience--category">Education</h2>
+          {acknowledgement.map(e =>
+          <div key={e.key}>
+            <p>{e.description}</p>
+            {(e.link ? <a className="btn btn-light link__button" href={e.link} target="_blank" rel="noopener noreferrer">Read More</a> : null)} 
+            <img src={e.img} alt={e.name} />
+          </div>)
+          }
+        </article>
+      </section>
+
      </main>
     )
   }

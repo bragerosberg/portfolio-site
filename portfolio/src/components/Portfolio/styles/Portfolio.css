@@ -85,7 +85,17 @@
   width: 50px;
 }
 
+@media (max-width: 1500px) {
+  .portfolio__education img {
+    width: 1000px;
+  }
+}
 
+@media (max-width: 1300px) {
+  .portfolio__education img {
+    width: 800px;
+  }
+}
 
 @media (max-width: 1200px) {
   .portfolio__experience,
@@ -95,14 +105,25 @@
 
   .portfolio__education,
   .portfolio__work {
-    flex-basis: 85%;
+    flex-basis: 70%;
   }
 
   .portfolio__experience {
     margin: 0;
   }
-
   
+}
+
+@media (max-width: 1000px) {
+  .portfolio__education img {
+    width: 600px;
+  }
+}
+
+@media (max-width: 700px) {
+  .portfolio__education img {
+    width: 400px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -128,5 +149,9 @@
   .portfolio__experience,
   .portfolio__wrapper {
     flex-direction: column;
+  }
+
+  .portfolio__education img {
+    width: 300px;
   }
 }
