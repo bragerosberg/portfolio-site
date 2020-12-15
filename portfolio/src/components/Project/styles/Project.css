@@ -77,10 +77,11 @@
     flex-direction: column;
     align-items: center;
   }
-
+ 
   .project__card {
     margin: 1em;
   }
+
   .project__image {
     height: 300px;
   }
