@@ -1,9 +1,13 @@
 #root {
   overflow-x: hidden;
 }
+
+.footer__links{
+  background-color: #cfd4da;
+}
+
 .navbar__routes,
 .footer__links {
-  background-color: #1a4971;
   padding: 1em;
 }
 
@@ -12,28 +16,24 @@
   display: flex;
   flex-wrap: wrap;
  
-  justify-content: space-around;
+  justify-content: center;
   list-style-type: none;
   text-transform: uppercase;
   margin: 0;
 }
 
 .navbar__routes a,
-.footer__links a,
-.footer__links p {
-  padding: 1em;
-}
-
-.navbar__routes a,
 .navbar__routes a:hover,
 .footer__links a,
-.footer__links a:hover {
+.footer__links a:hover,
+.footer__links p {
   text-decoration: none;
-  font-weight: 800;
+  font-weight: 650;
+  padding: 5em;
 }
 .navbar__routes a,
 .footer__links a{
-  color: #eff8ff;
+  color: #12283a;
 }
 
 .navbar__routes a:hover,
@@ -106,10 +106,26 @@ body::-webkit-scrollbar-thumb {
     font-size: 1em;
   }
 
+  .navbar__routes ul,
+  .footer__links ul {
+    justify-content: space-between; 
+  }
+
+  .navbar__routes a,
+  .navbar__routes a:hover,
+  .footer__links a,
+  .footer__links a:hover {
+    font-weight: 800;
+    padding: 1em;
+  }
+
+
   ul {
     padding: 0;
   }
 }
+
+
 
 @media (max-width: 330px) {
   .navbar__routes,
