@@ -59,6 +59,7 @@
   .contact__wrapper {
     justify-content: space-evenly;
     flex-direction: column;
+    margin-top: 35%;
   }
 
   .contact__portrait {
@@ -88,6 +89,9 @@
   .contact__image {
     width: 360px;
     height: 269px;
+  }
+  .contact__icons {
+    flex-direction: row;
   }
 }
 
