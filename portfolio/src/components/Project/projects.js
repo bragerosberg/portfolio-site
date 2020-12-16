@@ -62,7 +62,7 @@ const myProjects = [
   },
   {
     index: uuid(),
-    image: "https://i.imgur.com/ttj5XsP.png",
+    image: "https://i.imgur.com/hVuQOCq.png",
     title: "React Todo",
     text: "A todo application made with REACT, full responsive across platforms",
     repolink: "https://github.com/bragerosberg/ReactTodo",
