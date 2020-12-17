@@ -13,6 +13,16 @@ const myProjects = [
   },
   {
     index: uuid(),
+    image: "https://i.imgur.com/WVak6hX.png",
+    title: "Budget Manager",
+    text: "A management tool for budgets, enter yearly sum, fill in expenses through months, and get an overview. Feel free to experiment with it on the website.",
+    repolink: "https://github.com/bragerosberg/BudgetManager",
+    website: "https://simplebudgetmanager.herokuapp.com/",
+    topics: "React, Express JS",
+    alt: "budgetmanager webbudget budget budgettools react expressjs bragerosberg brage røsberg"
+  },
+  {
+    index: uuid(),
     image: "https://i.imgur.com/yoc4qE2.png",
     title: "Budget Manager (Android)",
     text: "A mobile budget management application, developed through React Native. Manage a yearly budget, set and delete expenses. Available through Expo client, check repository to learn more.",
@@ -39,16 +49,6 @@ const myProjects = [
     repolink: "https://github.com/bragerosberg/Hackday",
     topics: "React, Express JS, Open APIs",
     alt: "hackday salt </salt> bootcamp 24project react express API bragerosberg brage røsberg"
-  },
-  {
-    index: uuid(),
-    image: "https://i.imgur.com/WVak6hX.png",
-    title: "Budget Manager",
-    text: "A management tool for budgets, enter yearly sum, fill in expenses through months, and get an overview. Feel free to experiment with it on the website.",
-    repolink: "https://github.com/bragerosberg/BudgetManager",
-    website: "https://simplebudgetmanager.herokuapp.com/",
-    topics: "React, Express JS",
-    alt: "budgetmanager webbudget budget budgettools react expressjs bragerosberg brage røsberg"
   },
   {
     index: uuid(),
