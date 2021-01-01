@@ -30,7 +30,7 @@
 }
 
 .contact__information {
-  animation: 2.5s slideInFromLeft;
+  animation: 2.5s fadeIn;
   padding: 5em;
 }
 

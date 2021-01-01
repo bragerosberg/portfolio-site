@@ -61,7 +61,7 @@ class Portfolio extends React.Component {
         </div>
         
       </section>
-      <h1 className="portfolio__wrapper--title">CV</h1>
+      <h1 className="portfolio__wrapper--title">Experience</h1>
       <section className="portfolio__wrapper">
         <article className="portfolio__education">
           <h2 className="portfolio__experience--category">Education</h2>
@@ -73,7 +73,7 @@ class Portfolio extends React.Component {
         </article>
 
       </section>
-      <h1 className="portfolio__wrapper--title">Acknowledgement</h1>
+      <h1 className="portfolio__wrapper--title">Acknowledgements</h1>
       <section className="portfolio__wrapper">
         <article className="portfolio__education">
           <h2 className="portfolio__experience--category">Brage Røsberg</h2>

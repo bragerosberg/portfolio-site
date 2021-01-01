@@ -21,6 +21,7 @@
 .project__wrapper {
   animation-delay: 2s;
   animation: 1s ease-out 0s 1 fadeInUp;
+  font-family: 'Titillium Web', sans-serif;
   margin-top: 1%;
   display: flex;
   flex-wrap: wrap;
@@ -51,6 +52,8 @@
   text-align: center;
   color: #63a2d8;
   margin: 1em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 800;
 }
 
 .link__button {

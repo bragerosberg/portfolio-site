@@ -8,13 +8,10 @@
   animation: 2s ease-in 0s 1 fadeIn;
 }
 
-.homepage__title {
-  color: #2368a2;
-}
-
 .homepage__location {
   color: #12283a;
   font-weight: 800;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .homepage__wrapper {
@@ -26,10 +23,14 @@
 
 
 .homepage__title {
+  color: #2368a2;
   font-size: 2em;
+  font-family: 'Alegreya', serif;
 }
 
 .homepage__name {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 800;
   font-size: 3em;
   color: #3183c8;
 }
@@ -40,6 +41,7 @@
   height: 300px;
   border-radius: 150px;
   margin-right: 2em;
+  filter: drop-shadow(15px -6px 5px #88888f);
 }
 
 .portrait img {

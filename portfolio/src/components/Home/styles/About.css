@@ -8,12 +8,13 @@
 .about__text {
   animation: 2.5s fadeIn;
   color: #2368a2;
-  font-weight: 650;
+  font-weight: 800;
   line-height: 4vh;
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-align: center;
   margin: 0 auto;
   width: 50%;
+  font-family: 'Alegreya', serif; 
 }
 
 @media (max-width: 1700px) {
