@@ -20,7 +20,7 @@
 
 .project__wrapper {
   animation-delay: 2s;
-  /* animation: 1s ease-out 0s 1 fadeInUp; */
+  animation: 1s ease-out 0s 1 fadeInUp;
   font-family: 'Titillium Web', sans-serif;
   margin-top: 1%;
   display: flex;
