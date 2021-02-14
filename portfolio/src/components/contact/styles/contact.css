@@ -22,7 +22,7 @@
 
 .contact__icons {
   flex-direction: column;
-  animation: 2s fadeIn;
+  animation: 1s fadeIn;
 }
 
 .contact__icons img {
@@ -30,7 +30,7 @@
 }
 
 .contact__information {
-  animation: 2.5s fadeIn;
+  animation: .5s fadeIn;
   padding: 5em;
 }
 
