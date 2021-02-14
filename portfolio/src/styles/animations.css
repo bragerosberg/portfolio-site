@@ -36,7 +36,7 @@
 
 @keyframes slightSlideUp{
   0% {
-    transform: translateY(-1%);
+    transform: translateY(-.2%);
   }
   100% {
     transform: translateY(0);
