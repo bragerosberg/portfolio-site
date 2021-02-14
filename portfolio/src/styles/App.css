@@ -23,7 +23,6 @@ font-family: 'Titillium Web', sans-serif; */
 
 .navbar__routes,
 .footer__links {
-  animation: 2s slideInFromTop;
   padding: 1em;
 }
 
