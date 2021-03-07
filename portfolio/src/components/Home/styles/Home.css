@@ -1,13 +1,3 @@
-@import "../../../styles/animations.css";
- 
-.tech__logos {
-  animation: 2.5s slideInFromLeft;
-}
-
-.tech__logos img {
-  animation: 2s ease-in 0s 1 fadeIn;
-}
-
 .homepage__location {
   color: #12283a;
   font-weight: 800;
@@ -50,7 +40,6 @@
 
 .footer__author {
   color: white;
-  animation: 2s ease-out 0s 1 fadeInUp;
 }
 
 .homepage__contact {

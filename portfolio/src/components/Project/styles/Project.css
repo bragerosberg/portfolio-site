@@ -1,5 +1,3 @@
-@import "../../../styles/animations.css";
-
 .project__wrapper,
 .project__card {
   display: flex;
@@ -18,9 +16,20 @@
   box-shadow: 7px 7px 5px 0px  rgba(46, 45, 44, 0.452);
 }
 
+.project__text {
+  font-size: 15pt;
+}
+
+.project__topic {
+  color: orange;
+}
+
+.project__title {
+  text-align: center;
+  font-size: 1.4em;
+}
+
 .project__wrapper {
-  animation-delay: 2s;
-  animation: 1s ease-out 0s 1 fadeInUp;
   font-family: 'Titillium Web', sans-serif;
   margin-top: 1%;
   display: flex;
