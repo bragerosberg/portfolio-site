@@ -16,6 +16,19 @@
   box-shadow: 7px 7px 5px 0px  rgba(46, 45, 44, 0.452);
 }
 
+.project__text {
+  font-size: 15pt;
+}
+
+.project__topic {
+  color: orange;
+}
+
+.project__title {
+  text-align: center;
+  font-size: 1.4em;
+}
+
 .project__wrapper {
   font-family: 'Titillium Web', sans-serif;
   margin-top: 1%;
