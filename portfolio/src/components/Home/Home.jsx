@@ -11,8 +11,8 @@ const Home = () =>
       <img className="portrait" src={portrait}  alt="portrait brage røsberg bragerøsberg bragerosberg"/>
       <div className="homepage__info__wrapper">
         <h1 className="homepage__name">Brage Røsberg</h1>
-        <h1 className="homepage__title">Full Stack JavaScript Developer</h1>
-        <p className="homepage__location">Oslo, Norway</p>
+        <h1 className="homepage__title">Full Stack Developer</h1>
+        <p className="homepage__location">Currently employed at Dagens (Oslo, Norway)</p>
       </div>
     </section>
     <About />
