@@ -56,19 +56,6 @@
   display: none;
 }
 
-.homepage__workStatus__wrapper {
-  background-color: #aad4f5;
-  display: flex;
-  justify-content: space-evenly;
-  color: white;
-  font-weight: 750;
-}
-
-.homepage__workStatus {
-  margin: .3em;
-}
-
-
 
 @media (max-width: 500px) {
   .homepage__location {

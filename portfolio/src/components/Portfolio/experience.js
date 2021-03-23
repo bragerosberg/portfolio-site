@@ -12,6 +12,7 @@ const frontEnd = [
 
 const backEnd = [
   { key: uuid(), title: 'Node.js', icon: "logos:nodejs"},
+  { key: uuid(), title: 'Sanity', icon: "ri:team-fill"},
   { key: uuid(), title: 'Express', icon: "logos:express"},
   { key: uuid(), title: 'MongoDB', icon: "logos:mongodb"},
   { key: uuid(), title: 'mongoose', icon: "la:medium-m"},
@@ -55,15 +56,18 @@ const tools = [
 ];
 
 const education = [
+  { key: uuid(), date: 'August 2020 - December 2020', description: 'Practical Spanish at University of Oslo (10 ETCS)'},
+  { key: uuid(), date: 'April 2020 - July 2020', description: 'SALT bootcamp, FullStack JavaScript Development'},
+  { key: uuid(), date: 'August 2019 - June 2020', description: 'Social Science Study at MF (60 ETCS)'},
+  { key: uuid(), date: 'August 2018 - June 2019', description: 'Computer Science Study at The University of Tromsø (40 ETCS)'},
   { key: uuid(), date: 'June 2018', description: 'Graduated High School'},
-  { key: uuid(), date: 'August 2018 - June 2019', description: 'Computer Science Study at The University of Tromsø'},
-  { key: uuid(), date: 'August 2019 - June 2020', description: 'Social Science Study at The Norwegian School of Teology (MF)'},
-  { key: uuid(), date: 'April 2020 - July 2020', description: 'School of Applied Technology bootcamp on FullStack JavaScript Development'},
 ];
 
 const workExperience = [
-  { key: uuid(), date: 'May 2019 - July 2019', description: 'Store Assistant at Eurospar Kvaløysletta'},
+  { key: uuid(), date: 'January 2021 - present', description: 'Junior Developer at Dagens'},
+  { key: uuid(), date: 'April 2020 - December 2020', description: 'FullStack Developer at SALT'},
   { key: uuid(), date: 'December 2019 - April 2020', description: 'Store Assistant at Spar Ensjø'},
+  { key: uuid(), date: 'May 2019 - July 2019', description: 'Store Assistant at Eurospar Kvaløysletta'},
 ];
 
 const acknowledgement = [

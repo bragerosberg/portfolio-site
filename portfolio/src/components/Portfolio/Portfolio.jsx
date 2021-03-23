@@ -19,15 +19,15 @@ const Portfolio = () => (
     <h1 className="portfolio__experience--title">Knowledge</h1>
     <section className="portfolio__experience">
 
-      <PortfolioCard portfolioList={frontEnd} />
+      <PortfolioCard portfolioList={frontEnd} name={'Frontend'} />
 
-      <PortfolioCard portfolioList={backEnd} />
+      <PortfolioCard portfolioList={backEnd} name={'Backend'} />
 
-      <PortfolioCard portfolioList={languages} />
+      <PortfolioCard portfolioList={languages} name={'Languages'} />
 
-      <PortfolioCard portfolioList={tools} />
+      <PortfolioCard portfolioList={tools} name={'Tools'} />
 
-      <PortfolioCard portfolioList={principles} />
+      <PortfolioCard portfolioList={principles} name={'Principles'} />
       
     </section>
  
