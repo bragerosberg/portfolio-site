@@ -26,12 +26,22 @@
   padding: 1em;
   margin: 1em;
   text-align: center;
+}
+
+.portfolio__experience__card {
   flex-basis: 30%;
 }
 
+.portfolio__education,
+.porfolio__work {
+  flex-basis: 50%;
+}
+
+
+
 .portfolio__experience--title,
 .portfolio__wrapper--title {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 800;
   text-align: center;
   color: #63a2d8;
@@ -97,7 +107,6 @@
   .portfolio__experience {
     margin: 0;
   }
-  
 }
 
 @media (max-width: 1000px) {
@@ -109,6 +118,10 @@
 @media (max-width: 700px) {
   .portfolio__education img {
     width: 400px;
+  }
+  .portfolio__work,
+  .portfolio__education {
+    flex-basis: 30%;
   }
 }
 
