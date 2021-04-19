@@ -34,15 +34,16 @@ const Portfolio = () => (
     <h1 className="portfolio__wrapper--title">Experience</h1>
     <section className="portfolio__wrapper">
 
+      <article className="portfolio__work">
+        <h2 className="portfolio__experience--category">Jobs</h2>
+        {workExperience.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
+      </article>
+
       <article className="portfolio__education">
         <h2 className="portfolio__experience--category">Education</h2>
         {education.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
       </article>
 
-      <article className="portfolio__work">
-        <h2 className="portfolio__experience--category">Jobs</h2>
-        {workExperience.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
-      </article>
 
     </section>
 
@@ -50,11 +51,10 @@ const Portfolio = () => (
     <section className="portfolio__wrapper">
 
       <article className="portfolio__education">
-        <h2 className="portfolio__experience--category">Brage Røsberg</h2>
         {acknowledgement.map(e =>
           <div key={e.key}>
             <p>{e.description}</p>
-            {(e.link ? <a className="btn btn-light link__button" href={e.link} target="_blank" rel="noopener noreferrer">Read More</a> : null)} 
+            {(e.link ? <a className="btn btn-light link__button" href={e.link} target="_blank" rel="noopener noreferrer">Read Article</a> : null)} 
             <img src={e.img} alt={e.name} />
           </div>)
         }
