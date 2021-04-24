@@ -2,10 +2,10 @@ const { uuid } = require('uuidv4');
 
 const frontEnd = [
   { key: uuid(), title: 'React', icon: "logos:react"},
+  { key: uuid(), title: 'Redux', icon: "logos:redux"},
   { key: uuid(), title: 'HTML', icon: "logos:html-5" },
   { key: uuid(), title: 'CSS', icon: "logos:css-3"},
   { key: uuid(), title: 'React Native', icon: "logos:react"},
-  { key: uuid(), title: 'Redux', icon: "logos:redux"},
   { key: uuid(), title: 'jQuery', icon: "cib:jquery"},
   { key: uuid(), title: 'Bootstrap', icon: "logos:bootstrap"},
 ];
@@ -26,8 +26,6 @@ const backEnd = [
 
 const languages = [
   { key: uuid(), title: 'JavaScript/ES6', icon: "logos:javascript"},
-  { key: uuid(), title: 'HTML5', icon: "logos:graphql"},
-  { key: uuid(), title: 'CSS3', icon: "logos:css-3"},
   { key: uuid(), title: 'Python', icon: "logos:python"},
   { key: uuid(), title: 'C', icon: "teenyicons:c-outline"},
   { key: uuid(), title: 'Norwegian', icon: "emojione:flag-for-norway"},
@@ -56,18 +54,17 @@ const tools = [
 ];
 
 const education = [
-  { key: uuid(), date: 'August 2020 - December 2020', description: 'Practical Spanish at University of Oslo (10 ETCS)'},
-  { key: uuid(), date: 'April 2020 - July 2020', description: 'SALT bootcamp, FullStack JavaScript Development'},
-  { key: uuid(), date: 'August 2019 - June 2020', description: 'Social Science Study at MF (60 ETCS)'},
-  { key: uuid(), date: 'August 2018 - June 2019', description: 'Computer Science Study at The University of Tromsø (40 ETCS)'},
-  { key: uuid(), date: 'June 2018', description: 'Graduated High School'},
+  { key: uuid(), date: 'Aug/20 - Dec/20', description: 'Practical Spanish at University of Oslo (10 ETCS)'},
+  { key: uuid(), date: 'Apr/20 - Jul/20', description: 'SALT bootcamp, FullStack JavaScript Development'},
+  { key: uuid(), date: 'Aug/19 - Jun/20', description: 'Social Science Study at MF (60 ETCS)'},
+  { key: uuid(), date: 'Aug/18 - Jun/19', description: 'Computer Science Study at The University of Tromsø (40 ETCS)'},
 ];
 
 const workExperience = [
-  { key: uuid(), date: 'January 2021 - present', description: 'Junior Developer at Dagens'},
-  { key: uuid(), date: 'April 2020 - December 2020', description: 'FullStack Developer at SALT'},
-  { key: uuid(), date: 'December 2019 - April 2020', description: 'Store Assistant at Spar Ensjø'},
-  { key: uuid(), date: 'May 2019 - July 2019', description: 'Store Assistant at Eurospar Kvaløysletta'},
+  { key: uuid(), date: 'Jan/21 - present', description: 'Junior Developer at Dagens'},
+  { key: uuid(), date: 'Apr/20 - Dec/20', description: 'FullStack Developer at SALT'},
+  { key: uuid(), date: 'Dec/19 - Apr/20', description: 'Store Assistant at Spar Ensjø'},
+  { key: uuid(), date: 'May/19 - Jul/19', description: 'Store Assistant at Eurospar Kvaløysletta'},
 ];
 
 const acknowledgement = [
