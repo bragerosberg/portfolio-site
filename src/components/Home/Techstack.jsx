@@ -1,15 +1,15 @@
 import React from 'react';
 import './styles/Techstack.css';
+import mainTech from '../../assets/mainTech';
 
 const Techstack = () => (
-  <article>
-    <section className="tech__logos">
-      <i className="fab fa-js"></i>
-      <i className="fab fa-react"></i>
-      <i className="fab fa-node"></i>
-      <i className="fab fa-html5"></i>
-      <i className="fab fa-css3"></i>
-    </section>
+  <article className="tech__wrapper">
+      {mainTech.map(({ logo, name }) => (
+        <section key={name} className="tech__logos">
+          <img src={logo} alt={name} />
+          <p className="tech__text">{name}</p>
+        </section>
+      ))}
   </article>
 )
 
