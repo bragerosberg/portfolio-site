@@ -41,14 +41,14 @@ const Portfolio = () => {
 
         <article className="portfolio__work">
           <h2 className="portfolio__experience--category">{t('portfolio:Jobs')}</h2>
-          {workExperience.map(({key, date, description}) => 
+          {workExperience.map(({ key, date, description }) => 
             <CV key={key} date={date} description={description} />
           )}
         </article>
 
         <article className="portfolio__education">
           <h2 className="portfolio__experience--category">{t('portfolio:Education')}</h2>
-          {education.map(({key, date, description}) => 
+          {education.map(({ key, date, description }) => 
             <CV key={key} date={date} description={description} />
           )}
         </article>
@@ -60,7 +60,7 @@ const Portfolio = () => {
       <section className="portfolio__wrapper">
 
         <article className="portfolio__education">
-          {acknowledgement.map(({key, description, link, img, name}) => <div key={key}>
+          {acknowledgement.map(({ key, description, link, img, name }) => <div key={key}>
             <p>{t(`portfolio:${description}`)}</p>
             {(link ? 
               <a 
