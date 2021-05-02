@@ -28,11 +28,11 @@ const Portfolio = () => {
 
         <PortfolioCard portfolioList={backEnd} name={'Backend'} />
 
-        <PortfolioCard portfolioList={languages} name={'Languages'} />
+        <PortfolioCard portfolioList={languages} name={t('portfolio:Languages')} />
 
-        <PortfolioCard portfolioList={tools} name={'Tools'} />
+        <PortfolioCard portfolioList={tools} name={t('portfolio:Tools')} />
 
-        <PortfolioCard portfolioList={principles} name={'Principles'} />
+        <PortfolioCard portfolioList={principles} name={t('portfolio:Principles')} />
 
       </section>
 
@@ -41,12 +41,16 @@ const Portfolio = () => {
 
         <article className="portfolio__work">
           <h2 className="portfolio__experience--category">{t('portfolio:Jobs')}</h2>
-          {workExperience.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
+          {workExperience.map(({key, date, description}) => 
+            <CV key={key} date={date} description={description} />
+          )}
         </article>
 
         <article className="portfolio__education">
           <h2 className="portfolio__experience--category">{t('portfolio:Education')}</h2>
-          {education.map(e => <CV key={e.key} date={e.date} description={e.description} />)}
+          {education.map(({key, date, description}) => 
+            <CV key={key} date={date} description={description} />
+          )}
         </article>
 
 
@@ -56,10 +60,20 @@ const Portfolio = () => {
       <section className="portfolio__wrapper">
 
         <article className="portfolio__education">
-          {acknowledgement.map(e => <div key={e.key}>
-            <p>{t(`portfolio:${e.description}`)}</p>
-            {(e.link ? <a className="btn btn-light link__button" href={e.link} target="_blank" rel="noopener noreferrer">Read Article</a> : null)}
-            <img src={e.img} alt={e.name} />
+          {acknowledgement.map(({key, description, link, img, name}) => <div key={key}>
+            <p>{t(`portfolio:${description}`)}</p>
+            {(link ? 
+              <a 
+                className="btn btn-light link__button"
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Read Article
+              </a> 
+              : null
+              )}
+            <img src={img} alt={name} />
           </div>)}
         </article>
 
