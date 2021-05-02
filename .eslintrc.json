@@ -4,8 +4,9 @@
         "es2020": true
     },
     "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
+        "airbnb",
+        "prettier",
+        "prettier/react"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -14,9 +15,7 @@
         "ecmaVersion": 11,
         "sourceType": "module"
     },
-    "plugins": [
-        "react"
-    ],
+     "plugins": ["react", "prettier", "import"],
     "rules": {
     }
 }
