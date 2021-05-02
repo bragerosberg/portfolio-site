@@ -54,24 +54,24 @@ const tools = [
 ];
 
 const education = [
-  { key: uuid(), date: 'Aug/20 - Dec/20', description: 'Practical Spanish at University of Oslo (10 ETCS)'},
-  { key: uuid(), date: 'Apr/20 - Jul/20', description: 'SALT bootcamp, FullStack JavaScript Development'},
-  { key: uuid(), date: 'Aug/19 - Jun/20', description: 'Social Science Study at MF (60 ETCS)'},
-  { key: uuid(), date: 'Aug/18 - Jun/19', description: 'Computer Science Study at The University of Tromsø (40 ETCS)'},
+  { key: uuid(), date: 'Aug/20 - Dec/20', description: 'PracticalSpanishUiO'},
+  { key: uuid(), date: 'Apr/20 - Jul/20', description: 'SALTBootcamp'},
+  { key: uuid(), date: 'Aug/19 - Jun/20', description: 'SocialScience'},
+  { key: uuid(), date: 'Aug/18 - Jun/19', description: 'ComputerScience'},
 ];
 
 const workExperience = [
-  { key: uuid(), date: 'Jan/21 - present', description: 'Junior Developer at Dagens'},
-  { key: uuid(), date: 'Apr/20 - Dec/20', description: 'FullStack Developer at SALT'},
-  { key: uuid(), date: 'Dec/19 - Apr/20', description: 'Store Assistant at Spar Ensjø'},
-  { key: uuid(), date: 'May/19 - Jul/19', description: 'Store Assistant at Eurospar Kvaløysletta'},
+  { key: uuid(), date: 'Jan/21 - present', description: 'DagensJob'},
+  { key: uuid(), date: 'Apr/20 - Dec/20', description: 'FSSALT'},
+  { key: uuid(), date: 'Dec/19 - Apr/20', description: 'SPAREnsjo'},
+  { key: uuid(), date: 'May/19 - Jul/19', description: 'EUROSPARKvaloysletta'},
 ];
 
 const acknowledgement = [
   { 
     key: uuid(),
     name: 'Finansavisen',
-    description: 'Featured at the front page of Norwegian business newspaper regarding my career',
+    description: 'FinansavisenDescription',
     link: 'https://finansavisen.no/nyheter/arbeidsliv/2020/05/05/7524332/hoppet-av-it-studiene-til-fordel-for-bootcamp-i-koding',
     img: 'https://i.imgur.com/MIaDgqQ.png'
   },
