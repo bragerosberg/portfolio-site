@@ -12,15 +12,32 @@ const Project = () => {
       <h1 className="project__title">{t('project:PersonalProjects')}</h1>
 
       <section className="project__wrapper">
-        {myProjects.map(project => (
-          <Card key={project.index} style={{ width: "18rem" }} className="project__card">
-            <Card.Img variant="top" className="project__image" src={project.image} alt={project.alt}/>
-            <Card.Title className="project__title">{project.title}</Card.Title>
-            <Card.Text className="project__text">{project.text}</Card.Text>
-            <Card.Footer className="project__topic">Topics: {project.topics}</Card.Footer>
+        {myProjects.map(({ image, alt, title, text, topics, repolink, website }, i) => (
+          <Card key={i} style={{ width: "18rem" }} className="project__card">
+            <Card.Img variant="top" className="project__image" src={image} alt={alt}/>
+            <Card.Title className="project__title">{title}</Card.Title>
+            <Card.Text className="project__text">{text}</Card.Text>
+            <Card.Footer className="project__topic">Tools: {topics}</Card.Footer>
             <div className="button__wrapper">
-              <a className="btn btn-light link__button" href={project.repolink} target="_blank" rel="noopener noreferrer">Repository</a>
-              {(project.website ? <a className="btn btn-light link__button" href={project.website} target="_blank" rel="noopener noreferrer">Website</a> : null)} 
+              <a 
+                className="btn btn-light link__button"
+                href={repolink}
+                target="_blank"
+                rel="noopener noreferrer">
+                  Repository
+              </a>
+              {(
+                website ? 
+                <a 
+                  className="btn btn-light link__button"
+                  href={website}
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Website
+                </a> 
+                  : 
+                  null
+              )} 
             </div>
           </Card>
         ))}
