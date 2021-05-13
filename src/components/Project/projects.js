@@ -1,5 +1,3 @@
-const { uuid } = require('uuidv4');
-
 const myProjects = [
   {
     image: "https://i.imgur.com/QxPaWdC.png",

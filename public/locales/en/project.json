@@ -1,3 +1,18 @@
 {
-  "PersonalProjects": "Personal Projects"
+  "PersonalProjects": "Personal Projects",
+  "GraduationProject": "Graduation Project",
+  "GraduationProjectInfo": "A mobile app that connects volunteers with organisations that need them. Built by my mob during bootcamp over a 2-week SCRUM sprint.",
+  "BudgetManager": "Budget Manager",
+  "BudgetManagerInfo": "A management tool for budgets, enter yearly sum, fill in expenses through months, and get an overview. Feel free to experiment with it on the website.",
+  "BudgetManagerAndroid": "Budget Manager for Android",
+  "BudgetManagerAndroidInfo": "A mobile budget management application, developed through React Native. Manage a yearly budget, set and delete expenses. Available through Expo client, check repository to learn more.",
+  "DayOrganzier": "Day Organizer",
+  "DayOrganzierInfo": "A board to write up to-do tasks, with the upper part of the application displaying a weather-forecast for the upcoming 5 days.",
+  "HackdayProject": "Hackday Project",
+  "HackdayProjectInfo": "Challenge given during my coding bootcamp. A project of my choice, consisting of a frontend and backend. Usage of different APIs, scaled to be a MVP-project",
+  "VueTodo": "To-Do in Vue",
+  "VueTodoInfo": "A todo application created in Vue. Easily create tasks, toggle as complete, delete a task, delete every completed or completely reset the list.",
+  "ReactTodo": "To-Do in React",
+  "ReactTodoInfo": "A todo application made with React, full responsive across platforms"
+
 }
