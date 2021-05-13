@@ -7,7 +7,6 @@ const myProjects = [
     title: "Graduation Project (Android app) ",
     text: "A mobile app that connects volunteers with organisations that need them. Built by my mob during bootcamp over a 2-week SCRUM sprint.",
     repolink: "https://github.com/jopemoma/Graduation-Project",
-    // website: "https://github.com/jopemoma/Graduation-Project",
     topics: "React, React Native, Express, MongoDB, Mongoose, Expo",
     alt: "volunteering frivillig bidrasammen frivilligapp androidapp react reactnative express mongodb bragerosberg brage røsberg"
   },
@@ -27,7 +26,6 @@ const myProjects = [
     title: "Budget Manager (Android)",
     text: "A mobile budget management application, developed through React Native. Manage a yearly budget, set and delete expenses. Available through Expo client, check repository to learn more.",
     repolink: "https://github.com/bragerosberg/budgetManagerNative",
-    // website: "https://github.com/bragerosberg/budgetManagerNative",
     topics: "React, React Native, Expo",
     alt: "budget manager budgetmanager reactapp reactnative expo bragerosberg brage røsberg"
   },
