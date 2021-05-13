@@ -6,13 +6,13 @@
   "BudgetManagerInfo": "Et økonomisk verktøy for å håndtere ditt budsjett. Enkelt legg til årsinntekten, og simpelt legg til dine utgifter under hver måned. Få full oversikt og enekelt overblikk over forbruket man har.",
   "BudgetManagerAndroid": "Budsjett Verktøy til Android",
   "BudgetManagerAndroidInfo": "Et økonomisk verktøy for å håndtere ditt budsjett på din mobiltelefon, utvikler for å fungåre på Android telefoner.",
-  "DayOrganzier": "Dagsplanlegger",
-  "DayOrganzierInfo": "En informasjonstavle for å kartlegge dine daglig ærender, med enkle å bruke funksjoner som gir deg kjappe redigeringsmuligheter om du ønsker å endre på noe. For å supplementere, får du også værmeldingen for de 5 neste dagene i Oslo øverst - slik kan du gjøre planleggingen din effektivt!",
+  "DayOrganizer": "Dagsplanlegger",
+  "DayOrganizerInfo": "En informasjonstavle for å kartlegge dine daglig ærender, med enkle å bruke funksjoner som gir deg kjappe redigeringsmuligheter om du ønsker å endre på noe. For å supplementere, får du også værmeldingen for de 5 neste dagene i Oslo øverst - slik kan du gjøre planleggingen din effektivt!",
   "HackdayProject": "Hackday Prosjekt",
   "HackdayProjectInfo": "Utfordring gitt til oss studenter under SALT. En frivillig problemstilling med det eneste kravet om å ha en frontend med en støttende backend. Her tester jeg 3 forskjellige åpne API-er på en MPA.",
   "VueTodo": "To-Do laget i Vue",
   "VueTodoInfo": "En to-do liste for å ha oversikt over dine gjøremål. Enkelt legg til en oppgave, slett den når den er fullført, eller start på nytt med blanke ark.",
   "ReactTodo": "To-Do laget i React",
   "ReactTodoInfo": "En to-do liste for å ha oversikt over dine gjøremål. Enkelt legg til en oppgave, slett den når den er fullført, eller start på nytt med blanke ark.",
-
+  "Tools": "Verktøy"
 }
