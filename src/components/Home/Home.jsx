@@ -1,7 +1,7 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import Techstack from './Techstack';
 import portrait from "../../assets/portrait.png";
-import { useTranslation } from 'react-i18next';
 import './styles/Home.css';
 
 
