@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card } from "react-bootstrap";
 import { myProjects } from './projects';
-import { useTranslation } from 'react-i18next';
 import './styles/Project.css';
+import { useTranslation } from 'react-i18next';
 
 const Project = () => {
   const { t } = useTranslation();
