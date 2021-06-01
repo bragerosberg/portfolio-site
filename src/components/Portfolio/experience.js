@@ -61,7 +61,7 @@ const education = [
 ];
 
 const workExperience = [
-  { key: uuid(), date: 'Jan/21 - present', description: 'DagensJob'},
+  { key: uuid(), date: 'CurrentJob', description: 'DagensJob'},
   { key: uuid(), date: 'Apr/20 - Dec/20', description: 'FSSALT'},
   { key: uuid(), date: 'Dec/19 - Apr/20', description: 'SPAREnsjo'},
   { key: uuid(), date: 'May/19 - Jul/19', description: 'EUROSPARKvaloysletta'},

@@ -7,7 +7,7 @@ const CV = ({date, description}) => {
 
   return (
     <section className="cv__wrapper">
-      <p className="cv__date">{date}</p>
+      <p className="cv__date">{t(`portfolio:${date}`)}</p>
       <p className="cv__description">{t(`portfolio:${description}`)}</p>
     </section>
   );

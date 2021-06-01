@@ -7,21 +7,17 @@
 .project__card {
   border: solid 1px white;
   flex-basis: 30%;
-  border: solid 2px #aad4f5;
   color: #2368a2;
-  background-color: #eff8ff;
-}
-
-.project__card:hover {
-  box-shadow: 7px 7px 5px 0px  rgba(46, 45, 44, 0.452);
+  background-color: #ffffff;
 }
 
 .project__text {
-  font-size: 15pt;
+  font-size: 13pt;
+  text-align: center;
 }
 
 .project__topic {
-  color: orange;
+  color: rgb(134, 121, 255);
 }
 
 .project__title {
@@ -47,10 +43,6 @@
   margin: 1em;
 }
 
-.project__card:hover {
-  transform: scale(1.01);
-}
-
 .button__wrapper {
   margin: 1em;
   display: flex;
@@ -66,7 +58,6 @@
 }
 
 .link__button {
-  border-radius: 25%;
   margin-bottom: 1em;
 }
 
