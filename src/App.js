@@ -22,7 +22,7 @@ function App() {
 
   return (
     <HashRouter basename="/">
-        <div>
+        <div className="app__wrapper">
           <nav className="navbar__routes">
             <ul>
               <li><Link to="/">{t('home:Home')}</Link></li>

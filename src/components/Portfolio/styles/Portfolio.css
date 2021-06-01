@@ -9,6 +9,7 @@
 
 .portfolio__experience {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 0 5em 5em 5em;
 }
@@ -22,14 +23,11 @@
 .portfolio__education,
 .portfolio__work {
   background-color: #eff8ff;
-  border: solid 2px #aad4f5;
+  border: solid 2px #bdb7b7;
   padding: 1em;
   margin: 1em;
   text-align: center;
-}
-
-.portfolio__experience__card {
-  flex-basis: 30%;
+  min-width: 350px;
 }
 
 .portfolio__education,
@@ -37,11 +35,9 @@
   flex-basis: 50%;
 }
 
-
-
 .portfolio__experience--title,
 .portfolio__wrapper--title {
-  font-family: "Titillium Web", sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 800;
   text-align: center;
   color: #63a2d8;
@@ -65,7 +61,7 @@
 .portfolio__education {
   margin-top: 2em;
   background-color: #eff8ff;
-  border: solid 2px #aad4f5;
+  border: solid 2px #bdb7b7;
 }
 .portfolio__work p,
 .portfolio__education p {
@@ -79,6 +75,11 @@
 
 .iconify {
   width: 50px;
+}
+
+.portfolio__education img {
+  display: flex;
+  max-width: 100%;
 }
 
 @media (max-width: 1500px) {

@@ -39,7 +39,7 @@ const Portfolio = () => {
       <h1 className="portfolio__wrapper--title">{t('portfolio:Experience')}</h1>
       <section className="portfolio__wrapper">
 
-        <article className="portfolio__work">
+        <article className="portfolio__education">
           <h2 className="portfolio__experience--category">{t('portfolio:Jobs')}</h2>
           {workExperience.map(({ key, date, description }) => 
             <CV key={key} date={date} description={description} />
