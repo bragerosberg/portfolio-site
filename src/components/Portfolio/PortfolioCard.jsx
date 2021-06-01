@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/Portfolio.css';
 
 const PortfolioCard = ({ portfolioList, name }) => (
     <div className="portfolio__experience__card">

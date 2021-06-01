@@ -17,8 +17,9 @@ font-family: 'Titillium Web', sans-serif; */
   overflow-x: hidden;
 }
 
-.footer__links{
-  background-color: #cfd4da;
+.app__wrapper {
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 .navbar__routes,
@@ -58,9 +59,11 @@ font-family: 'Titillium Web', sans-serif; */
 
 
 .footer__links {
+  background-color: #eaedef;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
 }
 
 body {
