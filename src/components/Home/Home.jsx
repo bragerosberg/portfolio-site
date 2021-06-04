@@ -22,10 +22,10 @@ const Home = () => {
       <div className="homepage__hotlinks">
       
         <a href="https://www.github.com/bragerosberg" target="_blank" rel="noopener noreferrer">
-          <img src={Github} />
+          <img src={Github} alt="github" />
         </a>
         <a href="https://www.linkedin.com/in/brage-rosberg" target="_blank" rel="noopener noreferrer">
-          <img src={Linkedin} />
+          <img src={Linkedin} alt="linkedin" />
         </a>
 
       </div>
