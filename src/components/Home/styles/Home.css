@@ -5,6 +5,13 @@
   font-family: 'Titillium Web', sans-serif;
 }
 
+
+.homepage__name__wrapper {
+  display: flex;
+  margin: 1em;
+  flex-direction: row;
+}
+
 .homepage__wrapper {
   margin: 5% 0 3% 0;
   display: flex;
@@ -18,20 +25,21 @@
   font-family: 'Alegreya', serif;
 }
 
-.homepage__name {
-  font-family: 'Titillium Web', sans-serif;
+.homepage__name,
+.homepage__surname {
+  font-family: 'Vogue', sans-serif;
   font-weight: 800;
-  font-size: 3em;
-  color: #3183c8;
+  font-size: 8em;
+}
+
+.homepage__surname {
+  color: #2368a2;
 }
 
 .portrait {
   user-select: none;
   width: 300px;
-  height: 300px;
-  border-radius: 150px;
   margin-right: 2em;
-  filter: drop-shadow(5px -6px 5px #88888f);
 }
 
 .portrait img {
@@ -48,16 +56,16 @@
   justify-content: center;
 }
 
-.homepage__info__wrapper {
-  margin-top: 4em;
-}
-
 .homepage__hotlinks img {
   max-width: 200px;
   margin: 20px;
 }
 
 @media (max-width: 500px) {
+  .homepage__name__wrapper {
+    flex-direction: column;
+  }
+
   .homepage__location {
     text-align: center;
   }
@@ -77,7 +85,11 @@
   .homepage__location {
     text-align: center;
   }
-  
 }
 
-
+@media (max-width: 400px) {
+  .homepage__name,
+  .homepage__surname {
+    font-size: 7em;
+  }
+}

@@ -6,6 +6,9 @@
 
 .tech__wrapper {
   justify-content: space-between;
+  padding: 2em;
+  border-bottom: 2px solid black;
+  margin-bottom: 3em;
 }
 
 .tech__logos {
@@ -19,5 +22,5 @@
 
 
 .tech__logos img {
-  width: 40px;
+  width: 60px;
 }
