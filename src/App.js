@@ -9,7 +9,7 @@ import chooseLanguage from './utils/chooseLanguage';
 import './styles/App.css';
 import homeIcon from './assets/home.png';
 import portfolioIcon from './assets/portfolio.png';
-import projectIcon from './assets/projects.png';
+import projectIcon from './assets/layers.png';
 
 function App() {
   useEffect(() => {
