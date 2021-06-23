@@ -1,0 +1,9 @@
+.homepage__work__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage__work__wrapper img {
+  width: 64px;
+}

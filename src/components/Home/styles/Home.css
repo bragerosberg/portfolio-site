@@ -5,6 +5,13 @@
   font-family: 'Titillium Web', sans-serif;
 }
 
+
+.homepage__name__wrapper {
+  display: flex;
+  margin: 1em;
+  flex-direction: row;
+}
+
 .homepage__wrapper {
   margin: 5% 0 3% 0;
   display: flex;
@@ -49,13 +56,16 @@
   justify-content: center;
 }
 
-
 .homepage__hotlinks img {
   max-width: 200px;
   margin: 20px;
 }
 
 @media (max-width: 500px) {
+  .homepage__name__wrapper {
+    flex-direction: column;
+  }
+
   .homepage__location {
     text-align: center;
   }
@@ -83,4 +93,3 @@
     font-size: 7em;
   }
 }
-
