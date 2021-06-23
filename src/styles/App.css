@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('http://fonts.cdnfonts.com/css/vogue');
 
 /* Main attention font
 font-family: 'Titillium Web', sans-serif; */
@@ -80,11 +81,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #1a4971;
+  background: black;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #75b2f0;
+  background: #b2bac2;
 }
 
 @media (max-width: 500px) {
@@ -117,10 +118,6 @@ body::-webkit-scrollbar-thumb {
   .tech__logos {
     display: flex;
     justify-content: space-between;
-  }
-
-  .tech__logos img {
-    display: none;
   }
 
   .techstack__title {

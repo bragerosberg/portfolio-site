@@ -6,7 +6,6 @@
 
 .project__card {
   border: solid 1px white;
-  flex-basis: 30%;
   color: #2368a2;
   border: solid 2px #bdb7b7;
   background-color: #ffffff;
@@ -27,7 +26,6 @@
 }
 
 .project__wrapper {
-  font-family: 'Titillium Web', sans-serif;
   margin-top: 1%;
   display: flex;
   flex-wrap: wrap;
@@ -36,8 +34,7 @@
 
 .project__image {
   object-fit: cover;
-  width: 100%;
-  height: 500px;
+  height: 250px;
 }
 
 .project__card {
@@ -72,7 +69,7 @@
 
 @media (max-width: 1200px) {
   .project__card {
-    flex-basis: 85%;
+    flex-basis: 65%;
   }
 }
 

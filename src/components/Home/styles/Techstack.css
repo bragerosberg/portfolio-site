@@ -7,8 +7,6 @@
 .tech__wrapper {
   justify-content: space-between;
   padding: 2em;
-  border: 2px solid #2368a2;
-  background-color: azure;
 }
 
 .tech__logos {

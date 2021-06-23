@@ -1,5 +1,3 @@
-@import url('http://fonts.cdnfonts.com/css/vogue');
-
 .homepage__location {
   color: #12283a;
   font-size: 14px;
@@ -20,20 +18,21 @@
   font-family: 'Alegreya', serif;
 }
 
-.homepage__name {
+.homepage__name,
+.homepage__surname {
   font-family: 'Vogue', sans-serif;
   font-weight: 800;
   font-size: 8em;
-  /* color: #3183c8; */
+}
+
+.homepage__surname {
+  color: #2368a2;
 }
 
 .portrait {
   user-select: none;
   width: 300px;
-  height: 300px;
-  border-radius: 150px;
   margin-right: 2em;
-  filter: drop-shadow(5px -6px 5px #88888f);
 }
 
 .portrait img {
@@ -76,7 +75,12 @@
   .homepage__location {
     text-align: center;
   }
-  
 }
 
+@media (max-width: 400px) {
+  .homepage__name,
+  .homepage__surname {
+    font-size: 7em;
+  }
+}
 
