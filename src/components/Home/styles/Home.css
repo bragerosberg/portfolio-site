@@ -5,11 +5,10 @@
   font-family: 'Titillium Web', sans-serif;
 }
 
-
 .homepage__name__wrapper {
   display: flex;
   margin: 1em;
-  flex-direction: row;
+  flex-direction: c;
 }
 
 .homepage__wrapper {
@@ -30,6 +29,12 @@
   font-family: 'Vogue', sans-serif;
   font-weight: 800;
   font-size: 8em;
+}
+
+.homepage__role {
+  font-family: 'Alegreya', serif;
+  text-align: center;
+  font-size: 25px;
 }
 
 .homepage__surname {
@@ -90,6 +95,6 @@
 @media (max-width: 400px) {
   .homepage__name,
   .homepage__surname {
-    font-size: 7em;
+    font-size: 6em;
   }
 }

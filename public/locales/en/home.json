@@ -2,6 +2,7 @@
   "Home": "Home",
   "Portfolio": "Portfolio",
   "Projects": "Projects",
-  "CurrentPosition": "Jr. Developer (at Dagens)",
-  "MadeBy": "Made by Brage Røsberg - {{year}}"
+  "CurrentPosition": "Full-stack web developer",
+  "MadeBy": "Made by Brage Røsberg - {{year}}",
+  "Location": "Oslo"
 }

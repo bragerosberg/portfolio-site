@@ -1,21 +1,25 @@
 import React from 'react';
 import Techstack from './Techstack';
+import { useTranslation } from 'react-i18next';
 import './styles/Home.css';
-import CurrentWork from './CurrentWork';
 
-const Home = () => (
-  <main>
-    <section className="homepage__wrapper">
-      <div className="homepage__info__wrapper">
-        <div className="homepage__name__wrapper">
-          <h1 className="homepage__name">Brage</h1>
-          <h1 className="homepage__surname">Rosberg</h1>
+const Home = () => {
+  const { t } = useTranslation();
+
+  return (
+    <main>
+      <section className="homepage__wrapper">
+        <div className="homepage__info__wrapper">
+          <div className="homepage__name__wrapper">
+            <h1 className="homepage__name">Brage</h1>
+            <h1 className="homepage__surname">Rosberg</h1>
+          </div>
+          <p className="homepage__role">{t('home:CurrentPosition')}</p>
+          <Techstack />
         </div>
-        <Techstack />
-        <CurrentWork />
-      </div>
-    </section>
-  </main>
-);
+      </section>
+    </main>
+  );
+};
 
 export default Home;
