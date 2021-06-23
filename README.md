@@ -68,7 +68,6 @@ Here I am showcasing work I have done, projects I have created individually, pro
 
 ### Contact me
 In similarity with the landing-page being a short introduction, this is a short outro. Leaving hotlinks for the user to get in touch with me, through the different medias I am available on, whether it would be e-mail, github or linkedin. 
-
 ### Get in touch with me:
 [<img align="left" style="margin-left: 10px;" alt="codeSTACKr | LinkedIn" width="40px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" style="margin-left: 10px;" alt="codeSTACKr.com" width="40px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
