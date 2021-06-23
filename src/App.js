@@ -8,6 +8,9 @@ import i18n from './i18n';
 import Footer from './components/Home/Footer';
 import chooseLanguage from './utils/chooseLanguage';
 import './styles/App.css';
+import homeIcon from './assets/home.png';
+import portfolioIcon from './assets/portfolio.png';
+import projectIcon from './assets/projects.png';
 
 function App() {
   const { t } = useTranslation();
@@ -25,9 +28,9 @@ function App() {
         <div className="app__wrapper">
           <nav className="navbar__routes">
             <ul>
-              <li><Link to="/">{t('home:Home')}</Link></li>
-              <li><Link to="/portfolio">{t('home:Portfolio')}</Link></li>
-              <li><Link to="/project">{t('home:Projects')}</Link></li>
+              <li><Link to="/"><img src={homeIcon} alt="home" /></Link></li>
+              <li><Link to="/portfolio"><img src={portfolioIcon} alt="portfolio" /></Link></li>
+              <li><Link to="/project"><img src={projectIcon} alt="project" /></Link></li>
             </ul>
           </nav>
           <Switch>

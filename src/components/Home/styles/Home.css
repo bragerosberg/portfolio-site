@@ -23,8 +23,8 @@
 .homepage__name {
   font-family: 'Vogue', sans-serif;
   font-weight: 800;
-  font-size: 3em;
-  color: #3183c8;
+  font-size: 8em;
+  /* color: #3183c8; */
 }
 
 .portrait {
@@ -50,9 +50,6 @@
   justify-content: center;
 }
 
-.homepage__info__wrapper {
-  margin-top: 4em;
-}
 
 .homepage__hotlinks img {
   max-width: 200px;

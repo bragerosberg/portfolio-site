@@ -16,6 +16,7 @@ font-family: 'Titillium Web', sans-serif; */
   overflow-x: hidden;
 }
 
+
 .app__wrapper {
   max-width: 980px;
   margin: 0 auto;
@@ -35,6 +36,10 @@ font-family: 'Titillium Web', sans-serif; */
   list-style-type: none;
   text-transform: uppercase;
   margin: 0;
+}
+
+.navbar__routes img {
+  width: 25px;
 }
 
 .navbar__routes a,
