@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/vogue');
+
 .homepage__location {
   color: #12283a;
   font-size: 14px;
@@ -19,7 +21,7 @@
 }
 
 .homepage__name {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Vogue', sans-serif;
   font-weight: 800;
   font-size: 3em;
   color: #3183c8;

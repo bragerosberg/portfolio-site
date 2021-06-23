@@ -11,11 +11,10 @@ const Home = () => {
       <section className="homepage__wrapper">
         <img className="portrait" src={portrait} alt="portrait brage røsberg bragerøsberg bragerosberg" />
         <div className="homepage__info__wrapper">
-          <h1 className="homepage__name">Brage Røsberg</h1>
-          <Techstack />
-          <p className="homepage__location">{t('home:CurrentPosition')}</p>
+          <h1 className="homepage__name">Brage Rosberg</h1>
         </div>
       </section>
+      <Techstack />
     </main>
   );
 }
