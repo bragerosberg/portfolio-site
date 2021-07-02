@@ -64,7 +64,7 @@ const Portfolio = () => {
             <p>{t(`portfolio:${description}`)}</p>
             {(link ? 
               <a 
-                className="btn btn-light link__button"
+                className="btn btn-primary link__button"
                 href={link}
                 target="_blank"
                 rel="noopener noreferrer"

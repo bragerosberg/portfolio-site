@@ -18,10 +18,13 @@
 
 .footer__author,
 .homepage__role {
-  color: #A9A9AC;
+  color: #a9a9ac;
 }
 
 @media (max-width: 500px) {
+  .homepage__name {
+    font-size: 4em;
+  }
   .homepage__name__wrapper {
     flex-direction: column;
   }
@@ -36,12 +39,5 @@
 
   .homepage__location {
     text-align: center;
-  }
-}
-
-@media (max-width: 400px) {
-  .homepage__name,
-  .homepage__surname {
-    font-size: 6em;
   }
 }
