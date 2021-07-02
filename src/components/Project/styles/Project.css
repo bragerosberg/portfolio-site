@@ -11,13 +11,13 @@
 }
 
 .project__topic {
-  color: rgb(134, 121, 255);
+  color: #CB6A2F;
 }
 
 .project__title {
   text-align: center;
   font-size: 1.4em;
-  color: #63a2d8;
+  color: #141414;
   margin: 1em;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 800;

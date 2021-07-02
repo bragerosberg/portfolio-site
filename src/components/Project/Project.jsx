@@ -32,7 +32,7 @@ const Project = () => {
               <Card.Footer className="project__topic">{topics}</Card.Footer>
               <div className="button__wrapper">
                 <a
-                  className="btn btn-light link__button"
+                  className="btn btn-primary link__button"
                   href={repolink}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -41,7 +41,7 @@ const Project = () => {
                 </a>
                 {website ? (
                   <a
-                    className="btn btn-light link__button"
+                    className="btn btn-primary link__button"
                     href={website}
                     target="_blank"
                     rel="noopener noreferrer"
