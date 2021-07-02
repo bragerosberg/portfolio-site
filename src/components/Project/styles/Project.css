@@ -1,14 +1,8 @@
 .project__wrapper,
-.project__card {
+.project__card,
+.button__wrapper {
   display: flex;
   justify-content: space-evenly;
-}
-
-.project__card {
-  border: solid 1px white;
-  color: #2368a2;
-  border: solid 2px #bdb7b7;
-  background-color: #ffffff;
 }
 
 .project__text {
@@ -23,6 +17,10 @@
 .project__title {
   text-align: center;
   font-size: 1.4em;
+  color: #63a2d8;
+  margin: 1em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 800;
 }
 
 .project__wrapper {
@@ -37,40 +35,12 @@
   height: 250px;
 }
 
-.project__card {
-  margin: 1em;
-}
-
-.button__wrapper {
-  margin: 1em;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.project__title {
-  text-align: center;
-  color: #63a2d8;
-  margin: 1em;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 800;
-}
-
 .link__button {
   margin-bottom: 1em;
 }
 
 .btn:hover {
   color: green;
-}
-
-.card-text {
-  padding: 5px;
-}
-
-@media (max-width: 1200px) {
-  .project__card {
-    flex-basis: 65%;
-  }
 }
 
 @media (max-width: 500px) {

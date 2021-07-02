@@ -1,69 +1,24 @@
-.homepage__location {
-  color: #12283a;
-  font-size: 14px;
-  font-weight: 800;
-  font-family: 'Titillium Web', sans-serif;
-}
-
-.homepage__name__wrapper {
+.homepage__wrapper {
   display: flex;
-  margin: 1em;
-  flex-direction: c;
 }
 
 .homepage__wrapper {
-  margin: 5% 0 3% 0;
-  display: flex;
-  left: 85px;
+  margin-top: 10%;
   justify-content: center;
 }
 
-.homepage__title {
-  color: #2368a2;
-  font-size: 2em;
-  font-family: 'Alegreya', serif;
-}
-
-.homepage__name,
-.homepage__surname {
-  font-family: 'Vogue', sans-serif;
-  font-weight: 800;
-  font-size: 8em;
+.homepage__name {
+  font-size: 5em;
 }
 
 .homepage__role {
-  font-family: 'Alegreya', serif;
   text-align: center;
   font-size: 25px;
 }
 
-.homepage__surname {
-  color: #2368a2;
-}
-
-.portrait {
-  user-select: none;
-  width: 300px;
-  margin-right: 2em;
-}
-
-.portrait img {
-  user-select: none;
-}
-
-.footer__author {
-  color: #2368a2;
-}
-
-.homepage__contact,
-.homepage__hotlinks {
-  display: flex;
-  justify-content: center;
-}
-
-.homepage__hotlinks img {
-  max-width: 200px;
-  margin: 20px;
+.footer__author,
+.homepage__role {
+  color: #A9A9AC;
 }
 
 @media (max-width: 500px) {
@@ -77,14 +32,6 @@
 
   .homepage__info__wrapper {
     margin-top: 0;
-  }
-
-  .portrait {
-    margin: 0;
-  }
-
-  .homepage__hotlinks img {
-    max-width: 100px;
   }
 
   .homepage__location {

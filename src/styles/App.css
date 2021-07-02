@@ -1,24 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
-@import url('http://fonts.cdnfonts.com/css/vogue');
-
-/* Main attention font
-font-family: 'Titillium Web', sans-serif; */
-
-/* Second attention font 
-font-family: 'Alegreya', serif; */
-
-/* 
-Support font
-font-family: 'Titillium Web', sans-serif; */
 
 #root {
   overflow-x: hidden;
 }
 
 .app__wrapper {
-  max-width: 980px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -53,7 +42,7 @@ font-family: 'Titillium Web', sans-serif; */
 }
 .navbar__routes a,
 .footer__links a {
-  color: #12283a;
+  color: #333333;
 }
 
 .navbar__routes a:hover,
@@ -62,7 +51,7 @@ font-family: 'Titillium Web', sans-serif; */
 }
 
 .footer__links {
-  background-color: #eaedef;
+  background-color: #F5F5F7;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -70,7 +59,7 @@ font-family: 'Titillium Web', sans-serif; */
 }
 
 body {
-  background-color: #eaedef;
+  background-color: #FBFBFD;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -88,41 +77,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 500px) {
-  .portrait {
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
-  }
-
   .navbar__routes,
   .footer__links {
     font-size: 0.8em;
   }
 
-  .homepage__wrapper {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .homepage__name,
-  .homepage__title,
   .homepage__development {
     text-align: center;
   }
-
-  .homepage__title {
-    font-size: 1.7em;
-  }
-  .tech__logos {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .techstack__title {
-    font-size: 1em;
-  }
-
+  
   .navbar__routes ul,
   .footer__links ul {
     justify-content: space-between;
@@ -145,11 +108,5 @@ body::-webkit-scrollbar-thumb {
   .navbar__routes,
   .footer__links {
     font-size: 0.6em;
-  }
-
-  .tech__logos img {
-    width: 25px;
-    height: 25px;
-    margin: 3px;
   }
 }
