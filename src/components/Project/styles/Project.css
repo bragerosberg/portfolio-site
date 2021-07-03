@@ -5,6 +5,10 @@
   justify-content: space-evenly;
 }
 
+.project__card {
+  flex-basis: 50%;
+}
+
 .project__text {
   font-size: 13pt;
   text-align: center;
@@ -50,7 +54,7 @@
   }
 
   .project__card {
-    margin: 1em;
+    margin: 0;
   }
 
   .project__image {
