@@ -12,16 +12,12 @@
 
 .portfolio__experience__card,
 .portfolio__education {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: solid 2px #bdb7b7;
   padding: 1em;
   margin: 1em;
   text-align: center;
   min-width: 350px;
-}
-
-.portfolio__education {
-  flex-basis: 50%;
 }
 
 .portfolio__experience--title,
@@ -46,8 +42,9 @@
 
 .portfolio__education {
   margin-top: 2em;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: solid 2px #bdb7b7;
+  flex-basis: 50%;
 }
 
 .portfolio__education p {

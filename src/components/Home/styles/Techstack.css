@@ -1,9 +1,6 @@
 .tech__wrapper {
   display: flex;
   margin-bottom: 10px;
-}
-
-.tech__wrapper {
   justify-content: space-between;
   padding: 2em;
   border-bottom: 2px solid black;
@@ -44,8 +41,6 @@
   animation-name: fadeInUp;
   animation-duration: 5s;
 }
-
-/* animation-name: fadeInUp; */
 
 @keyframes fadeInUp {
   40% {
