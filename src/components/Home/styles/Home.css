@@ -1,5 +1,6 @@
 .homepage__wrapper {
   display: flex;
+  min-height: 100vh;
 }
 
 .homepage__wrapper {
