@@ -8,6 +8,7 @@ Visit it online on my domain https://bragerosberg.com/ or do the following steps
 - cd to ```portfolio``` folder
 - Install dependencies and start script, ``` npm i "&&" npm start ```
 
+
 # Article
 - [Contents of Portfolio](#contents)
 - [Tech](#tech-usage-and-reasoning)
