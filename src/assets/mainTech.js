@@ -2,12 +2,14 @@ import redux from './redux.png';
 import js from './js.png';
 import react from './react.png';
 import nodejs from './nodejs.png';
+import typescript from './typescript.png';
 
 const mainTech = [
-  { name: 'JavaScript', logo: js }, 
+  { name: 'Typescript', logo: typescript },
+  { name: 'JavaScript', logo: js },
   { name: 'React', logo: react },
-  { name: 'Node', logo: nodejs },
-  { name: 'Redux', logo: redux }
+  { name: 'Redux', logo: redux },
+  { name: 'Node', logo: nodejs }
 ];
 
 export default mainTech;
