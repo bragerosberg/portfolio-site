@@ -22,17 +22,17 @@
   font-weight: 650;
 }
 
-.JavaScript {
+.Typescript {
   animation-name: fadeInUp;
   animation-duration: 2s;
 }
 
-.React {
+.JavaScript {
   animation-name: fadeInUp;
   animation-duration: 3s;
 }
 
-.Node {
+.React {
   animation-name: fadeInUp;
   animation-duration: 4s;
 }
@@ -40,6 +40,11 @@
 .Redux {
   animation-name: fadeInUp;
   animation-duration: 5s;
+}
+
+.Node {
+  animation-name: fadeInUp;
+  animation-duration: 6s;
 }
 
 @keyframes fadeInUp {
@@ -57,6 +62,7 @@
     opacity: 1;
   }
 }
+
 @keyframes loadLazy {
   from {
   }
