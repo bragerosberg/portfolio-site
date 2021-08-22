@@ -2,7 +2,12 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './styles/CV.css';
 
-const CV = ({date, description}) => {
+type CVProps = {
+  date: string;
+  description: string;
+}
+
+const CV = ({date, description}: CVProps) => {
   const { t } = useTranslation();
 
   return (
