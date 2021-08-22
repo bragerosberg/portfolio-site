@@ -1,7 +1,13 @@
 import React from 'react';
 import './styles/Portfolio.css';
 
-const PortfolioCard = ({ portfolioList, name }) => (
+
+type PortfolioCardProps = {
+  portfolioList: { key: string, title: string, icon: string}[];
+  name: string;
+}
+
+const PortfolioCard = ({ portfolioList, name }: PortfolioCardProps) => (
     <div className="portfolio__experience__card">
       <h2 className="portfolio__experience--category">{name}</h2>
       {portfolioList.map(({ key, title, icon }) => <div className="portfolio__experience--category__wrapper" key={key}>

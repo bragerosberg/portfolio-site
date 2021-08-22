@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@types/core-js": "^2.5.5",
     "eslint-plugin-react": "^7.20.5"
   }
 }
