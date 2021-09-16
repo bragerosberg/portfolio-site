@@ -11,7 +11,7 @@ import homeIcon from './assets/home.png';
 import portfolioIcon from './assets/portfolio.png';
 import projectIcon from './assets/layers.png';
 
-function App() {
+const App = () => {
   useEffect(() => {
     i18n.changeLanguage(
       chooseLanguage(window.navigator.languages || [window.navigator.language])
