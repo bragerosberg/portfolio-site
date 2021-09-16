@@ -1,19 +1,15 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './styles/CV.css';
+import { Experience } from './experience';
 
-type CVProps = {
-  date: string;
-  description: string;
-}
-
-const CV = ({date, description}: CVProps) => {
+const CV = ({ date, translationKey }: Experience) => {
   const { t } = useTranslation();
 
   return (
     <section className="cv__wrapper">
       <p className="cv__date">{t(`portfolio:${date}`)}</p>
-      <p className="cv__description">{t(`portfolio:${description}`)}</p>
+      <p className="cv__description">{t(`portfolio:${translationKey}`)}</p>
     </section>
   );
 }

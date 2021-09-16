@@ -4,7 +4,12 @@ import react from './react.png';
 import nodejs from './nodejs.png';
 import typescript from './typescript.png';
 
-const mainTech = [
+type Tech = {
+  name: string;
+  logo: string;
+}
+
+const mainTech: Tech[] = [
   { name: 'Typescript', logo: typescript },
   { name: 'JavaScript', logo: js },
   { name: 'React', logo: react },
