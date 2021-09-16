@@ -12,7 +12,6 @@ i18n
     ns: ['home', 'common', 'portfolio', 'project'],
     defaultNS: 'common',
     fallbackLng: 'en',
-    debug: true,
     initImmediate: false,
     interpolation: {
       escapeValue: false,
