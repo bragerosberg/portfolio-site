@@ -1,4 +1,14 @@
-const myProjects = [
+interface Project {
+  image: string;
+  title: string;
+  text: string;
+  repolink: string;
+  topics: string;
+  alt: string;
+  website?: string;
+}
+
+export const myProjects: Project[] = [
   {
     image: "https://i.imgur.com/QxPaWdC.png",
     title: "GraduationProject",
@@ -12,9 +22,9 @@ const myProjects = [
     title: "BudgetManager",
     text: "BudgetManagerInfo",
     repolink: "https://github.com/bragerosberg/BudgetManager",
-    website: "https://simplebudgetmanager.herokuapp.com/",
     topics: "React, Express JS",
-    alt: "budgetmanager webbudget budget budgettools react expressjs bragerosberg brage røsberg"
+    alt: "budgetmanager webbudget budget budgettools react expressjs bragerosberg brage røsberg",
+    website: "https://simplebudgetmanager.herokuapp.com/",
   },
   {
     image: "https://i.imgur.com/yoc4qE2.png",
@@ -29,9 +39,9 @@ const myProjects = [
     title: "DayOrganizer",
     text: "DayOrganizerInfo",
     repolink: "https://github.com/bragerosberg/DayOrganizer",
-    website: "https://organizeyourday.herokuapp.com/",
     topics: "React, GraphQL, Apollo, node.js, Express JS",
-    alt: "dayorganizer todo weatherapp todoapp react graphql apollo nodejs bragerosberg brage røsberg"
+    alt: "dayorganizer todo weatherapp todoapp react graphql apollo nodejs bragerosberg brage røsberg",
+    website: "https://organizeyourday.herokuapp.com/"
   },
   {
     image: "https://i.imgur.com/o8ogcY6.png",
@@ -46,22 +56,17 @@ const myProjects = [
     title: "VueTodo",
     text: "VueTodoInfo",
     repolink: "https://github.com/bragerosberg/vuetodo",
-    website: "https://todovueapplication.herokuapp.com/",
     topics: "Vue",
-    alt: "vueapp vuetodo vue herokuapp bragerosberg brage røsberg"
+    alt: "vueapp vuetodo vue herokuapp bragerosberg brage røsberg",
+    website: "https://todovueapplication.herokuapp.com/"
   },
   {
     image: "https://i.imgur.com/hVuQOCq.png",
     title: "ReactTodo",
     text: "ReactTodoInfo",
     repolink: "https://github.com/bragerosberg/ReactTodo",
-    website: "https://bragereacttodo.netlify.app/",
     topics: "React",
-    alt: "react reacttodo reactapp netlify bragerosberg brage røsberg"
+    alt: "react reacttodo reactapp netlify bragerosberg brage røsberg",
+    website: "https://bragereacttodo.netlify.app/"
   },
 ];
-
-module.exports = {
-  myProjects
-}
-
