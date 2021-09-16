@@ -1,6 +1,20 @@
 const { uuid } = require('uuidv4');
 
-const frontEnd = [
+type UUID = {
+  key: string;
+}
+
+type Knowledge = {
+  title: string;
+  icon: string;
+} & Pick<UUID, 'key'>
+
+type Experience = {
+  date: string;
+  description: string
+} & Pick<UUID, 'key'>
+
+export const frontEnd: Knowledge[] = [
   { key: uuid(), title: 'React', icon: 'logos:react' },
   { key: uuid(), title: 'Typescript', icon: 'logos:typescript-icon' },
   { key: uuid(), title: 'Redux', icon: 'logos:redux' },
@@ -11,7 +25,7 @@ const frontEnd = [
   { key: uuid(), title: 'Bootstrap', icon: 'logos:bootstrap' },
 ];
 
-const backEnd = [
+export const backEnd: Knowledge[] = [
   { key: uuid(), title: 'Node.js', icon: 'logos:nodejs' },
   { key: uuid(), title: 'Typescript', icon: 'logos:typescript-icon' },
   { key: uuid(), title: 'Sanity', icon: 'ri:team-fill' },
@@ -25,7 +39,7 @@ const backEnd = [
   { key: uuid(), title: 'GraphQL', icon: 'logos:graphql' },
 ];
 
-const languages = [
+export const languages: Knowledge[] = [
   { key: uuid(), title: 'JavaScript/ES6', icon: 'logos:javascript' },
   { key: uuid(), title: 'Typescript', icon: 'logos:typescript-icon' },
   { key: uuid(), title: 'Python', icon: 'logos:python' },
@@ -34,7 +48,7 @@ const languages = [
   { key: uuid(), title: 'English', icon: 'emojione:flag-for-united-kingdom' },
 ];
 
-const principles = [
+export const principles: Knowledge[] = [
   { key: uuid(), title: 'Agile Development', icon: 'carbon:chart-line-smooth' },
   { key: uuid(), title: 'Mob Programming', icon: 'cil:group' },
   { key: uuid(), title: 'TDD', icon: 'noto:test-tube' },
@@ -42,7 +56,7 @@ const principles = [
   { key: uuid(), title: 'SCRUM', icon: 'twemoji:green-circle' },
 ];
 
-const tools = [
+export const tools: Knowledge[] = [
   { key: uuid(), title: 'NPM', icon: 'logos:npm' },
   { key: uuid(), title: 'GIT', icon: 'fa-brands:git' },
   { key: uuid(), title: 'Mocha', icon: 'logos:mocha' },
@@ -55,21 +69,28 @@ const tools = [
   { key: uuid(), title: 'Figma', icon: 'logos:figma' },
 ];
 
-const education = [
+export const education: Experience[] = [
   { key: uuid(), date: 'Aug/20 - Dec/20', description: 'PracticalSpanishUiO' },
   { key: uuid(), date: 'Apr/20 - Jul/20', description: 'SALTBootcamp' },
   { key: uuid(), date: 'Aug/19 - Jun/20', description: 'SocialScience' },
   { key: uuid(), date: 'Aug/18 - Jun/19', description: 'ComputerScience' },
 ];
 
-const workExperience = [
+export const workExperience: Experience[] = [
   { key: uuid(), date: 'CurrentJob', description: 'DagensJob' },
   { key: uuid(), date: 'Apr/20 - Dec/20', description: 'FSSALT' },
   { key: uuid(), date: 'Dec/19 - Apr/20', description: 'SPAREnsjo' },
   { key: uuid(), date: 'May/19 - Jul/19', description: 'EUROSPARKvaloysletta' },
 ];
 
-const acknowledgement = [
+type Acknowledgement = {
+  name: string;
+  description: string;
+  link: string;
+  img: string;
+} & Pick<UUID, 'key'>
+
+export const acknowledgement: Acknowledgement[] = [
   {
     key: uuid(),
     name: 'Finansavisen',
@@ -78,14 +99,3 @@ const acknowledgement = [
     img: 'https://i.imgur.com/MIaDgqQ.png',
   },
 ];
-
-module.exports = {
-  frontEnd,
-  backEnd,
-  languages,
-  principles,
-  tools,
-  education,
-  workExperience,
-  acknowledgement,
-};
