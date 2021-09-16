@@ -9,9 +9,9 @@ type Knowledge = {
   icon: string;
 } & Pick<UUID, 'key'>
 
-type Experience = {
+export type Experience = {
   date: string;
-  description: string
+  translationKey: string
 } & Pick<UUID, 'key'>
 
 export const frontEnd: Knowledge[] = [
@@ -70,17 +70,17 @@ export const tools: Knowledge[] = [
 ];
 
 export const education: Experience[] = [
-  { key: uuid(), date: 'Aug/20 - Dec/20', description: 'PracticalSpanishUiO' },
-  { key: uuid(), date: 'Apr/20 - Jul/20', description: 'SALTBootcamp' },
-  { key: uuid(), date: 'Aug/19 - Jun/20', description: 'SocialScience' },
-  { key: uuid(), date: 'Aug/18 - Jun/19', description: 'ComputerScience' },
+  { key: uuid(), date: 'Aug/20 - Dec/20', translationKey: 'PracticalSpanishUiO' },
+  { key: uuid(), date: 'Apr/20 - Jul/20', translationKey: 'SALTBootcamp' },
+  { key: uuid(), date: 'Aug/19 - Jun/20', translationKey: 'SocialScience' },
+  { key: uuid(), date: 'Aug/18 - Jun/19', translationKey: 'ComputerScience' },
 ];
 
 export const workExperience: Experience[] = [
-  { key: uuid(), date: 'CurrentJob', description: 'DagensJob' },
-  { key: uuid(), date: 'Apr/20 - Dec/20', description: 'FSSALT' },
-  { key: uuid(), date: 'Dec/19 - Apr/20', description: 'SPAREnsjo' },
-  { key: uuid(), date: 'May/19 - Jul/19', description: 'EUROSPARKvaloysletta' },
+  { key: uuid(), date: 'CurrentJob', translationKey: 'DagensJob' },
+  { key: uuid(), date: 'Apr/20 - Dec/20', translationKey: 'FSSALT' },
+  { key: uuid(), date: 'Dec/19 - Apr/20', translationKey: 'SPAREnsjo' },
+  { key: uuid(), date: 'May/19 - Jul/19', translationKey: 'EUROSPARKvaloysletta' },
 ];
 
 type Acknowledgement = {

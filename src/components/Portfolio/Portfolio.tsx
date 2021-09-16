@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import './styles/Portfolio.css';
 import CV from './CV';
 import PortfolioCard from './PortfolioCard';
-import { 
+import {
   frontEnd,
   backEnd,
   languages,
@@ -41,15 +41,15 @@ const Portfolio = () => {
 
         <article className="portfolio__education">
           <h2 className="portfolio__experience--category">{t('portfolio:Jobs')}</h2>
-          {workExperience.map(({ key, date, description }) => 
-            <CV key={key} date={date} description={description} />
+          {workExperience.map(({ key, date, translationKey }) =>
+            <CV key={key} date={date} translationKey={translationKey} />
           )}
         </article>
 
         <article className="portfolio__education">
           <h2 className="portfolio__experience--category">{t('portfolio:Education')}</h2>
-          {education.map(({ key, date, description }) => 
-            <CV key={key} date={date} description={description} />
+          {education.map(({ key, date, translationKey }) =>
+            <CV key={key} date={date} translationKey={translationKey} />
           )}
         </article>
 
@@ -62,17 +62,17 @@ const Portfolio = () => {
         <article className="portfolio__education">
           {acknowledgement.map(({ key, description, link, img, name }) => <div key={key}>
             <p>{t(`portfolio:${description}`)}</p>
-            {(link ? 
-              <a 
+            {(link ?
+              <a
                 className="btn btn-primary link__button"
                 href={link}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Read Article
-              </a> 
+              </a>
               : null
-              )}
+            )}
             <img src={img} alt={name} />
           </div>)}
         </article>
