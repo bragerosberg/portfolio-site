@@ -52,6 +52,7 @@
   },
   "devDependencies": {
     "@types/core-js": "^2.5.5",
+    "@types/react-router-dom": "^5.1.9",
     "eslint-plugin-react": "^7.20.5",
     "prettier": "^2.4.0"
   }
