@@ -4,7 +4,6 @@ https://bragerosberg.com/
 
 A personal page containing the most updated information about my career, projects, education, work-experience, knowledge, contact information and more.
 Visit it online on my domain https://bragerosberg.com/ or do the following steps to test locally.
-
 ## Test Locally
 
 - Clone this repository at your desired location
