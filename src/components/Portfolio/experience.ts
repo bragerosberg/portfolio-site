@@ -81,25 +81,25 @@ export const tools: Knowledge[] = [
 export const education: Experience[] = [
   {
     key: uuid(),
-    date: 'Aug/20 - Dec/20',
+    date: 'Aug 2020 -> Dec 2020',
     translationKey: 'PracticalSpanishUiO',
     img: uio,
   },
   {
     key: uuid(),
-    date: 'Apr/20 - Jul/20',
+    date: 'Apr 2020 -> Jul 2020',
     translationKey: 'SALTBootcamp',
     img: salt,
   },
   {
     key: uuid(),
-    date: 'Aug/19 - Jun/20',
+    date: 'Aug 2019 -> Jun 2020',
     translationKey: 'SocialScience',
     img: mf,
   },
   {
     key: uuid(),
-    date: 'Aug/18 - Jun/19',
+    date: 'Aug 2018 -> Jun 2019',
     translationKey: 'ComputerScience',
     img: uit,
   },
@@ -107,16 +107,16 @@ export const education: Experience[] = [
 
 export const workExperience: Experience[] = [
   { key: uuid(), date: 'CurrentJob', translationKey: 'DagensJob', img: dagens },
-  { key: uuid(), date: 'Apr/20 - Dec/20', translationKey: 'FSSALT', img: salt },
+  { key: uuid(), date: 'Apr 2020 -> Dec 2020', translationKey: 'FSSALT', img: salt },
   {
     key: uuid(),
-    date: 'Dec/19 - Apr/20',
+    date: 'Dec 2019 -> Apr 2020',
     translationKey: 'SPAREnsjo',
     img: spar,
   },
   {
     key: uuid(),
-    date: 'May/19 - Jul/19',
+    date: 'May 2019 -> Jul 2019',
     translationKey: 'EUROSPARKvaloysletta',
     img: eurospar,
   },
