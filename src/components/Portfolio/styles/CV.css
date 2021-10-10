@@ -1,6 +1,7 @@
 .cv__wrapper {
   display: flex;
   color: white;
+  margin: 0 0 2em;
 }
 
 .cv__wrapper p {
@@ -11,4 +12,9 @@
 .cv__date {
   font-weight: 650;
   color: #1a4971;
+}
+
+.cv__wrapper img {
+  max-height: 70px;
+  max-width: 70px;
 }

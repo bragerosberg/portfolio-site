@@ -1,18 +1,27 @@
+import salt from '../../assets/salt.png';
+import spar from '../../assets/spar.jpg';
+import dagens from '../../assets/dagens.png';
+import eurospar from '../../assets/eurospar.jpg';
+import uio from '../../assets/uio.png';
+import uit from '../../assets/uit.png';
+import mf from '../../assets/mf.png';
+
 const { uuid } = require('uuidv4');
 
 type UUID = {
   key: string;
-}
+};
 
 type Knowledge = {
   title: string;
   icon: string;
-} & Pick<UUID, 'key'>
+} & Pick<UUID, 'key'>;
 
 export type Experience = {
   date: string;
-  translationKey: string
-} & Pick<UUID, 'key'>
+  translationKey: string;
+  img?: string;
+} & Pick<UUID, 'key'>;
 
 export const frontEnd: Knowledge[] = [
   { key: uuid(), title: 'React', icon: 'logos:react' },
@@ -70,17 +79,47 @@ export const tools: Knowledge[] = [
 ];
 
 export const education: Experience[] = [
-  { key: uuid(), date: 'Aug/20 - Dec/20', translationKey: 'PracticalSpanishUiO' },
-  { key: uuid(), date: 'Apr/20 - Jul/20', translationKey: 'SALTBootcamp' },
-  { key: uuid(), date: 'Aug/19 - Jun/20', translationKey: 'SocialScience' },
-  { key: uuid(), date: 'Aug/18 - Jun/19', translationKey: 'ComputerScience' },
+  {
+    key: uuid(),
+    date: 'Aug/20 - Dec/20',
+    translationKey: 'PracticalSpanishUiO',
+    img: uio,
+  },
+  {
+    key: uuid(),
+    date: 'Apr/20 - Jul/20',
+    translationKey: 'SALTBootcamp',
+    img: salt,
+  },
+  {
+    key: uuid(),
+    date: 'Aug/19 - Jun/20',
+    translationKey: 'SocialScience',
+    img: mf,
+  },
+  {
+    key: uuid(),
+    date: 'Aug/18 - Jun/19',
+    translationKey: 'ComputerScience',
+    img: uit,
+  },
 ];
 
 export const workExperience: Experience[] = [
-  { key: uuid(), date: 'CurrentJob', translationKey: 'DagensJob' },
-  { key: uuid(), date: 'Apr/20 - Dec/20', translationKey: 'FSSALT' },
-  { key: uuid(), date: 'Dec/19 - Apr/20', translationKey: 'SPAREnsjo' },
-  { key: uuid(), date: 'May/19 - Jul/19', translationKey: 'EUROSPARKvaloysletta' },
+  { key: uuid(), date: 'CurrentJob', translationKey: 'DagensJob', img: dagens },
+  { key: uuid(), date: 'Apr/20 - Dec/20', translationKey: 'FSSALT', img: salt },
+  {
+    key: uuid(),
+    date: 'Dec/19 - Apr/20',
+    translationKey: 'SPAREnsjo',
+    img: spar,
+  },
+  {
+    key: uuid(),
+    date: 'May/19 - Jul/19',
+    translationKey: 'EUROSPARKvaloysletta',
+    img: eurospar,
+  },
 ];
 
 type Acknowledgement = {
@@ -88,7 +127,7 @@ type Acknowledgement = {
   description: string;
   link: string;
   img: string;
-} & Pick<UUID, 'key'>
+} & Pick<UUID, 'key'>;
 
 export const acknowledgement: Acknowledgement[] = [
   {
