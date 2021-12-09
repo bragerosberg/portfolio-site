@@ -16,6 +16,16 @@
   padding: 1em;
 }
 
+.navbar__routes {
+  background-color: #fbfbfd;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid rgba(38, 38, 38, 0.1);
+}
+
 .navbar__routes ul,
 .footer__links ul {
   display: flex;
