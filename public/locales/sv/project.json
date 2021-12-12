@@ -1,0 +1,18 @@
+{
+  "PersonalProjects": "Personliga projekt",
+  "GraduationProject": "Examenprojekt",
+  "GraduationProjectInfo": "En mobilapp som kopplar samman volontärer med organisationer som behöver dem. Byggd av min mob under bootcamp under en 2-veckors SCRUM-sprint.",
+  "BudgetManager": "Budgethanterare",
+  "BudgetManagerInfo": "Ett hanteringsverktyg för budgetar, ange årlig summa, fyll i utgifter genom månader och få en överblick. Experimentera gärna med det på hemsidan.",
+  "BudgetManagerAndroid": "Budget Manager för Android",
+  "BudgetManagerAndroidInfo": "En mobil budgethanteringsapplikation, utvecklad genom React Native. Hantera en årsbudget, ställ in och radera utgifter. Tillgänglig via Expo-klienten, kolla arkivet för att lära dig mer.",
+  "DayOrganizer": "Dagsarrangör",
+  "DayOrganizerInfo": "En tavla för att skriva upp att göra-uppgifter, med den övre delen av programmet som visar en väderprognos för de kommande 5 dagarna.",
+  "HackdayProject": "Hackday Project",
+  "HackdayProjectInfo": "Utmaning ges under mitt kodnings-bootcamp. Ett projekt som jag själv väljer, bestående av en frontend och backend. Användning av olika API:er, skalad till ett MVP-projekt",
+  "VueTodo": "Att göra i Vue",
+  "VueTodoInfo": "En uppgiftsapplikation skapad i Vue. Skapa enkelt uppgifter, växla till kompletta, ta bort en uppgift, ta bort alla slutförda eller återställ listan helt.",
+  "ReactTodo": "Att göra i React",
+  "ReactTodoInfo": "En att göra-applikation gjord med React, full respons på alla plattformar",
+  "Tools": "Verktyg"
+}
