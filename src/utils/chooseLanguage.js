@@ -8,6 +8,10 @@ const chooseLanguage = (languages) => {
     case 'nn':
     case 'nb':
       return 'nb';
+    case 'da':
+      return 'da';
+    case 'sv':
+      return 'sv';
     default:
       return 'en';
   }
