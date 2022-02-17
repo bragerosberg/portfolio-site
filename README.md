@@ -43,7 +43,7 @@ Since I was building upon a previous MVP-project of mine, I had an advantage wit
 
 ### HashRouter vs BrowserRouter
 
-Like mention above, I changed from the "BrowserRouter" I had in my [hackday][hackday] project and changed to use the sub-module HashRouter. Whenver you are using the standard ReactRouter, and hosting it through gh-pages and redirecting to different paths (e.g. bragerosberg.com/about) and decided to take a refresh (which would re-render at the /about endpoint) would cause a 404-error.
+Like mention above, I changed from the "BrowserRouter" I had in my [hackday][hackday] project and changed to use the sub-module HashRouter. Whenever you are using the standard ReactRouter, and hosting it through gh-pages and redirecting to different paths (e.g. bragerosberg.com/about) and decided to take a refresh (which would re-render at the /about endpoint) would cause a 404-error.
 
 The way I managed to bypass and fix this problem, was by changing to the HashRouter - which in a better way renders in this instance, by using the hash part of the URL to sync it properly.
 
