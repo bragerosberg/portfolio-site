@@ -19,27 +19,6 @@ const Portfolio = () => {
 
   return (
     <main className="portfolio__page">
-      <h1 className="portfolio__experience--title">
-        {t('portfolio:Knowledge')}
-      </h1>
-      <section className="portfolio__experience">
-        <PortfolioCard portfolioList={frontEnd} name={'Frontend'} />
-
-        <PortfolioCard portfolioList={backEnd} name={'Backend'} />
-
-        <PortfolioCard
-          portfolioList={languages}
-          name={t('portfolio:Languages')}
-        />
-
-        <PortfolioCard portfolioList={tools} name={t('portfolio:Tools')} />
-
-        <PortfolioCard
-          portfolioList={principles}
-          name={t('portfolio:Principles')}
-        />
-      </section>
-
       <h1 className="portfolio__wrapper--title">{t('portfolio:Experience')}</h1>
       <section className="portfolio__wrapper">
         <article className="portfolio__education">
@@ -70,7 +49,26 @@ const Portfolio = () => {
           ))}
         </article>
       </section>
+      <h1 className="portfolio__experience--title">
+        {t('portfolio:Knowledge')}
+      </h1>
+      <section className="portfolio__experience">
+        <PortfolioCard portfolioList={frontEnd} name={'Frontend'} />
 
+        <PortfolioCard portfolioList={backEnd} name={'Backend'} />
+
+        <PortfolioCard
+          portfolioList={languages}
+          name={t('portfolio:Languages')}
+        />
+
+        <PortfolioCard portfolioList={tools} name={t('portfolio:Tools')} />
+
+        <PortfolioCard
+          portfolioList={principles}
+          name={t('portfolio:Principles')}
+        />
+      </section>
       <h1 className="portfolio__wrapper--title">
         {t('portfolio:Acknowledgements')}
       </h1>
