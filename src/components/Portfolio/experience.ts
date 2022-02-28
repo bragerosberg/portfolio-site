@@ -5,6 +5,7 @@ import eurospar from '../../assets/eurospar.jpg';
 import uio from '../../assets/uio.png';
 import uit from '../../assets/uit.png';
 import mf from '../../assets/mf.png';
+import schibsted from '../../assets/schibsted.png';
 
 const { uuid } = require('uuidv4');
 
@@ -106,7 +107,18 @@ export const education: Experience[] = [
 ];
 
 export const workExperience: Experience[] = [
-  { key: uuid(), date: 'CurrentJob', translationKey: 'DagensJob', img: dagens },
+  {
+    key: uuid(),
+    date: 'CurrentJob',
+    translationKey: 'Schibsted',
+    img: schibsted,
+  },
+  {
+    key: uuid(),
+    date: 'Jan 2021 → Feb 2022',
+    translationKey: 'DagensJob',
+    img: dagens,
+  },
   {
     key: uuid(),
     date: 'Apr 2020 → Dec 2020',
