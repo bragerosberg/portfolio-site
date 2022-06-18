@@ -22,39 +22,21 @@
   font-weight: 650;
 }
 
-.Typescript {
-  animation-name: fadeInUp;
-  animation-duration: 2s;
+
+.tech__logos {
+  animation-name: moveToRight;
+  animation-duration: 1s;
 }
 
-.JavaScript {
-  animation-name: fadeInUp;
-  animation-duration: 3s;
-}
 
-.React {
-  animation-name: fadeInUp;
-  animation-duration: 4s;
-}
-
-.Redux {
-  animation-name: fadeInUp;
-  animation-duration: 5s;
-}
-
-.Node {
-  animation-name: fadeInUp;
-  animation-duration: 6s;
-}
-
-@keyframes fadeInUp {
+@keyframes moveToRight {
   40% {
-    opacity: 0;
-  }
+      opacity: 0;
+    }
 
   from {
     opacity: 0;
-    transform: translate3d(0, 10px, 0);
+    transform: translate3d(-10px, 0, 0);
   }
 
   to {
