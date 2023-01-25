@@ -19,7 +19,7 @@ type Knowledge = {
 } & Pick<UUID, 'key'>;
 
 export type Experience = {
-  date: string;
+  date?: string;
   translationKey: string;
   img?: string;
 } & Pick<UUID, 'key'>;
@@ -82,27 +82,23 @@ export const tools: Knowledge[] = [
 export const education: Experience[] = [
   {
     key: uuid(),
-    date: 'Aug 2020 → Dec 2020',
-    translationKey: 'PracticalSpanishUiO',
-    img: uio,
-  },
-  {
-    key: uuid(),
-    date: 'Apr 2020 → Jul 2020',
     translationKey: 'SALTBootcamp',
     img: salt,
   },
   {
     key: uuid(),
-    date: 'Aug 2019 → Jun 2020',
-    translationKey: 'SocialScience',
-    img: mf,
+    translationKey: 'ComputerScience',
+    img: uit,
   },
   {
     key: uuid(),
-    date: 'Aug 2018 → Jun 2019',
-    translationKey: 'ComputerScience',
-    img: uit,
+    translationKey: 'PracticalSpanishUiO',
+    img: uio,
+  },
+  {
+    key: uuid(),
+    translationKey: 'SocialScience',
+    img: mf,
   },
 ];
 
@@ -115,25 +111,25 @@ export const workExperience: Experience[] = [
   },
   {
     key: uuid(),
-    date: 'Jan 2021 → Feb 2022',
+    date: '01.2021 → 02.2022',
     translationKey: 'DagensJob',
     img: dagens,
   },
   {
     key: uuid(),
-    date: 'Apr 2020 → Dec 2020',
+    date: '04.2020 → 12.2020',
     translationKey: 'FSSALT',
     img: salt,
   },
   {
     key: uuid(),
-    date: 'Dec 2019 → Apr 2020',
+    date: '12.2019 → 04.2020',
     translationKey: 'SPAREnsjo',
     img: spar,
   },
   {
     key: uuid(),
-    date: 'May 2019 → Jul 2019',
+    date: '05.2019 → 07.2019',
     translationKey: 'EUROSPARKvaloysletta',
     img: eurospar,
   },
