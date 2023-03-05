@@ -14,5 +14,7 @@
   "VueTodoInfo": "A todo application created in Vue. Easily create tasks, toggle as complete, delete a task, delete every completed or completely reset the list.",
   "ReactTodo": "To-Do in React",
   "ReactTodoInfo": "A todo application made with React, full responsive across platforms",
-  "Tools": "Tools"
+  "Tools": "Tools",
+  "Repository": "Repository",
+  "Website": "Website"
 }

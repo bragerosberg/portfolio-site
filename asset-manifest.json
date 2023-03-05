@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e098c9d.chunk.css",
-    "main.js": "/static/js/main.c0f95d6e.chunk.js",
-    "main.js.map": "/static/js/main.c0f95d6e.chunk.js.map",
+    "main.css": "/static/css/main.e52ea197.chunk.css",
+    "main.js": "/static/js/main.022c6169.chunk.js",
+    "main.js.map": "/static/js/main.022c6169.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/js/2.13ae9a86.chunk.js": "/static/js/2.13ae9a86.chunk.js",
     "static/js/2.13ae9a86.chunk.js.map": "/static/js/2.13ae9a86.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.678dac397e467e5a3ff5388c4a341417.js": "/precache-manifest.678dac397e467e5a3ff5388c4a341417.js",
+    "precache-manifest.e2b088f37e4eac177a790484f752a303.js": "/precache-manifest.e2b088f37e4eac177a790484f752a303.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7e098c9d.chunk.css.map": "/static/css/main.7e098c9d.chunk.css.map",
+    "static/css/main.e52ea197.chunk.css.map": "/static/css/main.e52ea197.chunk.css.map",
     "static/js/2.13ae9a86.chunk.js.LICENSE.txt": "/static/js/2.13ae9a86.chunk.js.LICENSE.txt",
     "static/media/dagens.png": "/static/media/dagens.c3332b07.png",
     "static/media/eurospar.jpg": "/static/media/eurospar.c97b6992.jpg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.13ae9a86.chunk.js",
-    "static/css/main.7e098c9d.chunk.css",
-    "static/js/main.c0f95d6e.chunk.js"
+    "static/css/main.e52ea197.chunk.css",
+    "static/js/main.022c6169.chunk.js"
   ]
 }

@@ -1,4 +1,4 @@
-  {
+{
   "PersonalProjects": "Mine Prosjekter",
   "GraduationProject": "Eksamens Oppgave",
   "GraduationProjectInfo": "En mobil applikasjon som samler frivillige med organisasjoner som trenger hjelpen deres.",
@@ -14,5 +14,7 @@
   "VueTodoInfo": "En Å-gjøre liste laget i Vue, legg til gjøremål, sett de som utført, og fjern som du måtte ønske.",
   "ReactTodo": "To-Do laget i React",
   "ReactTodoInfo": "En Å-gjøre liste laget i React, legg til gjøremål, sett de som utført, og fjern som du måtte ønske.",
-  "Tools": ""
+  "Tools": "Verktøy",
+  "Repository": "Kildekode",
+  "Website": "Nettside"
 }
