@@ -79,12 +79,14 @@ const Portfolio = () => {
               <p>{t(`portfolio:${description}`)}</p>
               {link ? (
                 <a
-                  className="btn btn-success link__button"
+                  className="articleLink"
                   href={link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Read Article
+                  <button className="primaryButton">
+                    {t('portfolio:ReadArticle')}
+                  </button>
                 </a>
               ) : null}
               <img src={img} alt={name} />

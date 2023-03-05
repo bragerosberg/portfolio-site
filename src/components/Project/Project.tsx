@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from "react-bootstrap";
+import { Card } from 'react-bootstrap';
 import { myProjects } from './projects';
 import './styles/Project.css';
 import { useTranslation } from 'react-i18next';
@@ -16,7 +16,7 @@ const Project = () => {
       <section className="project__wrapper">
         {myProjects.map(
           ({ image, alt, title, text, topics, repolink, website }, i) => (
-            <Card key={i} style={{ width: '18rem' }} className="project__card">
+            <Card key={i} style={{ width: '15rem' }} className="project__card">
               <Card.Img
                 variant="top"
                 className="project__image"
@@ -31,22 +31,16 @@ const Project = () => {
               </Card.Text>
               <Card.Footer className="project__topic">{topics}</Card.Footer>
               <div className="button__wrapper">
-                <a
-                  className="btn btn-primary link__button"
-                  href={repolink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Repository
+                <a href={repolink} target="_blank" rel="noopener noreferrer">
+                  <button className="primaryButton">
+                    {t(`project:Repository`)}
+                  </button>
                 </a>
                 {website ? (
-                  <a
-                    className="btn btn-primary link__button"
-                    href={website}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Website
+                  <a href={website} target="_blank" rel="noopener noreferrer">
+                    <button className="primaryButton">
+                      {t(`project:Website`)}
+                    </button>
                   </a>
                 ) : null}
               </div>
@@ -56,6 +50,6 @@ const Project = () => {
       </section>
     </main>
   );
-}
+};
 
 export default Project;

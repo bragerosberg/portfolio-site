@@ -93,3 +93,29 @@
     width: 300px;
   }
 }
+
+
+.primaryButton {
+  padding: 8px;
+  margin: 5px;
+
+  background-color: transparent;
+  color: black;
+
+  border: 2px solid #bdb7b7;
+}
+
+.primaryButton:hover {
+  cursor: pointer;
+  border-color: black;
+}
+
+
+.articleLink {
+  color: black;
+}
+
+.articleLink:hover {
+  text-decoration: none;
+  color: black;
+}

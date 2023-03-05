@@ -15,7 +15,7 @@
 }
 
 .project__topic {
-  color: #CB6A2F;
+  color: black;
 }
 
 .project__title {
@@ -47,6 +47,21 @@
   color: green;
 }
 
+.primaryButton {
+  padding: 8px;
+  margin: 5px;
+
+  background-color: transparent;
+  color: black;
+
+  border: 2px solid #bdb7b7;
+}
+
+.primaryButton:hover {
+  cursor: pointer;
+  border-color: black;
+}
+
 @media (max-width: 500px) {
   .project__wrapper {
     flex-direction: column;
@@ -65,3 +80,4 @@
     font-size: 20px;
   }
 }
+
