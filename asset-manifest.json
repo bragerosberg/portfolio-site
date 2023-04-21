@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3a36b2d.chunk.css",
+    "main.css": "/static/css/main.9175621b.chunk.css",
     "main.js": "/static/js/main.1648c253.chunk.js",
     "main.js.map": "/static/js/main.1648c253.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
@@ -8,9 +8,9 @@
     "static/js/2.13ae9a86.chunk.js": "/static/js/2.13ae9a86.chunk.js",
     "static/js/2.13ae9a86.chunk.js.map": "/static/js/2.13ae9a86.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d8ef39f63c9aebf2cf401cfe1752d00a.js": "/precache-manifest.d8ef39f63c9aebf2cf401cfe1752d00a.js",
+    "precache-manifest.1ae8fe0838b9c55995ec751265f07dd3.js": "/precache-manifest.1ae8fe0838b9c55995ec751265f07dd3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a3a36b2d.chunk.css.map": "/static/css/main.a3a36b2d.chunk.css.map",
+    "static/css/main.9175621b.chunk.css.map": "/static/css/main.9175621b.chunk.css.map",
     "static/js/2.13ae9a86.chunk.js.LICENSE.txt": "/static/js/2.13ae9a86.chunk.js.LICENSE.txt",
     "static/media/dagens.png": "/static/media/dagens.c3332b07.png",
     "static/media/eurospar.jpg": "/static/media/eurospar.c97b6992.jpg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.13ae9a86.chunk.js",
-    "static/css/main.a3a36b2d.chunk.css",
+    "static/css/main.9175621b.chunk.css",
     "static/js/main.1648c253.chunk.js"
   ]
 }
