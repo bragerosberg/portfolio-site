@@ -1,11 +1,9 @@
-.homepage__wrapper {
+.homepage__header {
   display: flex;
-  min-height: 100vh;
-}
-
-.homepage__wrapper {
-  margin-top: 10%;
+  min-height: 50vh;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .homepage__name {
@@ -15,30 +13,19 @@
 .homepage__role {
   text-align: center;
   font-size: 25px;
+  color: #a9a9ac;
 }
 
-.footer__author,
-.homepage__role {
-  color: #a9a9ac;
+.homepage__content {
+  text-align: center;
 }
 
 @media (max-width: 500px) {
   .homepage__name {
     font-size: 4em;
   }
-  .homepage__name__wrapper {
-    flex-direction: column;
-  }
 
-  .homepage__location {
-    text-align: center;
-  }
-
-  .homepage__info__wrapper {
-    margin-top: 0;
-  }
-
-  .homepage__location {
-    text-align: center;
+  .homepage__header {
+    padding-top: 10%;
   }
 }

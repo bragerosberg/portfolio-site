@@ -3,13 +3,16 @@ import './styles/Techstack.css';
 import mainTech from '../../assets/mainTech';
 
 const Techstack = () => (
-  <article className="tech__wrapper">
-    {mainTech.map(({ logo, name }) => (
-      <section key={name} className="tech__logos">
-        <img src={logo} alt={name} className={name} />
-      </section>
-    ))}
-  </article>
+  <section className="tech">
+    <ul className="tech__list">
+      {mainTech.map(({ logo, name }) => (
+        <li key={name} className="tech__item">
+          <img src={logo} alt={name} className="tech__logo" />
+          <span className="tech__name">{name}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
 );
 
 export default Techstack;
