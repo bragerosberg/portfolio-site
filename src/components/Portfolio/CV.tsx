@@ -11,11 +11,11 @@ const CV = ({ date, translationKey, img }: CVProps) => {
   const { t } = useTranslation();
 
   return (
-    <section className="cv__wrapper">
+    <article className="cv__wrapper">
       {date && <p className="cv__date">{t(`portfolio:${date}`)}</p>}
       <p className="cv__description">{t(`portfolio:${translationKey}`)}</p>
       <img src={img} alt={img} />
-    </section>
+    </article>
   );
 };
 
