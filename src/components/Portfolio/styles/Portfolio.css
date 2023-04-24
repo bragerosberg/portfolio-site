@@ -1,3 +1,11 @@
+.portfolio {
+  margin: 8em 0;
+}
+
+.portfolio__title {
+  margin-left: 8px;
+}
+
 .portfolio__experience {
   display: flex;
   flex-wrap: wrap;
@@ -63,6 +71,36 @@
 .portfolio__education img {
   display: flex;
   max-width: 100%;
+}
+
+.portfolio__button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+  margin-bottom: 8px;
+}
+
+.portfolio__button:hover {
+  background-color: #0062cc;
+  cursor: pointer;
+}
+
+.portfolio__experience__card--image {
+  max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio__article--paragraph {
+  font-size: 16px;
 }
 
 @media (max-width: 500px) {

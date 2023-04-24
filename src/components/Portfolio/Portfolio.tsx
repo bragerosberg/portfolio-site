@@ -18,83 +18,94 @@ const Portfolio = () => {
   const { t } = useTranslation();
 
   return (
-    <main className="portfolio__page">
-      <h1 className="portfolio__wrapper--title">{t('portfolio:Experience')}</h1>
-      <section className="portfolio__wrapper">
-        <article className="portfolio__education">
-          <h2 className="portfolio__experience--category">
-            {t('portfolio:Jobs')}
+    <section className="portfolio">
+      <header className="portfolio__header">
+        <h1 className="portfolio__title">{t('portfolio:Experience')}</h1>
+      </header>
+      <section className="portfolio__section">
+        <article className="portfolio__article">
+          <div className="portfolio__experience__card">
+            <header className="portfolio__article-header">
+              <h2 className="portfolio__article-title">
+                {t('portfolio:Jobs')}
+              </h2>
+            </header>
+            {workExperience.map(({ key, date, translationKey, img }) => (
+              <CV
+                key={key}
+                date={date}
+                translationKey={translationKey}
+                img={img}
+              />
+            ))}
+          </div>
+        </article>
+        <article className="portfolio__article">
+          <div className="portfolio__experience__card">
+            <header className="portfolio__article-header">
+              <h2 className="portfolio__article-title">
+                {t('portfolio:Education')}
+              </h2>
+            </header>
+            {education.map(({ key, date, translationKey, img }) => (
+              <CV
+                key={key}
+                date={date}
+                translationKey={translationKey}
+                img={img}
+              />
+            ))}
+          </div>
+        </article>
+      </section>
+      <section className="portfolio__section">
+        <header className="portfolio__header">
+          <h2 className="portfolio__title">{t('portfolio:Knowledge')}</h2>
+        </header>
+        <div className="portfolio__cards">
+          <PortfolioCard portfolioList={frontEnd} name="Frontend" />
+          <PortfolioCard portfolioList={backEnd} name="Backend" />
+          <PortfolioCard
+            portfolioList={languages}
+            name={t('portfolio:Languages')}
+          />
+          <PortfolioCard portfolioList={tools} name={t('portfolio:Tools')} />
+          <PortfolioCard
+            portfolioList={principles}
+            name={t('portfolio:Principles')}
+          />
+        </div>
+      </section>
+      <section className="portfolio__section">
+        <header className="portfolio__header">
+          <h2 className="portfolio__title">
+            {t('portfolio:Acknowledgements')}
           </h2>
-          {workExperience.map(({ key, date, translationKey, img }) => (
-            <CV
-              key={key}
-              date={date}
-              translationKey={translationKey}
-              img={img}
-            />
-          ))}
-        </article>
-
-        <article className="portfolio__education">
-          <h2 className="portfolio__experience--category">
-            {t('portfolio:Education')}
-          </h2>
-          {education.map(({ key, date, translationKey, img }) => (
-            <CV
-              key={key}
-              date={date}
-              translationKey={translationKey}
-              img={img}
-            />
-          ))}
-        </article>
-      </section>
-      <h1 className="portfolio__experience--title">
-        {t('portfolio:Knowledge')}
-      </h1>
-      <section className="portfolio__experience">
-        <PortfolioCard portfolioList={frontEnd} name={'Frontend'} />
-
-        <PortfolioCard portfolioList={backEnd} name={'Backend'} />
-
-        <PortfolioCard
-          portfolioList={languages}
-          name={t('portfolio:Languages')}
-        />
-
-        <PortfolioCard portfolioList={tools} name={t('portfolio:Tools')} />
-
-        <PortfolioCard
-          portfolioList={principles}
-          name={t('portfolio:Principles')}
-        />
-      </section>
-      <h1 className="portfolio__wrapper--title">
-        {t('portfolio:Acknowledgements')}
-      </h1>
-      <section className="portfolio__wrapper">
-        <article className="portfolio__education">
-          {acknowledgement.map(({ key, description, link, img, name }) => (
-            <div key={key}>
-              <p>{t(`portfolio:${description}`)}</p>
-              {link ? (
-                <a
-                  className="articleLink"
-                  href={link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="primaryButton">
-                    {t('portfolio:ReadArticle')}
-                  </button>
-                </a>
-              ) : null}
-              <img src={img} alt={name} />
-            </div>
-          ))}
+        </header>
+        <article className="portfolio__article">
+          <div className="portfolio__experience__card">
+            {acknowledgement.map(({ key, description, link, img, name }) => (
+              <div key={key}>
+                <p className="portfolio__article--paragraph">{t(`portfolio:${description}`)}</p>
+                {link ? (
+                  <a
+                    className="portfolio__link"
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="portfolio__button">
+                      {t('portfolio:ReadArticle')}
+                    </button>
+                  </a>
+                ) : null}
+                <img src={img} className="portfolio__experience__card--image" alt={name} />
+              </div>
+            ))}
+          </div>
         </article>
       </section>
-    </main>
+    </section>
   );
 };
 
