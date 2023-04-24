@@ -12,7 +12,6 @@ const Project = () => {
       <h1 className="portfolio__experience--title">
         {t('project:PersonalProjects')}
       </h1>
-
       <section className="project__wrapper">
         {myProjects.map(
           ({ image, alt, title, text, topics, repolink, website }, i) => (

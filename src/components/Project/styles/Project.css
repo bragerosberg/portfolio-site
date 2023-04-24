@@ -6,7 +6,8 @@
 }
 
 .project__card {
-  flex-basis: 50%;
+  flex-basis: 70%;
+  margin: 1em;
 }
 
 .project__text {
@@ -28,7 +29,7 @@
 }
 
 .project__wrapper {
-  margin-top: 1%;
+  margin-top: 2em;
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 10em;
@@ -48,28 +49,31 @@
 }
 
 .primaryButton {
-  padding: 8px;
-  margin: 5px;
-
-  background-color: transparent;
-  color: black;
-
-  border: 2px solid #bdb7b7;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .primaryButton:hover {
+  background-color: #0062cc;
   cursor: pointer;
-  border-color: black;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
+  .portfolio__experience--title {
+    margin-top: 4em;
+  }
+
   .project__wrapper {
     flex-direction: column;
     align-items: center;
-  }
-
-  .project__card {
-    margin: 0;
   }
 
   .project__image {
