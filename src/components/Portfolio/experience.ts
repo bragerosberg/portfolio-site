@@ -22,6 +22,7 @@ export type Experience = {
   date?: string;
   translationKey: string;
   img?: string;
+  subjects?: string[];
 } & Pick<UUID, 'key'>;
 
 export const frontEnd: Knowledge[] = [
@@ -84,20 +85,42 @@ export const education: Experience[] = [
     key: uuid(),
     translationKey: 'SALTBootcamp',
     img: salt,
+    subjects: [
+      'JavaScript, incl. Node, React, HTML, CSS',
+      'Mongo DB, Mongoose',
+      'Git',
+      'TDD & BDD',
+      'Agile',
+      'Mob-programming'
+    ]
   },
   {
     key: uuid(),
     translationKey: 'ComputerScience',
+    subjects: [
+      'Innføring i programmering og datamaskiners virkemåte (INF-1100)',
+      'Objektorientert programmering	(INF-1400)',
+      'Diskret matematikk	(MAT-1005)',
+      'Brukerkurs i statistikk 1	(STA-0001)',
+    ],
     img: uit,
   },
   {
     key: uuid(),
     translationKey: 'PracticalSpanishUiO',
+    subjects: ['Praktisk spansk (SPA1100)'],
     img: uio,
   },
   {
     key: uuid(),
     translationKey: 'SocialScience',
+    subjects: [
+      'Innføring i samfunnsfag (SAM1000)',
+      'Demokrati, ulikhet og velferdsstat (SAM1040)',
+      'Internasjonal politikk (SAM1050)',
+      'Det flerkulturelle Norge (SAM1060)',
+      'Religion og samfunn: Norge i dag (SAM1070)',
+    ],
     img: mf,
   },
 ];

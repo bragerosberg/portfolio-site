@@ -4,6 +4,18 @@
   margin: 0 0 2em;
 }
 
+.cv__description--edu {
+  color: black;
+}
+
+.cv__study {
+  text-align: left;
+}
+
+.cv__view-subjects {
+  text-decoration: underline;
+}
+
 .cv__wrapper p {
   margin: 1em;
   color: #343a40;

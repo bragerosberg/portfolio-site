@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './styles/Portfolio.css';
 import CV from './CV';
+import CVEducation from './CVEducation';
 import PortfolioCard from './PortfolioCard';
 import {
   frontEnd,
@@ -47,11 +48,12 @@ const Portfolio = () => {
                 {t('portfolio:Education')}
               </h2>
             </header>
-            {education.map(({ key, date, translationKey, img }) => (
-              <CV
+            {education.map(({ key, date, translationKey, img, subjects }) => (
+              <CVEducation
                 key={key}
                 date={date}
                 translationKey={translationKey}
+                subjects={subjects}
                 img={img}
               />
             ))}
@@ -86,7 +88,9 @@ const Portfolio = () => {
           <div className="portfolio__experience__card">
             {acknowledgement.map(({ key, description, link, img, name }) => (
               <div key={key}>
-                <p className="portfolio__article--paragraph">{t(`portfolio:${description}`)}</p>
+                <p className="portfolio__article--paragraph">
+                  {t(`portfolio:${description}`)}
+                </p>
                 {link ? (
                   <a
                     className="portfolio__link"
@@ -99,7 +103,11 @@ const Portfolio = () => {
                     </button>
                   </a>
                 ) : null}
-                <img src={img} className="portfolio__experience__card--image" alt={name} />
+                <img
+                  src={img}
+                  className="portfolio__experience__card--image"
+                  alt={name}
+                />
               </div>
             ))}
           </div>
