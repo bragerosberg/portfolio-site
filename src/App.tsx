@@ -12,6 +12,7 @@ import portfolioIcon from './assets/portfolio.png';
 import projectIcon from './assets/layers.png';
 import dark from './assets/darkmode.png';
 import light from './assets/lightmode.png';
+import { setScrollbarStyles } from './utils/themes';
 
 export const ThemeContext = createContext('dark');
 
@@ -39,6 +40,8 @@ const App = () => {
     i18n.changeLanguage(
       chooseLanguage(window.navigator.languages || [window.navigator.language])
     );
+
+    setScrollbarStyles();
   }, []);
 
   return (
