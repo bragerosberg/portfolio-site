@@ -11,6 +11,7 @@
   margin: 0 auto;
 }
 
+
 .navbar__routes,
 .footer__links {
   padding: 1em;
@@ -39,6 +40,10 @@
 
 .navbar__routes img {
   width: 25px;
+}
+
+.mode__toggle:hover {
+  cursor: pointer;
 }
 
 .navbar__routes a,
