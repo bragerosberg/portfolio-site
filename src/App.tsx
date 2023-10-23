@@ -10,14 +10,31 @@ import './styles/App.css';
 import homeIcon from './assets/home.png';
 import portfolioIcon from './assets/portfolio.png';
 import projectIcon from './assets/layers.png';
+import dark from './assets/darkmode.png';
+import light from './assets/lightmode.png';
 import { setScrollbarStyles } from './utils/themes';
 
 export const ThemeContext = createContext('light');
 
 type Modes = 'dark' | 'light';
 
+const DarkLightMode = ({
+  onClick,
+  mode,
+}: {
+  onClick: () => void;
+  mode: Modes;
+}) => {
+  return (
+    <div className="mode__toggle" onClick={onClick}>
+      {mode === 'light' && <img src={light} alt={mode} />}
+      {mode === 'dark' && <img src={dark} alt={mode} />}
+    </div>
+  );
+};
+
 const App = () => {
-  const [mode, _setMode] = useState<Modes>('light');
+  const [mode, setMode] = useState<Modes>('light');
 
   useEffect(() => {
     i18n.changeLanguage(
@@ -47,6 +64,12 @@ const App = () => {
                 <Link to="/project">
                   <img src={projectIcon} alt="project" />
                 </Link>
+              </li>
+              <li>
+                <DarkLightMode
+                  onClick={() => setMode(mode === 'dark' ? 'light' : 'dark')}
+                  mode={mode}
+                />
               </li>
             </ul>
           </nav>
