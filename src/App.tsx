@@ -14,7 +14,7 @@ import dark from './assets/darkmode.png';
 import light from './assets/lightmode.png';
 import { setScrollbarStyles } from './utils/themes';
 
-export const ThemeContext = createContext('dark');
+export const ThemeContext = createContext('light');
 
 type Modes = 'dark' | 'light';
 
@@ -34,7 +34,7 @@ const DarkLightMode = ({
 };
 
 const App = () => {
-  const [mode, setMode] = useState<Modes>('dark');
+  const [mode, setMode] = useState<Modes>('light');
 
   useEffect(() => {
     i18n.changeLanguage(
