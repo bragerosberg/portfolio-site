@@ -20,17 +20,11 @@ const Portfolio = () => {
 
   return (
     <section className="portfolio">
-      <header className="portfolio__header">
-        <h1 className="portfolio__title">{t('portfolio:Experience')}</h1>
-      </header>
+      <h1 className="portfolio__title">{t('portfolio:Experience')}</h1>
       <section className="portfolio__section">
         <article className="portfolio__article">
           <div className="portfolio__experience__card">
-            <header className="portfolio__article-header">
-              <h2 className="portfolio__article-title">
-                {t('portfolio:Jobs')}
-              </h2>
-            </header>
+            <h2>{t('portfolio:Jobs')}</h2>
             {workExperience.map(({ key, date, translationKey, img }) => (
               <CV
                 key={key}
@@ -43,11 +37,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__article">
           <div className="portfolio__experience__card">
-            <header className="portfolio__article-header">
-              <h2 className="portfolio__article-title">
-                {t('portfolio:Education')}
-              </h2>
-            </header>
+            <h2>{t('portfolio:Education')}</h2>
             {education.map(({ key, date, translationKey, img, subjects }) => (
               <CVEducation
                 key={key}
@@ -61,9 +51,7 @@ const Portfolio = () => {
         </article>
       </section>
       <section className="portfolio__section">
-        <header className="portfolio__header">
-          <h2 className="portfolio__title">{t('portfolio:Knowledge')}</h2>
-        </header>
+        <h2 className="portfolio__title">{t('portfolio:Knowledge')}</h2>
         <div className="portfolio__cards">
           <PortfolioCard portfolioList={frontEnd} name="Frontend" />
           <PortfolioCard portfolioList={backEnd} name="Backend" />
@@ -79,11 +67,7 @@ const Portfolio = () => {
         </div>
       </section>
       <section className="portfolio__section">
-        <header className="portfolio__header">
-          <h2 className="portfolio__title">
-            {t('portfolio:Acknowledgements')}
-          </h2>
-        </header>
+        <h2 className="portfolio__title">{t('portfolio:Acknowledgements')}</h2>
         <article className="portfolio__article">
           <div className="portfolio__experience__card">
             {acknowledgement.map(({ key, description, link, img, name }) => (

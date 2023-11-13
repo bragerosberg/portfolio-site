@@ -17,12 +17,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem;
+  margin: 0 2rem;
   padding: 1rem;
   background-color: #f8f8f8;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  animation: slideFromLeft 1s ease-out;
+  border-radius: 5px;
+  border: solid 1px #bdb7b7;
+  animation: slideFromLeft .6s ease-out;
 }
 
 .tech__logo {

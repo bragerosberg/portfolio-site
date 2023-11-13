@@ -1,19 +1,20 @@
 .homepage__header {
   display: flex;
-  min-height: 50vh;
+  min-height: 30vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .homepage__name {
-  font-size: 5em;
+  font-size: 4em;
 }
 
 .homepage__role {
   text-align: center;
-  font-size: 25px;
-  color: #a9a9ac;
+  font-size: 24px;
+  font-weight: 400;
+  color: #616161;
 }
 
 .homepage__content {

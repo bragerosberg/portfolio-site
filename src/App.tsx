@@ -1,5 +1,6 @@
 import React, { useEffect, createContext, useState } from 'react';
 import { HashRouter, Switch, Route, Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import Home from './components/Home/Home';
 import Portfolio from './components/Portfolio/Portfolio';
 import Project from './components/Project/Project';
@@ -7,9 +8,6 @@ import i18n from './i18n';
 import Footer from './components/Home/Footer';
 import chooseLanguage from './utils/chooseLanguage';
 import './styles/App.css';
-import homeIcon from './assets/home.png';
-import portfolioIcon from './assets/portfolio.png';
-import projectIcon from './assets/layers.png';
 import { setScrollbarStyles } from './utils/themes';
 
 export const ThemeContext = createContext('light');
@@ -17,6 +15,8 @@ export const ThemeContext = createContext('light');
 type Modes = 'dark' | 'light';
 
 const App = () => {
+  const { t } = useTranslation();
+
   const [mode, _setMode] = useState<Modes>('light');
 
   useEffect(() => {
@@ -34,19 +34,13 @@ const App = () => {
           <nav className="navbar__routes">
             <ul>
               <li>
-                <Link to="/">
-                  <img src={homeIcon} alt="home" />
-                </Link>
+                <Link to="/">{t('home:Home')}</Link>
               </li>
               <li>
-                <Link to="/portfolio">
-                  <img src={portfolioIcon} alt="portfolio" />
-                </Link>
+                <Link to="/portfolio">{t('home:Portfolio')}</Link>
               </li>
               <li>
-                <Link to="/project">
-                  <img src={projectIcon} alt="project" />
-                </Link>
+                <Link to="/project">{t('home:Projects')}</Link>
               </li>
             </ul>
           </nav>

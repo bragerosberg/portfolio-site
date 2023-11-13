@@ -8,14 +8,12 @@ const Project = () => {
   const { t } = useTranslation();
 
   return (
-    <main>
-      <h1 className="portfolio__experience--title">
-        {t('project:PersonalProjects')}
-      </h1>
+    <div>
+      <h1 className="portfolio__title">{t('project:PersonalProjects')}</h1>
       <section className="project__wrapper">
         {myProjects.map(
           ({ image, alt, title, text, topics, repolink, website }, i) => (
-            <Card key={i} style={{ width: '15rem' }} className="project__card">
+            <Card key={i}>
               <Card.Img
                 variant="top"
                 className="project__image"
@@ -47,7 +45,7 @@ const Project = () => {
           )
         )}
       </section>
-    </main>
+    </div>
   );
 };
 

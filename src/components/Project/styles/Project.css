@@ -1,17 +1,21 @@
-.project__wrapper,
-.project__card,
-.button__wrapper {
+.project__wrapper {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+  margin: 24px auto 64px;
+  row-gap: 24px;
+  margin-top: 2em;
+  max-width: 750px;
+  padding: 16px;
 }
 
-.project__card {
-  flex-basis: 70%;
-  margin: 1em;
+.button__wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .project__text {
-  font-size: 13pt;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -26,13 +30,6 @@
   margin: 1em;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 800;
-}
-
-.project__wrapper {
-  margin-top: 2em;
-  display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 10em;
 }
 
 .project__image {
@@ -53,12 +50,9 @@
   padding: 10px 20px;
   border-radius: 30px;
   font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
   color: #ffffff;
   background-color: #007bff;
   border: none;
-  transition: background-color 0.2s ease-in-out;
 }
 
 .primaryButton:hover {
@@ -84,4 +78,3 @@
     font-size: 20px;
   }
 }
-

@@ -1,9 +1,9 @@
 .portfolio {
-  margin: 8em 0;
+  margin: 6em 0;
 }
 
 .portfolio__title {
-  margin-left: 8px;
+  text-align: center;
 }
 
 .portfolio__experience {
@@ -20,12 +20,15 @@
 
 .portfolio__experience__card,
 .portfolio__education {
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
-  border: solid 2px #bdb7b7;
-  padding: 1em;
-  margin: 1em;
+  border: solid 1px #bdb7b7;
+  padding: 16px;
+  margin: 24px auto;
   text-align: center;
-  min-width: 350px;
+  max-width: 750px;
+  border-radius: 10px;
 }
 
 .portfolio__experience--title,
@@ -75,15 +78,12 @@
 
 .portfolio__button {
   display: inline-block;
-  padding: 10px 20px;
-  border-radius: 30px;
+  padding: 10px;
+  border-radius: 2px;
   font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
   color: #ffffff;
   background-color: #007bff;
   border: none;
-  transition: background-color 0.2s ease-in-out;
   margin-bottom: 8px;
 }
 

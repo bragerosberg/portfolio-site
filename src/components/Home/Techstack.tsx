@@ -6,7 +6,7 @@ import { ThemeContext } from '../../App';
 const Techstack = () => {
   const theme = useContext(ThemeContext);
   return (
-    <section className="tech">
+    <section>
       <ul className="tech__list">
         {mainTech.map(({ logo, name }) => (
           <li
@@ -18,7 +18,6 @@ const Techstack = () => {
           >
             <img src={logo} alt={name} className="tech__logo" />
             <span
-              className="tech__name"
               style={{
                 color:
                   theme === 'dark' ? 'rgb(246, 247, 249)' : 'rgb(35, 39, 47)',
