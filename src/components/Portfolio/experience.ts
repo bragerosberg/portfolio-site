@@ -57,6 +57,7 @@ export const languages: Knowledge[] = [
   { key: uuid(), title: 'C', icon: 'teenyicons:c-outline' },
   { key: uuid(), title: 'Norwegian', icon: 'emojione:flag-for-norway' },
   { key: uuid(), title: 'English', icon: 'emojione:flag-for-united-kingdom' },
+  { key: uuid(), title: 'Spanish', icon: 'emojione:flag-for-spain' },
 ];
 
 export const principles: Knowledge[] = [
@@ -91,35 +92,38 @@ export const education: Experience[] = [
       'Git',
       'TDD & BDD',
       'Agile',
-      'Mob-programming'
-    ]
+      'Mob-programming',
+    ],
   },
   {
     key: uuid(),
-    translationKey: 'ComputerScience',
+    translationKey: 'UiT',
     subjects: [
-      'Innføring i programmering og datamaskiners virkemåte (INF-1100)',
-      'Objektorientert programmering	(INF-1400)',
-      'Diskret matematikk	(MAT-1005)',
-      'Brukerkurs i statistikk 1	(STA-0001)',
+      'INF-1100: Innføring i programmering og datamaskiners virkemåte - 10 ETCS',
+      'INF-1400: Objektorientert programmering - 10 ETCS',
+      'MAT-1005:Diskret matematikk- 10 ETCS',
+      'STA-0001: Brukerkurs i statistikk 1 - 10 ETCS',
     ],
     img: uit,
   },
   {
     key: uuid(),
-    translationKey: 'PracticalSpanishUiO',
-    subjects: ['Praktisk spansk (SPA1100)'],
+    translationKey: 'UiO',
+    subjects: [
+      'SPA1100: Praktisk spansk - 10 ETCS',
+      'JUR1511: Individuell arbeidsrett - 10 ETCS',
+    ],
     img: uio,
   },
   {
     key: uuid(),
-    translationKey: 'SocialScience',
+    translationKey: 'MF',
     subjects: [
-      'Innføring i samfunnsfag (SAM1000)',
-      'Demokrati, ulikhet og velferdsstat (SAM1040)',
-      'Internasjonal politikk (SAM1050)',
-      'Det flerkulturelle Norge (SAM1060)',
-      'Religion og samfunn: Norge i dag (SAM1070)',
+      'SAM1000: Innføring i samfunnsfag - 20 ETCS',
+      'SAM1040: Demokrati, ulikhet og velferdsstat - 10 ETCS',
+      'SAM1050: Internasjonal politikk - 10 ETCS',
+      'SAM1060: Det flerkulturelle Norge - 10 ETCS',
+      'SAM1070: Religion og samfunn: Norge i dag - 10 ETCS',
     ],
     img: mf,
   },

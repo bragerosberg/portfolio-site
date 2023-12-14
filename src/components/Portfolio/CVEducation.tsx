@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './styles/CV.css';
 import { Experience } from './experience';
@@ -8,7 +8,6 @@ type CVProps = {
 } & Experience;
 
 const CV = ({ date, translationKey, img, subjects }: CVProps) => {
-  const [viewMore, toggleViewMore] = useState(false);
   const { t } = useTranslation();
 
   return (
@@ -18,14 +17,11 @@ const CV = ({ date, translationKey, img, subjects }: CVProps) => {
         <b className="cv__description--edu">
           {t(`portfolio:${translationKey}`)}
         </b>
-        {subjects && (
-          <>
-            {!viewMore && <p className="cv__view-subjects" onClick={() => toggleViewMore(true)}>{t('portfolio:ViewSubjects')}</p>}
-            {viewMore && subjects?.map((subject) => <p>{subject}</p>)}
-          </>
-        )}
+        {subjects?.map((subject) => (
+          <p>- {subject}</p>
+        ))}
       </div>
-      <img src={img} alt={img} />
+      <img className="cv__image" src={img} alt={img} />
     </article>
   );
 };
