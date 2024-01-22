@@ -34,10 +34,7 @@ const App = () => {
           <nav className="navbar__routes">
             <ul>
               <li>
-                <Link to="/">{t('home:Home')}</Link>
-              </li>
-              <li>
-                <Link to="/portfolio">{t('home:Portfolio')}</Link>
+                <Link to="/">{t('home:Portfolio')}</Link>
               </li>
               <li>
                 <Link to="/project">{t('home:Projects')}</Link>
@@ -45,14 +42,12 @@ const App = () => {
             </ul>
           </nav>
           <Switch>
-            <Route path="/portfolio">
-              <Portfolio />
-            </Route>
             <Route path="/project">
               <Project />
             </Route>
             <Route path="/">
               <Home />
+              <Portfolio />
             </Route>
           </Switch>
           <section className="footer__links">
