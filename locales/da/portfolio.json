@@ -5,10 +5,8 @@
   "Uddannelse": "Uddannelse",
   "Acknowledgements": "Anerkendelser",
   "FinansavisenDescription": "Interview med Finansavisen vedrørende min beslutning om at deltage i en bootcamp om kodning",
-  "DagensJob": "Juniorudvikler hos Dagens",
-  "FSSALT": "FullStack-udvikler hos SALT",
-  "SPARensjo": "Butiksassistent hos Spar Ensjø",
-  "EUROSPARKvaloysletta": "Butiksassistent hos Eurospar Kvaløysletta",
+  "DagensJob": "Juniorudvikler, Dagens",
+  "FSSALT": "FullStack-udvikler, SALT",
   "UiO": "Fag ved universitetet i Oslo",
   "SALTBootcamp": "SALT bootcamp, FullStack JavaScript-udvikling",
   "MF": "Fag ved MF science college",
@@ -17,6 +15,6 @@
   "Tools": "Værktøjer",
   "Principles": "Principles",
   "CurrentJob": "Anställd siden feb 2022",
-  "Schibsted": "Jr. Software Engineer hos Schibsted",
+  "Schibsted": "Jr. Software Engineer, Schibsted",
   "ViewSubjects": "Se emne(r)"
 }
