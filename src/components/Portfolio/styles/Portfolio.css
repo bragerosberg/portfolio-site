@@ -79,16 +79,16 @@
 .portfolio__button {
   display: inline-block;
   padding: 10px;
-  border-radius: 2px;
+  border-radius: 12px;
   font-size: 1rem;
-  color: #ffffff;
-  background-color: #007bff;
-  border: none;
+  background-color: transparent;
+  color: black;
+  border: 1px solid lightgray;
   margin-bottom: 8px;
 }
 
 .portfolio__button:hover {
-  background-color: #0062cc;
+  border: 1px solid black;
   cursor: pointer;
 }
 
@@ -106,6 +106,10 @@
 @media (max-width: 500px) {
   .portfolio__education p {
     font-size: 12px;
+  }
+
+  .portfolio__button {
+    border-color: black;
   }
 
   .portfolio__experience {

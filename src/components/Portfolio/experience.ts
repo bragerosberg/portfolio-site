@@ -1,7 +1,5 @@
 import salt from '../../assets/salt.png';
-import spar from '../../assets/spar.jpg';
 import dagens from '../../assets/dagens.png';
-import eurospar from '../../assets/eurospar.jpg';
 import uio from '../../assets/uio.png';
 import uit from '../../assets/uit.png';
 import mf from '../../assets/mf.png';
@@ -99,10 +97,10 @@ export const education: Experience[] = [
     key: uuid(),
     translationKey: 'UiT',
     subjects: [
-      'INF-1100: Innføring i programmering og datamaskiners virkemåte - 10 ETCS',
-      'INF-1400: Objektorientert programmering - 10 ETCS',
-      'MAT-1005:Diskret matematikk- 10 ETCS',
-      'STA-0001: Brukerkurs i statistikk 1 - 10 ETCS',
+      'INF-1100: Innføring i programmering og datamaskiners virkemåte',
+      'INF-1400: Objektorientert programmering',
+      'MAT-1005:Diskret matematikk',
+      'STA-0001: Brukerkurs i statistikk 1',
     ],
     img: uit,
   },
@@ -110,8 +108,8 @@ export const education: Experience[] = [
     key: uuid(),
     translationKey: 'UiO',
     subjects: [
-      'SPA1100: Praktisk spansk - 10 ETCS',
-      'JUR1511: Individuell arbeidsrett - 10 ETCS',
+      'SPA1100: Praktisk spansk',
+      'JUR1511: Individuell arbeidsrett',
     ],
     img: uio,
   },
@@ -119,11 +117,11 @@ export const education: Experience[] = [
     key: uuid(),
     translationKey: 'MF',
     subjects: [
-      'SAM1000: Innføring i samfunnsfag - 20 ETCS',
-      'SAM1040: Demokrati, ulikhet og velferdsstat - 10 ETCS',
-      'SAM1050: Internasjonal politikk - 10 ETCS',
-      'SAM1060: Det flerkulturelle Norge - 10 ETCS',
-      'SAM1070: Religion og samfunn: Norge i dag - 10 ETCS',
+      'SAM1000: Innføring i samfunnsfag',
+      'SAM1040: Demokrati, ulikhet og velferdsstat',
+      'SAM1050: Internasjonal politikk',
+      'SAM1060: Det flerkulturelle Norge',
+      'SAM1070: Religion og samfunn: Norge i dag',
     ],
     img: mf,
   },
@@ -147,18 +145,6 @@ export const workExperience: Experience[] = [
     date: '04.2020 → 12.2020',
     translationKey: 'FSSALT',
     img: salt,
-  },
-  {
-    key: uuid(),
-    date: '12.2019 → 04.2020',
-    translationKey: 'SPAREnsjo',
-    img: spar,
-  },
-  {
-    key: uuid(),
-    date: '05.2019 → 07.2019',
-    translationKey: 'EUROSPARKvaloysletta',
-    img: eurospar,
   },
 ];
 

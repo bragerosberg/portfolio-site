@@ -19,10 +19,10 @@ const Portfolio = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="portfolio">
+    <div className="portfolio">
       <h1 className="portfolio__title">{t('portfolio:Experience')}</h1>
-      <section className="portfolio__section">
-        <article className="portfolio__article">
+      <div className="portfolio__section">
+        <div className="portfolio__article">
           <div className="portfolio__experience__card">
             <h2>{t('portfolio:Jobs')}</h2>
             {workExperience.map(({ key, date, translationKey, img }) => (
@@ -34,8 +34,8 @@ const Portfolio = () => {
               />
             ))}
           </div>
-        </article>
-        <article className="portfolio__article">
+        </div>
+        <div className="portfolio__article">
           <div className="portfolio__experience__card">
             <h2>{t('portfolio:Education')}</h2>
             {education.map(({ key, date, translationKey, img, subjects }) => (
@@ -48,9 +48,40 @@ const Portfolio = () => {
               />
             ))}
           </div>
-        </article>
-      </section>
-      <section className="portfolio__section">
+        </div>
+      </div>
+      <div className="portfolio__section">
+        <h2 className="portfolio__title">{t('portfolio:Acknowledgements')}</h2>
+        <div className="portfolio__article">
+          <div className="portfolio__experience__card">
+            {acknowledgement.map(({ key, description, link, img, name }) => (
+              <div key={key}>
+                <p className="portfolio__article--paragraph">
+                  {t(`portfolio:${description}`)}
+                </p>
+                {link && (
+                  <a
+                    className="portfolio__link"
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="portfolio__button">
+                      {t('portfolio:ReadArticle')}
+                    </button>
+                  </a>
+                )}
+                <img
+                  src={img}
+                  className="portfolio__experience__card--image"
+                  alt={name}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="portfolio__section">
         <h2 className="portfolio__title">{t('portfolio:Knowledge')}</h2>
         <div className="portfolio__cards">
           <PortfolioCard portfolioList={frontEnd} name="Frontend" />
@@ -65,39 +96,8 @@ const Portfolio = () => {
             name={t('portfolio:Principles')}
           />
         </div>
-      </section>
-      <section className="portfolio__section">
-        <h2 className="portfolio__title">{t('portfolio:Acknowledgements')}</h2>
-        <article className="portfolio__article">
-          <div className="portfolio__experience__card">
-            {acknowledgement.map(({ key, description, link, img, name }) => (
-              <div key={key}>
-                <p className="portfolio__article--paragraph">
-                  {t(`portfolio:${description}`)}
-                </p>
-                {link ? (
-                  <a
-                    className="portfolio__link"
-                    href={link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="portfolio__button">
-                      {t('portfolio:ReadArticle')}
-                    </button>
-                  </a>
-                ) : null}
-                <img
-                  src={img}
-                  className="portfolio__experience__card--image"
-                  alt={name}
-                />
-              </div>
-            ))}
-          </div>
-        </article>
-      </section>
-    </section>
+      </div>
+    </div>
   );
 };
 
