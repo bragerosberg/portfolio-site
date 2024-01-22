@@ -5,16 +5,16 @@ import './styles/Home.css';
 
 const Home = () => {
   const { t } = useTranslation();
-  
+
   return (
     <main>
-      <header className="homepage__header">
+      <div className="homepage__header">
         <h1 className="homepage__name">Brage Røsberg</h1>
         <p className="homepage__role">{t('home:CurrentPosition')}, Oslo</p>
-      </header>
-      <section className="homepage__content">
+      </div>
+      <div className="homepage__content">
         <Techstack />
-      </section>
+      </div>
     </main>
   );
 };

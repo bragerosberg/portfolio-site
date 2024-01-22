@@ -7,7 +7,7 @@ type PortfolioCardProps = {
 };
 
 const PortfolioCard = ({ portfolioList, name }: PortfolioCardProps) => (
-  <section className="portfolio__experience__card" role="list">
+  <div className="portfolio__experience__card" role="list">
     <h2 className="portfolio__experience--category">{name}</h2>
     {portfolioList.map(({ key, title, icon }) => (
       <div
@@ -24,7 +24,7 @@ const PortfolioCard = ({ portfolioList, name }: PortfolioCardProps) => (
         />
       </div>
     ))}
-  </section>
+  </div>
 );
 
 export default PortfolioCard;

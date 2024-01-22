@@ -6,7 +6,7 @@ import { ThemeContext } from '../../App';
 const Techstack = () => {
   const theme = useContext(ThemeContext);
   return (
-    <section>
+    <div>
       <ul className="tech__list">
         {mainTech.map(({ logo, name }) => (
           <li
@@ -28,7 +28,7 @@ const Techstack = () => {
           </li>
         ))}
       </ul>
-    </section>
+    </div>
   );
 };
 
