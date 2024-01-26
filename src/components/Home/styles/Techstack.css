@@ -19,7 +19,7 @@
   align-items: center;
   margin: 0 2rem;
   padding: 1rem;
-  background-color: #f8f8f8;
+  background-color: white;
   border-radius: 5px;
   border: solid 1px #bdb7b7;
   animation: slideFromLeft .6s ease-out;
