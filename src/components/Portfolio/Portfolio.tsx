@@ -51,7 +51,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="portfolio__section">
-        <h2 className="portfolio__title">{t('portfolio:Acknowledgements')}</h2>
+        <h1 className="portfolio__title">{t('portfolio:Acknowledgements')}</h1>
         <div className="portfolio__article">
           <div className="portfolio__experience__card">
             {acknowledgement.map(({ key, description, link, img, name }) => (
@@ -82,7 +82,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="portfolio__section">
-        <h2 className="portfolio__title">{t('portfolio:Knowledge')}</h2>
+        <h1 className="portfolio__title">{t('portfolio:Knowledge')}</h1>
         <div className="portfolio__cards">
           <PortfolioCard portfolioList={frontEnd} name="Frontend" />
           <PortfolioCard portfolioList={backEnd} name="Backend" />
