@@ -40,7 +40,7 @@ export const backEnd: Knowledge[] = [
   { key: uuid(), title: 'Sanity', icon: 'ri:team-fill' },
   { key: uuid(), title: 'Express', icon: 'logos:express' },
   { key: uuid(), title: 'MongoDB', icon: 'logos:mongodb' },
-  { key: uuid(), title: 'mongoose', icon: 'la:medium-m' },
+  { key: uuid(), title: 'Mongoose', icon: 'la:medium-m' },
   { key: uuid(), title: 'REST API', icon: 'dashicons:rest-api' },
   { key: uuid(), title: 'HTTP/JSON/AJAX', icon: 'carbon:json' },
   { key: uuid(), title: 'CLI', icon: 'grommet-icons:cli' },
