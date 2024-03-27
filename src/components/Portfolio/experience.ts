@@ -25,6 +25,7 @@ export type Experience = {
 
 export const frontEnd: Knowledge[] = [
   { key: uuid(), title: 'React', icon: 'logos:react' },
+  { key: uuid(), title: 'Next', icon: 'logos:nextjs' },
   { key: uuid(), title: 'Typescript', icon: 'logos:typescript-icon' },
   { key: uuid(), title: 'Redux', icon: 'logos:redux' },
   { key: uuid(), title: 'HTML', icon: 'logos:html-5' },
@@ -40,6 +41,7 @@ export const backEnd: Knowledge[] = [
   { key: uuid(), title: 'Sanity', icon: 'ri:team-fill' },
   { key: uuid(), title: 'Express', icon: 'logos:express' },
   { key: uuid(), title: 'MongoDB', icon: 'logos:mongodb' },
+  { key: uuid(), title: 'PostgresSQL', icon: 'logos:postgresql' },
   { key: uuid(), title: 'Mongoose', icon: 'la:medium-m' },
   { key: uuid(), title: 'REST API', icon: 'dashicons:rest-api' },
   { key: uuid(), title: 'HTTP/JSON/AJAX', icon: 'carbon:json' },
