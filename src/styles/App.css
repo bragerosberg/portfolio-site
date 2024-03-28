@@ -53,7 +53,7 @@
 .footer__links p {
   text-decoration: none;
   font-weight: 650;
-  padding: 5em;
+  padding: 16px;
 }
 .navbar__routes a,
 .footer__links a {
