@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.720b5252.chunk.css",
-    "main.js": "/static/js/main.eaacecbd.chunk.js",
-    "main.js.map": "/static/js/main.eaacecbd.chunk.js.map",
+    "main.js": "/static/js/main.6879154c.chunk.js",
+    "main.js.map": "/static/js/main.6879154c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/js/2.1a30fa65.chunk.js": "/static/js/2.1a30fa65.chunk.js",
     "static/js/2.1a30fa65.chunk.js.map": "/static/js/2.1a30fa65.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8546e1337282976de326764843336d0a.js": "/precache-manifest.8546e1337282976de326764843336d0a.js",
+    "precache-manifest.b162bb80fcd932636f1ba54d2dceb58a.js": "/precache-manifest.b162bb80fcd932636f1ba54d2dceb58a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.720b5252.chunk.css.map": "/static/css/main.720b5252.chunk.css.map",
     "static/js/2.1a30fa65.chunk.js.LICENSE.txt": "/static/js/2.1a30fa65.chunk.js.LICENSE.txt",
     "static/media/dagens.png": "/static/media/dagens.c3332b07.png",
     "static/media/getFetch.cjs": "/static/media/getFetch.013f0b90.cjs",
     "static/media/js.png": "/static/media/js.e8c27f6b.png",
+    "static/media/nextjs.jpg": "/static/media/nextjs.58f478a0.jpg",
     "static/media/nodejs.png": "/static/media/nodejs.3eea1067.png",
     "static/media/react.png": "/static/media/react.cd54cebd.png",
-    "static/media/redux.png": "/static/media/redux.8251fe76.png",
     "static/media/typescript.png": "/static/media/typescript.5415b1a3.png",
     "static/media/uio.png": "/static/media/uio.f6d5f99e.png"
   },
@@ -25,6 +25,6 @@
     "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.1a30fa65.chunk.js",
     "static/css/main.720b5252.chunk.css",
-    "static/js/main.eaacecbd.chunk.js"
+    "static/js/main.6879154c.chunk.js"
   ]
 }

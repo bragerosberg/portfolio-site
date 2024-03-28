@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "270d62368a7947edd62c19083fdeac6d",
+    "revision": "80b151df69849b1117550f5531fe1e94",
     "url": "/index.html"
   },
   {
-    "revision": "74b4450e9b6c06980ca4",
+    "revision": "56431a87fe2c56eb1c6b",
     "url": "/static/css/main.720b5252.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.1a30fa65.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "74b4450e9b6c06980ca4",
-    "url": "/static/js/main.eaacecbd.chunk.js"
+    "revision": "56431a87fe2c56eb1c6b",
+    "url": "/static/js/main.6879154c.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -36,16 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/js.e8c27f6b.png"
   },
   {
+    "revision": "58f478a0799853ac275be1f41af4fe73",
+    "url": "/static/media/nextjs.58f478a0.jpg"
+  },
+  {
     "revision": "3eea1067fe72c89b099642cd6a9d5a9a",
     "url": "/static/media/nodejs.3eea1067.png"
   },
   {
     "revision": "cd54cebd38bc2195da1475eb65f64257",
     "url": "/static/media/react.cd54cebd.png"
-  },
-  {
-    "revision": "8251fe76d7487a28b07603515b300964",
-    "url": "/static/media/redux.8251fe76.png"
   },
   {
     "revision": "5415b1a30925e87169fec0801e47840f",
