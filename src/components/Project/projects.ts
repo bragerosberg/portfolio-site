@@ -1,7 +1,7 @@
 interface Project {
   image: string;
-  title: string;
-  text: string;
+  i18nTitle: string;
+  i18nText: string;
   repolink: string;
   topics: string;
   alt: string;
@@ -10,56 +10,56 @@ interface Project {
 export const myProjects: Project[] = [
   {
     image: 'https://i.imgur.com/QxPaWdC.png',
-    title: 'GraduationProject',
-    text: 'GraduationProjectInfo',
+    i18nTitle: 'GraduationProject',
+    i18nText: 'GraduationProjectInfo',
     repolink: 'https://github.com/jopemoma/Graduation-Project',
     topics: 'React, React Native, Express, MongoDB, Mongoose, Expo',
     alt: 'volunteering frivillig bidrasammen frivilligapp androidapp react reactnative express mongodb bragerosberg brage røsberg',
   },
   {
     image: 'https://i.imgur.com/WVak6hX.png',
-    title: 'BudgetManager',
-    text: 'BudgetManagerInfo',
+    i18nTitle: 'BudgetManager',
+    i18nText: 'BudgetManagerInfo',
     repolink: 'https://github.com/bragerosberg/BudgetManager',
     topics: 'React, Express JS',
     alt: 'budgetmanager webbudget budget budgettools react expressjs bragerosberg brage røsberg',
   },
   {
     image: 'https://i.imgur.com/yoc4qE2.png',
-    title: 'BudgetManagerAndroid',
-    text: 'BudgetManagerAndroidInfo',
+    i18nTitle: 'BudgetManagerAndroid',
+    i18nText: 'BudgetManagerAndroidInfo',
     repolink: 'https://github.com/bragerosberg/budgetManagerNative',
     topics: 'React, React Native, Expo',
     alt: 'budget manager budgetmanager reactapp reactnative expo bragerosberg brage røsberg',
   },
   {
     image: 'https://i.imgur.com/zwaYrQ1.jpg',
-    title: 'DayOrganizer',
-    text: 'DayOrganizerInfo',
+    i18nTitle: 'DayOrganizer',
+    i18nText: 'DayOrganizerInfo',
     repolink: 'https://github.com/bragerosberg/DayOrganizer',
     topics: 'React, GraphQL, Apollo, node.js, Express JS',
     alt: 'dayorganizer todo weatherapp todoapp react graphql apollo nodejs bragerosberg brage røsberg',
   },
   {
     image: 'https://i.imgur.com/o8ogcY6.png',
-    title: 'HackdayProject',
-    text: 'HackdayProjectInfo',
+    i18nTitle: 'HackdayProject',
+    i18nText: 'HackdayProjectInfo',
     repolink: 'https://github.com/bragerosberg/Hackday',
     topics: 'React, Express JS, Open APIs',
     alt: 'hackday salt </salt> bootcamp 24project react express API bragerosberg brage røsberg',
   },
   {
     image: 'https://i.imgur.com/nC61JYM.png',
-    title: 'VueTodo',
-    text: 'VueTodoInfo',
+    i18nTitle: 'VueTodo',
+    i18nText: 'VueTodoInfo',
     repolink: 'https://github.com/bragerosberg/vuetodo',
     topics: 'Vue',
     alt: 'vueapp vuetodo vue herokuapp bragerosberg brage røsberg',
   },
   {
     image: 'https://i.imgur.com/hVuQOCq.png',
-    title: 'ReactTodo',
-    text: 'ReactTodoInfo',
+    i18nTitle: 'ReactTodo',
+    i18nText: 'ReactTodoInfo',
     repolink: 'https://github.com/bragerosberg/ReactTodo',
     topics: 'React',
     alt: 'react reacttodo reactapp netlify bragerosberg brage røsberg',
