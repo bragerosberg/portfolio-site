@@ -12,8 +12,7 @@
 }
 
 
-.navbar__routes,
-.footer__links {
+.navbar__routes {
   padding: 1em;
 }
 
@@ -27,8 +26,7 @@
   border-bottom: solid 1px #bdb7b7;
 }
 
-.navbar__routes ul,
-.footer__links ul {
+.navbar__routes ul {
   display: flex;
   flex-wrap: wrap;
 
@@ -47,10 +45,7 @@
 }
 
 .navbar__routes a,
-.navbar__routes a:hover,
-.footer__links a,
-.footer__links a:hover,
-.footer__links p {
+.navbar__routes a:hover {
   text-decoration: none;
   font-weight: 650;
   padding: 16px;
@@ -60,18 +55,7 @@
   color: #333333;
 }
 
-.navbar__routes a:hover,
-.footer__links a:hover {
-  color: #3183c8;
-}
-
-.footer__links {
-  border-top: solid 1px #bdb7b7;
-  background-color: #f5f5f7;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.navbar__routes a:hover {
 }
 
 body {
@@ -94,8 +78,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 500px) {
-  .navbar__routes,
-  .footer__links {
+  .navbar__routes {
     font-size: 0.8em;
   }
 
@@ -103,13 +86,10 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
   }
 
-  .navbar__routes ul,
-  .footer__links ul {
+  .navbar__routes ul {
     justify-content: space-between;
   }
 
-  .navbar__routes a,
-  .navbar__routes a:hover,
   .footer__links a,
   .footer__links a:hover {
     font-weight: 800;

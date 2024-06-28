@@ -32,9 +32,7 @@ const App = () => {
             <Portfolio />
           </Route>
         </Switch>
-        <section className="footer__links">
-          <Footer />
-        </section>
+        <Footer />
       </div>
     </HashRouter>
   );

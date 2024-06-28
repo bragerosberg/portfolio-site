@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import moment from 'moment';
+import './styles/Footer.css';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -21,18 +22,20 @@ const Footer = () => {
   ];
 
   return (
-    <ul>
-      {links.map((link, index) => (
-        <li key={index}>
-          <a href={link.url} target="_blank" rel="noopener noreferrer">
-            {link.title}
-          </a>
+    <section className="footer__links">
+      <ul>
+        {links.map((link, index) => (
+          <li key={index}>
+            <a href={link.url} target="_blank" rel="noopener noreferrer">
+              {link.title}
+            </a>
+          </li>
+        ))}
+        <li className="footer__author">
+          {t('home:MadeBy', { year: moment().year() })}
         </li>
-      ))}
-      <li className="footer__author">
-        {t('home:MadeBy', { year: moment().year() })}
-      </li>
-    </ul>
+      </ul>
+    </section>
   );
 };
 
