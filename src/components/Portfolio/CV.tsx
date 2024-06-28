@@ -12,7 +12,7 @@ const CV = ({ date, translationKey, img }: CVProps) => {
 
   return (
     <div className="cv__wrapper">
-      {date && <p className="cv__date">{t(`portfolio:${date}`)}</p>}
+      {date && <b className="cv__date">{t(`portfolio:${date}`)}</b>}
       <p>{t(`portfolio:${translationKey}`)}</p>
       <img src={img} alt={img} />
     </div>
