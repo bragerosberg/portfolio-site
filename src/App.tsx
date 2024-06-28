@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { HashRouter, Switch, Route, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import Home from './components/Home/Home';
-import Portfolio from './components/Portfolio/Portfolio';
-import Project from './components/Project/Project';
+import Home from './components/Home';
+import Portfolio from './components/Portfolio';
+import Project from './components/Project';
 import i18n from './i18n';
 import Footer from './components/Home/Footer';
 import chooseLanguage from './utils/chooseLanguage';
