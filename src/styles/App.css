@@ -28,7 +28,8 @@ ul {
 
 .navbar__routes,
 .footer__links {
-  background-color: darkgrey;
+  text-wrap: nowrap;
+  background-color: #fbfbfd;
 }
 
 .navbar__routes {
@@ -37,7 +38,7 @@ ul {
   top: 0;
   left: 0;
   right: 0;
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px #bdb7b7;
 }
 
 .navbar__routes ul {
