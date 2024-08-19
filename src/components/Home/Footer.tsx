@@ -32,7 +32,7 @@ const Footer = () => {
           </li>
         ))}
         <li className="footer__author">
-          {t('home:MadeBy', { year: moment().year() })}
+          <i>{t('home:MadeBy', { year: moment().year() })}</i>
         </li>
       </ul>
     </section>
