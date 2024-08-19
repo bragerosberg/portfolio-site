@@ -21,9 +21,17 @@ ul {
   margin: 0 auto;
 }
 
-.navbar__routes,
 .footer__links {
   padding: 8px;
+}
+
+.navbar__routes {
+  padding: 8px 128px;
+}
+
+.navbar__routes {
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
 }
 
 .navbar__routes,
@@ -35,11 +43,15 @@ ul {
 .navbar__routes {
   z-index: 999;
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
   border-bottom: solid 1px #bdb7b7;
 }
+
+.navbar__routes:hover {
+  border-color:black;
+}
+
 
 .navbar__routes ul {
   display: flex;

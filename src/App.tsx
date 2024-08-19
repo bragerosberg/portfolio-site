@@ -21,8 +21,8 @@ const App = () => {
 
   return (
     <HashRouter basename="/">
-      <div className="app__wrapper">
         <Navbar />
+      <div className="app__wrapper">
         <Switch>
           <Route path="/project">
             <Project />
