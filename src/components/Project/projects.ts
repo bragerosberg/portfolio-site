@@ -1,5 +1,4 @@
 interface Project {
-  image: string;
   i18nTitle: string;
   i18nText: string;
   repolink: string;
@@ -9,7 +8,6 @@ interface Project {
 
 export const myProjects: Project[] = [
   {
-    image: 'https://i.imgur.com/QxPaWdC.png',
     i18nTitle: 'GraduationProject',
     i18nText: 'GraduationProjectInfo',
     repolink: 'https://github.com/jopemoma/Graduation-Project',
@@ -17,7 +15,6 @@ export const myProjects: Project[] = [
     alt: 'volunteering frivillig bidrasammen frivilligapp androidapp react reactnative express mongodb bragerosberg brage røsberg',
   },
   {
-    image: 'https://i.imgur.com/WVak6hX.png',
     i18nTitle: 'BudgetManager',
     i18nText: 'BudgetManagerInfo',
     repolink: 'https://github.com/bragerosberg/BudgetManager',
@@ -25,7 +22,6 @@ export const myProjects: Project[] = [
     alt: 'budgetmanager webbudget budget budgettools react expressjs bragerosberg brage røsberg',
   },
   {
-    image: 'https://i.imgur.com/yoc4qE2.png',
     i18nTitle: 'BudgetManagerAndroid',
     i18nText: 'BudgetManagerAndroidInfo',
     repolink: 'https://github.com/bragerosberg/budgetManagerNative',
@@ -33,7 +29,6 @@ export const myProjects: Project[] = [
     alt: 'budget manager budgetmanager reactapp reactnative expo bragerosberg brage røsberg',
   },
   {
-    image: 'https://i.imgur.com/zwaYrQ1.jpg',
     i18nTitle: 'DayOrganizer',
     i18nText: 'DayOrganizerInfo',
     repolink: 'https://github.com/bragerosberg/DayOrganizer',
@@ -41,7 +36,6 @@ export const myProjects: Project[] = [
     alt: 'dayorganizer todo weatherapp todoapp react graphql apollo nodejs bragerosberg brage røsberg',
   },
   {
-    image: 'https://i.imgur.com/o8ogcY6.png',
     i18nTitle: 'HackdayProject',
     i18nText: 'HackdayProjectInfo',
     repolink: 'https://github.com/bragerosberg/Hackday',
@@ -49,7 +43,6 @@ export const myProjects: Project[] = [
     alt: 'hackday salt </salt> bootcamp 24project react express API bragerosberg brage røsberg',
   },
   {
-    image: 'https://i.imgur.com/nC61JYM.png',
     i18nTitle: 'VueTodo',
     i18nText: 'VueTodoInfo',
     repolink: 'https://github.com/bragerosberg/vuetodo',
@@ -57,7 +50,6 @@ export const myProjects: Project[] = [
     alt: 'vueapp vuetodo vue herokuapp bragerosberg brage røsberg',
   },
   {
-    image: 'https://i.imgur.com/hVuQOCq.png',
     i18nTitle: 'ReactTodo',
     i18nText: 'ReactTodoInfo',
     repolink: 'https://github.com/bragerosberg/ReactTodo',
