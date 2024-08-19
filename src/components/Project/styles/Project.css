@@ -9,6 +9,12 @@
   }
 }
 
+@media (max-width: 500px) {
+  .project:last-child {
+    border: unset;
+  }
+}
+
 .project {
   height: 320px;
   padding: 16px;

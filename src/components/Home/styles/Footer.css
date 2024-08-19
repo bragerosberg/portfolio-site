@@ -1,5 +1,5 @@
 .footer__links {
-  border-top: solid 1px #bdb7b7;
+  border-top: solid 1px black;
   background-color: #f5f5f7;
   position: fixed;
   bottom: 0;
@@ -14,4 +14,8 @@
   margin: 0;
 }
 
-
+@media (max-width: 500px) {
+  .footer__links li {
+    font-size: 12px;
+  }
+}
