@@ -1,34 +1,11 @@
-.App {
+body {
+    background-color: #282c34;
     text-align: center;
-}
-
-.App-header {
-    display: flex;
-    flex-direction: column;
-    font-size: calc(10px + 2vmin);
     color: white;
 }
 
-.tech__list {
+.header {
     display: flex;
-    list-style: none;
-    gap: 8px;
-    padding: 0;
-    justify-content: center;
-}
-
-.tech__list--logo {
-    width: 50px;
-}
-
-.resume__list {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-    display: inline-block;
-}
-
-.resume__list--item {
-    margin: 24px 0;
-    padding-left: 32px;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
 }
