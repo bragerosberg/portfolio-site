@@ -1,182 +1,27 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ferievaluta Test</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            background: #1e1e1e;
-            color: white;
-            margin: 0;
-            padding: 2rem;
-        }
-
-        .ferievaluta {
-            --ferievaluta-bg-image-color: #9381eb;
-            --ferievaluta-control-max-width: 200px;
-            --ferievaluta-control-height: 40px;
-            --ferievaluta-flag-width: 24px;
-            --ferievaluta-flag-height: 18px;
-            --ferievaluta-equals-sign-size: 40px;
-            --input-background-color: #2a2a2a;
-
-            background-color: var(--input-background-color);
-            color: white;
-            padding: 1rem;
-            border-radius: 8px;
-            max-width: 500px;
-            margin: auto;
-        }
-
-        .ferievalutaHeader {
-            font-size: 20px;
-            font-weight: bold;
-            margin-bottom: 1rem;
-        }
-
-        .ferievalutaControls {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-        }
-
-        .ferievalutaControlsRow {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-        }
-
-        .ferievalutaInputWrapper,
-        .ferievalutaSelectWrapper {
-            position: relative;
-            display: flex;
-            align-items: center;
-            width: 50%;
-            max-width: var(--ferievaluta-control-max-width);
-        }
-
-        .ferievalutaControl {
-            width: 100%;
-            height: var(--ferievaluta-control-height);
-            background-color: #fff;
-            color: black;
-            border: 1px solid #4326c8;
-            border-radius: 4px;
-            font-size: 16px;
-            padding: 0.5rem 0.75rem;
-        }
-
-        .ferievalutaSelect {
-            padding-left: 2.5rem;
-            position: relative;
-        }
-
-        .ferievalutaCurrencyFlag {
-            position: absolute;
-            left: 8px;
-            pointer-events: none;
-        }
-
-        .ferievalutaEqualsSign {
-            font-size: 28px;
-            font-weight: bold;
-            background: var(--ferievaluta-bg-image-color);
-            color: #4326c8;
-            border-radius: 50%;
-            width: var(--ferievaluta-equals-sign-size);
-            height: var(--ferievaluta-equals-sign-size);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .ferievalutaResult {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-size: 18px;
-            margin-top: 0.5rem;
-        }
-
-        .ferievalutaResult input {
-            background: transparent;
-            border: none;
-            color: white;
-            font-size: 18px;
-            width: 100px;
-        }
-
-        @media (max-width: 480px) {
-            .ferievalutaControlsRow {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .ferievalutaInputWrapper,
-            .ferievalutaSelectWrapper {
-                width: 100%;
-            }
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brage Røsberg - Fullstack Developer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
-    <section class="ferievaluta" aria-label="Valutakalkulator">
-        <h4 class="ferievalutaHeader">Valutakalkulator: Sjekk hva ferien koster før du reiser!</h4>
-
-        <div class="ferievalutaControls">
-            <div class="ferievalutaControlsRow">
-                <div class="ferievalutaInputWrapper">
-                    <span class="ferievalutaCurrencyFlag">🇪🇺</span>
-                    <input id="amount" class="ferievalutaControl" type="number" value="1" min="0" step="0.01"
-                        oninput="calculateResult()" />
-                </div>
-
-                <div class="ferievalutaSelectWrapper">
-                    <span class="ferievalutaCurrencyFlag">🇪🇺</span>
-                    <select id="currency" class="ferievalutaControl ferievalutaSelect" onchange="calculateResult()">
-                        <option value="EUR" selected>EUR</option>
-                        <option value="USD">USD</option>
-                        <option value="DKK">DKK</option>
-                        <option value="SEK">SEK</option>
-                        <option value="GBP">GBP</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="ferievalutaControlsRow">
-                <div class="ferievalutaEqualsSign">=</div>
-                <div class="ferievalutaResult">
-                    <span>kr</span>
-                    <input id="result" readonly value="11.83" />
-                    <span>🇳🇴 NOK</span>
-                </div>
-            </div>
+    <header class="header">
+        <h1>Brage Røsberg</h1>
+        <p id="yoe"></p>
+        <p>📍Oslo, Norway</p>
+        <p>💼📊 Schibsted Media</p>
+        <div class="link__wrapper">
+            <a href="https://www.linkedin.com/in/brage-rosberg/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/bragerosberg" target="_blank" class="github-btn">GitHub</a>
         </div>
-    </section>
+    </header>
 
-    <script>
-        const RATES = {
-            EUR: 11.83,
-            USD: 10.55,
-            DKK: 1.54,
-            SEK: 1.12,
-            GBP: 13.05
-        };
 
-        function calculateResult() {
-            const amount = parseFloat(document.getElementById('amount').value) || 0;
-            const currency = document.getElementById('currency').value;
-            const rate = RATES[currency] ?? 0;
-            const result = (amount * rate).toFixed(2);
-            document.getElementById('result').value = result;
-        }
-    </script>
-
+    <script src=" script.js"></script>
 </body>
 
 </html>
