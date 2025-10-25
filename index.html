@@ -1,27 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brage Røsberg - Fullstack Developer</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Brage Røsberg – Fullstack Developer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: #0f0f12;
+            color: #e5e7eb;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+        }
+
+        .header {
+            max-width: 420px;
+            width: 90%;
+            padding: 3rem 2rem;
+            background: rgba(30, 30, 40, 0.65);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 1.5rem;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+            text-align: center;
+            animation: fadeIn 0.8s ease-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; transform: translateY(0); }
+            from { opacity: 0; transform: translateY(20px); }
+        }
+
+        .header h1 {
+            margin: 0 0 .4rem;
+            font-size: 2.6rem;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: -0.02em;
+        }
+
+        .header .subtitle {
+            margin: .2rem 0 .8rem;
+            font-size: 1.15rem;
+            font-weight: 500;
+            color: #a0aec0;
+        }
+
+        .header .info {
+            margin: .4rem 0;
+            font-size: .98rem;
+            color: #cbd5e1;
+        }
+
+        .header .info svg {
+            width: 1.1em;
+            height: 1.1em;
+            vertical-align: middle;
+            margin-right: .35rem;
+            fill: currentColor;
+        }
+
+        .link__wrapper {
+            display: flex;
+            gap: .8rem;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: .45rem;
+            padding: .65rem 1.25rem;
+            font-size: .95rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: .75rem;
+            transition: all .25s ease;
+        }
+
+        .btn--linkedin {
+            background: #0a66c2;
+            color: #fff;
+        }
+
+        .btn--github {
+            background: #2d3748;
+            color: #fff;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        }
+
+        .btn--linkedin:hover { background: #095aa6; }
+        .btn--github:hover   { background: #4a5568; }
+
+        .btn svg {
+            width: 1.15em;
+            height: 1.15em;
+            fill: currentColor;
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                padding: 2.5rem 1.5rem;
+            }
+            .header h1 { font-size: 2.2rem; }
+            .link__wrapper { flex-direction: column; }
+        }
+    </style>
 </head>
 
 <body>
     <header class="header">
         <h1>Brage Røsberg</h1>
-        <p id="yoe"></p>
-        <p>📍Oslo, Norway</p>
-        <p>💼📊 Schibsted Media</p>
+        <p class="subtitle" id="yoe"></p>
+
+        <p class="info">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            Oslo, Norway
+        </p>
+
+        <p class="info">
+            <svg viewBox="0 0 24 24"><path d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.67C10.96 2.54 10.05 2 9 2c-1.09 0-2.05.53-2.66 1.35l-.5.67-.5-.67C4.73 2.54 3.82 2 2.73 2 1.46 2 .55 2.91 0 4.5c0 .35.07.69.18 1H0c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm6 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm5 15H4V8h16v11z"/></svg>
+            Schibsted Media
+        </p>
+
         <div class="link__wrapper">
-            <a href="https://www.linkedin.com/in/brage-rosberg/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/bragerosberg" target="_blank" class="github-btn">GitHub</a>
+            <a href="https://www.linkedin.com/in/brage-rosberg/" target="_blank" class="btn btn--linkedin">
+                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                LinkedIn
+            </a>
+
+            <a href="https://github.com/bragerosberg" target="_blank" class="btn btn--github">
+                <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                GitHub
+            </a>
         </div>
     </header>
 
-
-    <script src=" script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const years = new Date().getFullYear() - 2021;
+            document.getElementById('yoe').textContent = `Fullstack Web Developer (${years} YOEs)`;
+        });
+    </script>
 </body>
-
 </html>
